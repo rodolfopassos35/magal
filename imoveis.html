@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imóveis | Grupo Magaus</title>
+    <meta
+      name="description"
+      content="Confira nossas opções de imóveis, terrenos e áreas comerciais."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- CABEÇALHO -->
+    <header class="header">
+      <div class="container header-container">
+        <a
+          href="index.html"
+          style="display: flex; align-items: center; text-decoration: none"
+        >
+          <svg
+            width="220"
+            height="42"
+            viewBox="0 0 220 42"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="42" height="42" rx="8" fill="#FF6B00" />
+            <path
+              d="M12 32V10L18 20L21 25L24 20L30 10V32H26V17.5L21 25.5L16 17.5V32H12Z"
+              fill="#FFFFFF"
+            />
+            <text
+              x="54"
+              y="20"
+              fill="#1E2229"
+              font-family="system-ui, -apple-system, sans-serif"
+              font-size="15"
+              font-weight="800"
+              letter-spacing="0.5"
+            >
+              GRUPO MAGAUS
+            </text>
+            <text
+              x="54"
+              y="33"
+              fill="#666666"
+              font-family="system-ui, -apple-system, sans-serif"
+              font-size="8"
+              font-weight="700"
+              letter-spacing="0.6"
+            >
+              VEÍCULOS • IMÓVEIS • PNEUS
+            </text>
+          </svg>
+        </a>
+
+        <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="veiculos.html">Veículos</a></li>
+            <li><a href="imoveis.html" class="active">Imóveis</a></li>
+            <li><a href="pneus.html">Pneus</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <a
+          href="https://wa.me/5519974204995?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20imóveis!"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-head-whatsapp"
+        >
+          Falar no WhatsApp
+        </a>
+      </div>
+    </header>
+
+    <!-- BANNER DA PÁGINA -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Oportunidades em Imóveis</h1>
+        <p>Terrenos, áreas industriais e imóveis com excelente localização</p>
+      </div>
+    </section>
+
+    <!-- CONTAINER ONDE OS CARDS SERÃO RENDERIZADOS -->
+    <section class="section-padding">
+      <div class="container">
+        <div id="grid-imoveis" class="grid-produtos">
+          <!-- O JS vai inserir os cards aqui dinamicamente -->
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL COM GALERIA DE FOTOS -->
+    <div id="modal-imovel" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-fechar" id="btn-fechar-modal">&times;</button>
+
+        <div class="modal-body">
+          <!-- Galeria de Fotos -->
+          <div class="modal-galeria">
+            <img
+              id="modal-foto-principal"
+              src=""
+              alt="Foto Principal do Imóvel"
+            />
+            <div id="modal-thumbs" class="modal-thumbs">
+              <!-- Miniaturas inseridas via JS -->
+            </div>
+          </div>
+
+          <!-- Informações do Imóvel -->
+          <div class="modal-info">
+            <span id="modal-categoria" class="categoria-tag"></span>
+            <h2 id="modal-titulo"></h2>
+
+            <ul class="modal-specs-list">
+              <li><strong>Área:</strong> <span id="modal-area"></span></li>
+              <li>
+                <strong>Localização:</strong> <span id="modal-local"></span>
+              </li>
+            </ul>
+
+            <div class="modal-descricao">
+              <h4>Detalhes do Imóvel:</h4>
+              <p id="modal-desc"></p>
+            </div>
+
+            <a
+              id="modal-btn-whats"
+              href=""
+              target="_blank"
+              class="btn-primary"
+              style="
+                background-color: var(--cor-whatsapp);
+                display: block;
+                text-align: center;
+                margin-top: 20px;
+              "
+            >
+              Tenho Interesse no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer id="contato" class="footer">
+      <div class="container grid-footer">
+        <div class="col-footer">
+          <h3>Grupo Magaus</h3>
+          <p>
+            Sua melhor opção em veículos, imóveis e pneus com qualidade e
+            procedência.
+          </p>
+        </div>
+
+        <div class="col-footer">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="veiculos.html">Veículos</a></li>
+            <li><a href="imoveis.html">Imóveis</a></li>
+            <li><a href="pneus.html">Pneus</a></li>
+          </ul>
+        </div>
+
+        <div class="col-footer">
+          <h4>Atendimento & Localização</h4>
+          <p>📍 Atendendo em Nossa Região</p>
+          <p>📞 Telefone / WhatsApp: (19) 97420-4995</p>
+          <p>⏰ Seg. a Sex. das 08h às 18h | Sáb. das 08h às 12h</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 Grupo Magaus. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+    <a
+      href="https://wa.me/5519974204995?text=Olá!%20Estou%20na%20página%20de%20imóveis."
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Atendimento via WhatsApp"
+    >
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff">
+        <path
+          d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+        />
+      </svg>
+    </a>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".nav");
+
+      menuToggle.addEventListener("click", () =>
+        nav.classList.toggle("active"),
+      );
+      document.querySelectorAll(".nav-list a").forEach((link) => {
+        link.addEventListener("click", () => nav.classList.remove("active"));
+      });
+
+      let listaImoveis = [];
+      const container = document.getElementById("grid-imoveis");
+      const modal = document.getElementById("modal-imovel");
+      const btnFechar = document.getElementById("btn-fechar-modal");
+
+      // Carrega os imóveis do JSON
+      fetch("imoveis.json")
+        .then((res) => res.json())
+        .then((data) => {
+          listaImoveis = data;
+          renderizarCards(listaImoveis);
+        });
+
+      function renderizarCards(imoveis) {
+        container.innerHTML = imoveis
+          .map(
+            (i) => `
+      <div class="card-produto">
+        <img src="${i.fotos[0]}" alt="${i.titulo}" loading="lazy" />
+        <div class="card-prod-body">
+          <span class="categoria-tag">${i.categoria}</span>
+          <h3>${i.titulo}</h3>
+          <p class="specs">${i.area} • ${i.localizacao}</p>
+          <div class="preco-container">
+            <span class="preco">${i.preco}</span>
+          </div>
+          <button onclick="abrirModal('${i.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
+            Ver Mais Fotos
+          </button>
+        </div>
+      </div>
+    `,
+          )
+          .join("");
+      }
+
+      function abrirModal(id) {
+        const item = listaImoveis.find((imovel) => imovel.id === id);
+        if (!item) return;
+
+        document.getElementById("modal-titulo").textContent = item.titulo;
+        document.getElementById("modal-categoria").textContent = item.categoria;
+        document.getElementById("modal-area").textContent = item.area;
+        document.getElementById("modal-local").textContent = item.localizacao;
+        document.getElementById("modal-desc").textContent = item.descricao;
+
+        const imgPrincipal = document.getElementById("modal-foto-principal");
+        imgPrincipal.src = item.fotos[0];
+
+        const thumbsContainer = document.getElementById("modal-thumbs");
+        thumbsContainer.innerHTML = item.fotos
+          .map(
+            (foto, index) => `
+      <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
+    `,
+          )
+          .join("");
+
+        const msg = encodeURIComponent(
+          `Olá! Gostaria de mais informações sobre o imóvel: ${item.titulo}.`,
+        );
+        document.getElementById("modal-btn-whats").href =
+          `https://wa.me/5519974204995?text=${msg}`;
+
+        modal.classList.add("active");
+      }
+
+      function trocarFoto(src, thumb) {
+        document.getElementById("modal-foto-principal").src = src;
+        document
+          .querySelectorAll(".modal-thumbs img")
+          .forEach((i) => i.classList.remove("active"));
+        thumb.classList.add("active");
+      }
+
+      btnFechar.addEventListener("click", () =>
+        modal.classList.remove("active"),
+      );
+      window.addEventListener("click", (e) => {
+        if (e.target === modal) modal.classList.remove("active");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "710-97",
+    "titulo": "710",
+    "categoria": "Caminhão",
+    "ano": "1997",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "89.900,00",
+    "descricao": "mecânica a toda prova, baú de 4.30 com porta lateral, turbo direção hidráulica, freios a óleo",
+    "fotos": [
+      "assets/images/veiculos/710-1.webp",
+      "assets/images/veiculos/710-2.webp",
+      "assets/images/veiculos/710-3.webp",
+      "assets/images/veiculos/710-4.webp"
+    ]
+  },
+  {
+    "id": "F-4000-01",
+    "titulo": "F-4000",
+    "categoria": "Caminhão",
+    "ano": "2001",
+    "km": "206602 km",
+    "combustivel": "Diesel",
+    "preco": "118.000,00",
+    "descricao": "...",
+    "fotos": [
+      "assets/images/veiculos/f4000-1.webp",
+      "assets/images/veiculos/f4000-2.webp",
+      "assets/images/veiculos/f4000-3.webp",
+      "assets/images/veiculos/f4000-4.webp", 
+      "assets/images/veiculos/f4000-5.webp"
+    ]
+  },
+  {
+    "id": "CHEVROLET-77",
+    "titulo": "Caminhão Chevrolet",
+    "categoria": "Caminhão",
+    "ano": "1977",
+    "km": "60.000 km",
+    "combustivel": "Diesel",
+    "preco": "30.000,00",
+    "descricao": "Motor 1113. Câmbio claik deferencial tink redução a ar trabalhando  valor. 30.000",
+    "fotos": [
+      "assets/images/veiculos/chevrolet-77-2.webp",
+      "assets/images/veiculos/chevrolet-77-1.webp"
+    ]
+  },
+  {
+    "id": "ESCANIA-113",
+    "titulo": "Caminhão Escania",
+    "categoria": "Caminhão",
+    "ano": "1980",
+    "km": "80.000 km",
+    "combustivel": "Diesel",
+    "preco": "45.000,00",
+    "descricao": "Motor 113 ano.  80 motor câmbio deferêncial documento  lataria tapeçaria tudo em dias pronto pra trabalhar",
+    "fotos": [
+      "assets/images/veiculos/esania-113-1.webp",
+      "assets/images/veiculos/esania-113-2.webp",
+      "assets/images/veiculos/esania-113-3.webp"
+    ]
+  },
+  {
+    "id": "F1000-94",
+    "titulo": "F1000",
+    "categoria": "Caminhão",
+    "ano": "1994",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "135.000,00",
+    "descricao": "F1000 ano 94 motor MWM.229 turbo câmbio 5.louca da f.250 ela e 6 lugares no documento ",
+    "fotos": [
+      "assets/images/veiculos/f1000-1.webp",
+      "assets/images/veiculos/f1000-2.webp"
+    ]
+  },
+  {
+    "id": "MWM-86",
+    "titulo": "MWM 86",
+    "categoria": "Caminhão",
+    "ano": "1986",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "55.000,00",
+    "descricao": "Motor MwM ano. 86  mecânica tudo ok pneus bom documento ok câmbio deferêncial tudo certo valor 55.000.  6.90",
+    "fotos": [
+      "assets/images/veiculos/mwm-86-1.webp",
+      "assets/images/veiculos/mwm-86-2.webp",
+      "assets/images/veiculos/mwm-86-3.webp",
+      "assets/images/veiculos/mwm-86-4.webp",
+      "assets/images/veiculos/mwm-86-5.webp",
+      "assets/images/veiculos/mwm-86-6.webp",
+      "assets/images/veiculos/mwm-86-7.webp",
+      "assets/images/veiculos/mwm-86-8.webp"
+    ]
+  }
+]

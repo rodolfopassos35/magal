@@ -1,0 +1,94 @@
+[
+  {
+    "id": "imovel-1",
+    "titulo": "Casa no jd. São Marcos",
+    "categoria": "Casa",
+    "area": "",
+    "localizacao": "jd. São Marcos, Campinas - SP",
+    "preco": "R$ 100.000,00",
+    "descricao": "Casa antiga precisa de reforma, com 2 dormitórios, sala, cozinha, banheiro e quintal bem espaçoso e documentado. Ótima oportunidade para investimento ou moradia.",
+    "fotos": [
+      "assets/images/imoveis/casa-vo-maria-frente.webp",
+      "assets/images/imoveis/casa-vo-maria-quintal.webp",
+      "assets/images/imoveis/casa-vo-maria-quintal1.webp",
+      "assets/images/imoveis/casa-vo-maria-quintal2.webp",
+      "assets/images/imoveis/casa-vo-maria-cozinha.webp",
+      "assets/images/imoveis/casa-vo-maria-sala.webp",
+      "assets/images/imoveis/casa-vo-maria-quarto1.webp",
+      "assets/images/imoveis/casa-vo-maria-banheiro.webp"
+    ]
+  },
+  {
+    "id": "imovel-2",
+    "titulo": "Apartamento no Jardim Minda",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "Jardim Minda, Hortolândia - SP",
+    "preco": "R$ 128.000,00",
+    "descricao": "Apartamento quitado à venda em Hortolândia, próximo ao muro da Cobrasma. Escritura na mão. Aceita troca por casa, terreno ou carro.",
+    "fotos": [
+      "assets/images/imoveis/apartamento-jardim-minda11.webp",
+      "assets/images/imoveis/apartamento-jardim-minda1.webp",
+      "assets/images/imoveis/apartamento-jardim-minda2.webp",
+      "assets/images/imoveis/apartamento-jardim-minda3.webp",
+      "assets/images/imoveis/apartamento-jardim-minda4.webp",
+      "assets/images/imoveis/apartamento-jardim-minda5.webp",
+      "assets/images/imoveis/apartamento-jardim-minda6.webp",
+      "assets/images/imoveis/apartamento-jardim-minda7.webp",
+      "assets/images/imoveis/apartamento-jardim-minda8.webp",
+      "assets/images/imoveis/apartamento-jardim-minda9.webp",
+      "assets/images/imoveis/apartamento-jardim-minda10.webp"
+    ]
+  },
+  {
+    "id": "imovel-3",
+    "titulo": "Apartamento no bairro matão",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "Bairro Matão, Sumaré - SP",
+    "preco": "R$ 75.000,00",
+    "descricao": "Apartamento no bairro matão, em ótimo estado. Ideal para moradia ou investimento.",
+    "fotos": [
+      "assets/images/imoveis/apartamento-matao1.webp",
+      "assets/images/imoveis/apartamento-matao2.webp",
+      "assets/images/imoveis/apartamento-matao3.webp",
+      "assets/images/imoveis/apartamento-matao4.webp",
+      "assets/images/imoveis/apartamento-matao5.webp"
+    ]
+  },
+    {
+      "id": "imovel-4",
+      "titulo": "Condomínio São Pedro ",
+      "categoria": "Apartamento",
+      "area": "",
+      "localizacao": "Condomínio São Pedro, Sumaré - SP",
+      "preco": "R$ 110.000,00",
+      "descricao": "Apartamento no condomínio São Pedro, em ótimo estado. Ideal para moradia ou investimento.",
+        "fotos": [
+          "assets/images/imoveis/condominio-sao-pedro1.webp",
+          "assets/images/imoveis/condominio-sao-pedro2.webp",
+          "assets/images/imoveis/condominio-sao-pedro3.webp",
+          "assets/images/imoveis/condominio-sao-pedro4.webp"
+        ]
+    },
+    {
+      "id": "imovel-5",
+      "titulo": "Casa no Bairro Chico Amaral",
+      "categoria": "Casa",
+      "area": "",
+      "localizacao": "Bairro Chico Amaral, Hortolândia - SP",
+      "preco": "R$ 150.000,00",
+      "descricao": "Casa no bairro Chico Amaral, em ótimo estado. Ideal para moradia ou investimento.",
+      "fotos": [
+        "assets/images/imoveis/casa-chico-amaral1.webp",
+        "assets/images/imoveis/casa-chico-amaral2.webp",
+        "assets/images/imoveis/casa-chico-amaral3.webp",
+        "assets/images/imoveis/casa-chico-amaral4.webp",
+        "assets/images/imoveis/casa-chico-amaral5.webp",
+        "assets/images/imoveis/casa-chico-amaral6.webp",
+        "assets/images/imoveis/casa-chico-amaral7.webp",
+        "assets/images/imoveis/casa-chico-amaral8.webp",
+        "assets/images/imoveis/casa-chico-amaral9.webp"
+      ]
+    }
+]

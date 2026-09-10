@@ -236,6 +236,7 @@ img {
     gap: 24px;
 }
 
+
 .card-categoria {
     background-color: #ffffff;
     border-radius: var(--raio-borda);
@@ -257,7 +258,7 @@ img {
 
 .card-categoria img {
     width: 100%;
-    height: 190px;
+    height: 220px;
     object-fit: cover;
 }
 
@@ -384,6 +385,15 @@ img {
     line-height: 1.6;
 }
 
+.col-footer a {
+    color: #a0aec0;
+    transition: var(--transicao);
+}
+
+.col-footer a:hover {
+    color: var(--cor-primaria);
+}
+
 .footer-bottom {
     padding: 18px 0;
     text-align: center;
@@ -410,6 +420,214 @@ img {
 
 .whatsapp-float:hover {
     transform: scale(1.08);
+}
+
+/* TOPO DAS PÁGINAS INTERNAS */
+.page-header {
+    background-color: var(--cor-dark);
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 6px;
+}
+
+.page-header p {
+    color: #a0aec0;
+    font-size: 0.95rem;
+}
+
+/* CARDS DE PRODUTOS / ESTOQUE */
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.card-produto {
+    background-color: #ffffff;
+    border-radius: var(--raio-borda);
+    border: 1px solid var(--cor-borda);
+    overflow: hidden;
+    box-shadow: var(--sombra-card);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: var(--transicao);
+}
+
+/* AJUSTE DAS IMAGENS DOS CARDS DE VEÍCULOS */
+.card-produto img {
+    width: 100%;
+    height: 220px;
+    /* Define a altura fixa igual para todas as fotos */
+    object-fit: cover;
+    /* Preenche o espaço cortando os excessos sem distorcer */
+    object-position: center;
+    /* Mantém o foco no meio da foto */
+    border-radius: 12px 12px 0 0;
+    /* Arredonda as pontas superiores acompanhando o card */
+}
+
+.card-produto:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--sombra-hover);
+}
+
+.badge-card {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.categoria-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.card-prod-body {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-prod-body h3 {
+    font-size: 1.15rem;
+    margin-bottom: 6px;
+}
+
+.specs {
+    font-size: 0.85rem;
+    color: var(--cor-texto-mutado);
+    margin-bottom: 12px;
+}
+
+.preco-container {
+    margin-top: auto;
+    margin-bottom: 12px;
+}
+
+.preco {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--cor-dark);
+}
+
+/* MODAL OVERLAY */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transicao);
+    padding: 15px;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    border-radius: var(--raio-borda);
+    max-width: 750px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 24px;
+}
+
+.modal-fechar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: var(--cor-dark);
+}
+
+.modal-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+/* GALERIA DE FOTOS */
+#modal-foto-principal {
+    width: 100%;
+    height: 340px;
+    object-fit: contain;
+    background-color: #f4f6f8;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.modal-thumbs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+}
+
+.modal-thumbs img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    background-color: #f4f6f8;
+    border-radius: 6px;
+    cursor: pointer;
+    /* border: 2px solid transparent; */
+    transition: var(--transicao);
+}
+
+.modal-thumbs img.active,
+.modal-thumbs img:hover {
+    border-color: var(--cor-primaria);
+}
+
+.modal-specs-list {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.modal-descricao p {
+    font-size: 0.88rem;
+    color: var(--cor-texto-mutado);
+    line-height: 1.5;
+}
+
+@media (max-width: 650px) {
+    .modal-body {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* RESPONSIVO MOBILE (< 768px) */
@@ -543,5 +761,13 @@ img {
 
     .sobre-card-destaque {
         padding: 22px;
+    }
+
+    .page-header {
+        padding: 30px 15px;
+    }
+
+    .page-header h1 {
+        font-size: 1.5rem;
     }
 }
