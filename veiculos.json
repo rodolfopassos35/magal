@@ -47,21 +47,6 @@
     ]
   },
   {
-    "id": "ESCANIA-113",
-    "titulo": "Caminhão Escania",
-    "categoria": "Caminhão",
-    "ano": "1980",
-    "km": "80.000 km",
-    "combustivel": "Diesel",
-    "preco": "45.000,00",
-    "descricao": "Motor 113 ano.  80 motor câmbio deferêncial documento  lataria tapeçaria tudo em dias pronto pra trabalhar",
-    "fotos": [
-      "assets/images/veiculos/esania-113-1.webp",
-      "assets/images/veiculos/esania-113-2.webp",
-      "assets/images/veiculos/esania-113-3.webp"
-    ]
-  },
-  {
     "id": "F1000-94",
     "titulo": "F1000",
     "categoria": "Caminhão",

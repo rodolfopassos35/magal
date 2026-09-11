@@ -463,14 +463,10 @@ img {
 /* AJUSTE DAS IMAGENS DOS CARDS DE VEÍCULOS */
 .card-produto img {
     width: 100%;
-    height: 220px;
-    /* Define a altura fixa igual para todas as fotos */
+    height: 190px;
     object-fit: cover;
-    /* Preenche o espaço cortando os excessos sem distorcer */
     object-position: center;
-    /* Mantém o foco no meio da foto */
     border-radius: 12px 12px 0 0;
-    /* Arredonda as pontas superiores acompanhando o card */
 }
 
 .card-produto:hover {
@@ -586,7 +582,7 @@ img {
     width: 100%;
     height: 340px;
     object-fit: contain;
-    background-color: #f4f6f8;
+    background-color: #ffffff;
     border-radius: 8px;
     margin-bottom: 10px;
 }
