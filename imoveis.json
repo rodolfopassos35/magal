@@ -1,23 +1,38 @@
 [
   {
     "id": "imovel-1",
-    "titulo": "Casa no jd. São Marcos",
-    "categoria": "Casa",
-    "area": "",
-    "localizacao": "jd. São Marcos, Campinas - SP",
-    "preco": "R$ 100.000,00",
-    "descricao": "Casa antiga precisa de reforma, com 2 dormitórios, sala, cozinha, banheiro e quintal bem espaçoso e documentado. Ótima oportunidade para investimento ou moradia.",
+    "titulo": "Sobrado no Bairro São Judas",
+    "categoria": "Casa • Aceita Troca",
+    "area": "270 m²",
+    "localizacao": "São Judas, próximo à Aparecidinha",
+    "preco": "R$ 650.000,00",
+    "descricao": "Terreno de 270m², escriturado e IPTU ok. Próximo a mercado, posto de gasolina, ponto de ônibus, igreja, UPA e comércio geral. Aceita troca por chácara com casa, rio e piscina em Monte Mor, Mogi Guaçu, Mogi Mirim, Cosmópolis, Conchal ou Artur Nogueira (sem volta em dinheiro).",
     "fotos": [
-      "assets/images/imoveis/casa-vo-maria-frente.webp",
-      "assets/images/imoveis/casa-vo-maria-quintal.webp",
-      "assets/images/imoveis/casa-vo-maria-quintal1.webp",
-      "assets/images/imoveis/casa-vo-maria-quintal2.webp",
-      "assets/images/imoveis/casa-vo-maria-cozinha.webp",
-      "assets/images/imoveis/casa-vo-maria-sala.webp",
-      "assets/images/imoveis/casa-vo-maria-quarto1.webp",
-      "assets/images/imoveis/casa-vo-maria-banheiro.webp"
-    ]
-  },
+        "assets/images/imoveis/sobrado-sao-judas2.webp",
+        "assets/images/imoveis/sobrado-sao-judas1.webp",
+        "assets/images/imoveis/sobrado-sao-judas3.webp",
+        "assets/images/imoveis/sobrado-sao-judas4.webp",
+        "assets/images/imoveis/sobrado-sao-judas5.webp",
+        "assets/images/imoveis/sobrado-sao-judas6.webp",
+        "assets/images/imoveis/sobrado-sao-judas7.webp",
+        "assets/images/imoveis/sobrado-sao-judas8.webp",
+        "assets/images/imoveis/sobrado-sao-judas9.webp",
+        "assets/images/imoveis/sobrado-sao-judas10.webp",
+        "assets/images/imoveis/sobrado-sao-judas11.webp",
+        "assets/images/imoveis/sobrado-sao-judas12.webp",
+        "assets/images/imoveis/sobrado-sao-judas13.webp",
+        "assets/images/imoveis/sobrado-sao-judas14.webp",
+        "assets/images/imoveis/sobrado-sao-judas15.webp",
+        "assets/images/imoveis/sobrado-sao-judas16.webp",
+        "assets/images/imoveis/sobrado-sao-judas17.webp",
+        "assets/images/imoveis/sobrado-sao-judas18.webp",
+        "assets/images/imoveis/sobrado-sao-judas19.webp",
+        "assets/images/imoveis/sobrado-sao-judas20.webp",
+        "assets/images/imoveis/sobrado-sao-judas21.webp",
+        "assets/images/imoveis/sobrado-sao-judas22.webp",
+        "assets/images/imoveis/sobrado-sao-judas23.webp"
+      ]        
+    },
   {
     "id": "imovel-2",
     "titulo": "Apartamento no Jardim Minda",
@@ -27,6 +42,7 @@
     "preco": "R$ 128.000,00",
     "descricao": "Apartamento quitado à venda em Hortolândia, próximo ao muro da Cobrasma. Escritura na mão. Aceita troca por casa, terreno ou carro.",
     "fotos": [
+      "assets/images/imoveis/apartamento-jardim-minda8.webp",
       "assets/images/imoveis/apartamento-jardim-minda11.webp",
       "assets/images/imoveis/apartamento-jardim-minda1.webp",
       "assets/images/imoveis/apartamento-jardim-minda2.webp",
@@ -35,7 +51,6 @@
       "assets/images/imoveis/apartamento-jardim-minda5.webp",
       "assets/images/imoveis/apartamento-jardim-minda6.webp",
       "assets/images/imoveis/apartamento-jardim-minda7.webp",
-      "assets/images/imoveis/apartamento-jardim-minda8.webp",
       "assets/images/imoveis/apartamento-jardim-minda9.webp",
       "assets/images/imoveis/apartamento-jardim-minda10.webp"
     ]
@@ -90,5 +105,56 @@
         "assets/images/imoveis/casa-chico-amaral8.webp",
         "assets/images/imoveis/casa-chico-amaral9.webp"
       ]
-    }
+    },
+   {
+    "id": "imovel-6",
+    "titulo": "Sítio com Tanques de Peixe",
+    "categoria": "Sítio • Aceita Permuta",
+    "area": "24.000 m²",
+    "localizacao": "Entre Holambra e Jaguariúna - SP",
+    "preco": "R$ 3.500.000,00",
+    "descricao": "Sítio com 24 mil m² com vários tanques para peixes. Ótima estrutura. Estuda troca/permuta por imóveis na região de Campinas.",
+    "video": "assets/images/imoveis/WhatsApp Video 2026-09-11 at 11.58.48.mp4",
+    "fotos": [
+        "assets/images/imoveis/sitio-holambra2.webp",
+        "assets/images/imoveis/sitio-holambra1.webp",
+        "assets/images/imoveis/sitio-holambra3.webp",
+        "assets/images/imoveis/sitio-holambra4.webp",
+        "assets/images/imoveis/sitio-holambra5.webp",
+        "assets/images/imoveis/sitio-holambra6.webp",
+        "assets/images/imoveis/sitio-holambra7.webp",
+        "assets/images/imoveis/sitio-holambra8.webp",
+        "assets/images/imoveis/sitio-holambra9.webp",
+        "assets/images/imoveis/sitio-holambra10.webp",
+        "assets/images/imoveis/sitio-holambra11.webp",
+        "assets/images/imoveis/sitio-holambra12.webp",
+        "assets/images/imoveis/sitio-holambra13.webp",
+        "assets/images/imoveis/sitio-holambra14.webp",
+        "assets/images/imoveis/sitio-holambra15.webp",
+        "assets/images/imoveis/sitio-holambra16.webp",
+        "assets/images/imoveis/sitio-holambra17.webp",
+        "assets/images/imoveis/sitio-holambra18.webp",
+        "assets/images/imoveis/sitio-holambra19.webp",  
+      "assets/images/imoveis/sitio-holambra20.webp"
+      ]
+    },
+    {
+    "id": "imovel-7",
+    "titulo": "Casa no jd. São Marcos",
+    "categoria": "Casa",
+    "area": "",
+    "localizacao": "jd. São Marcos, Campinas - SP",
+    "preco": "R$ 100.000,00",
+    "descricao": "Casa antiga precisa de reforma, com 2 dormitórios, sala, cozinha, banheiro e quintal bem espaçoso e documentado. Ótima oportunidade para investimento ou moradia.",
+    "fotos": [
+      "assets/images/imoveis/casa-vo-maria-frente.webp",
+      "assets/images/imoveis/casa-vo-maria-quintal.webp",
+      "assets/images/imoveis/casa-vo-maria-quintal1.webp",
+      "assets/images/imoveis/casa-vo-maria-quintal2.webp",
+      "assets/images/imoveis/casa-vo-maria-cozinha.webp",
+      "assets/images/imoveis/casa-vo-maria-sala.webp",
+      "assets/images/imoveis/casa-vo-maria-quarto1.webp",
+      "assets/images/imoveis/casa-vo-maria-banheiro.webp"
+    ]
+  }
 ]

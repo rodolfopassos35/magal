@@ -114,6 +114,22 @@
             </div>
           </div>
 
+          <div
+            id="modal-video-container"
+            style="display: none; margin-top: 15px"
+          >
+            <h4 style="margin-bottom: 8px">Vídeo do Imóvel:</h4>
+            <video
+              id="modal-video"
+              controls
+              width="100%"
+              style="border-radius: 8px; max-height: 250px; background: #000"
+            >
+              <source src="" type="video/mp4" />
+              Seu navegador não suporta vídeos.
+            </video>
+          </div>
+
           <!-- Informações do Imóvel -->
           <div class="modal-info">
             <span id="modal-categoria" class="categoria-tag"></span>
@@ -247,9 +263,21 @@
           .join("");
       }
 
+      // ✅ CÓDIGO CORRIGIDO:
       function abrirModal(id) {
         const item = listaImoveis.find((imovel) => imovel.id === id);
         if (!item) return;
+
+        const videoContainer = document.getElementById("modal-video-container");
+        const videoPlayer = document.getElementById("modal-video");
+
+        if (item.video) {
+          videoPlayer.src = item.video;
+          videoContainer.style.display = "block";
+        } else {
+          videoPlayer.src = "";
+          videoContainer.style.display = "none";
+        }
 
         document.getElementById("modal-titulo").textContent = item.titulo;
         document.getElementById("modal-categoria").textContent = item.categoria;
@@ -264,8 +292,8 @@
         thumbsContainer.innerHTML = item.fotos
           .map(
             (foto, index) => `
-      <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
-    `,
+    <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
+  `,
           )
           .join("");
 

@@ -99,7 +99,7 @@
       </div>
     </section>
 
-    <!-- MODAL COM GALERIA DE FOTOS -->
+    <!-- MODAL COM GALERIA DE FOTOS E VÍDEO -->
     <div id="modal-veiculo" class="modal-overlay">
       <div class="modal-content">
         <button class="modal-fechar" id="btn-fechar-modal">&times;</button>
@@ -115,6 +115,23 @@
             <div id="modal-thumbs" class="modal-thumbs">
               <!-- Miniaturas inseridas via JS -->
             </div>
+          </div>
+
+          <!-- Container do Vídeo (Adicionado) -->
+          <div
+            id="modal-video-container"
+            style="display: none; margin-top: 15px"
+          >
+            <h4 style="margin-bottom: 8px">Vídeo do Veículo:</h4>
+            <video
+              id="modal-video"
+              controls
+              width="100%"
+              style="border-radius: 8px; max-height: 250px; background: #000"
+            >
+              <source src="" type="video/mp4" />
+              Seu navegador não suporta vídeos.
+            </video>
           </div>
 
           <!-- Informações do Veículo -->
@@ -257,10 +274,21 @@
           .join("");
       }
 
-      // Abre e preenche o Modal com a galeria
       function abrirModal(id) {
         const v = listaVeiculos.find((item) => item.id === id);
         if (!v) return;
+
+        // Lógica do Vídeo
+        const videoContainer = document.getElementById("modal-video-container");
+        const videoPlayer = document.getElementById("modal-video");
+
+        if (v.video) {
+          videoPlayer.src = v.video;
+          videoContainer.style.display = "block";
+        } else {
+          videoPlayer.src = "";
+          videoContainer.style.display = "none";
+        }
 
         document.getElementById("modal-titulo").textContent = v.titulo;
         document.getElementById("modal-categoria").textContent = v.categoria;
@@ -279,8 +307,8 @@
         thumbsContainer.innerHTML = v.fotos
           .map(
             (foto, index) => `
-      <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
-    `,
+    <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
+  `,
           )
           .join("");
 

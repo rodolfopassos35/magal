@@ -458,6 +458,8 @@ img {
     display: flex;
     flex-direction: column;
     transition: var(--transicao);
+    height: 100%;
+    /* Ocupa a altura total do grid */
 }
 
 /* AJUSTE DAS IMAGENS DOS CARDS DE VEÍCULOS */
@@ -506,6 +508,13 @@ img {
 .card-prod-body h3 {
     font-size: 1.15rem;
     margin-bottom: 6px;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.7em;
+    /* Mantém a altura do título padronizada */
 }
 
 .specs {
@@ -517,6 +526,7 @@ img {
 .preco-container {
     margin-top: auto;
     margin-bottom: 12px;
+    padding-top: 12px;
 }
 
 .preco {
@@ -587,26 +597,44 @@ img {
     margin-bottom: 10px;
 }
 
+/* Container de Miniaturas */
 .modal-thumbs {
     display: flex;
     gap: 8px;
     overflow-x: auto;
+    padding-bottom: 6px;
+    margin-top: 10px;
+    scrollbar-width: thin;
+    /* Barra suave no Firefox */
 }
 
+/* Oculta a barra de rolagem grossa sem perder o scroll */
+.modal-thumbs::-webkit-scrollbar {
+    height: 4px;
+}
+
+.modal-thumbs::-webkit-scrollbar-thumb {
+    background: #FF6B00;
+    border-radius: 4px;
+}
+
+/* Estilo das Miniaturas */
 .modal-thumbs img {
-    width: 55px;
-    height: 55px;
-    object-fit: contain;
-    background-color: #f4f6f8;
-    border-radius: 6px;
+    width: 60px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 4px;
     cursor: pointer;
-    /* border: 2px solid transparent; */
-    transition: var(--transicao);
+    opacity: 0.6;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
 }
 
 .modal-thumbs img.active,
 .modal-thumbs img:hover {
-    border-color: var(--cor-primaria);
+    opacity: 1;
+    border-color: #FF6B00;
+    /* Destaque na cor da marca em vez de vermelho */
 }
 
 .modal-specs-list {

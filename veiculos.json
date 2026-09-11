@@ -79,5 +79,24 @@
       "assets/images/veiculos/mwm-86-7.webp",
       "assets/images/veiculos/mwm-86-8.webp"
     ]
+  },
+  {
+    "id": "FIORINO-09",
+    "titulo": "Fiorino 2009",
+    "categoria": "Caminhão",
+    "ano": "2009",
+    "km": "69.000 km",
+    "combustivel": "Diesel",
+    "preco": "36.000,00",
+    "descricao": "Recibo em branco KL69 mil. Documento motor lata peneu impecável valor. 36.000//",
+    "video": "assets/images/veiculos/WhatsApp Video 2026-09-11 at 12.52.42.mp4",
+    "fotos": [
+      "assets/images/veiculos/fiorino-09-1.webp",
+      "assets/images/veiculos/fiorino-09-2.webp",
+      "assets/images/veiculos/fiorino-09-3.webp",
+      "assets/images/veiculos/fiorino-09-4.webp",
+      "assets/images/veiculos/fiorino-09-5.webp",
+      "assets/images/veiculos/fiorino-09-6.webp" 
+    ]
   }
 ]
