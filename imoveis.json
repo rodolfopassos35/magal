@@ -28,9 +28,7 @@
         "assets/images/imoveis/sobrado-sao-judas18.webp",
         "assets/images/imoveis/sobrado-sao-judas19.webp",
         "assets/images/imoveis/sobrado-sao-judas20.webp",
-        "assets/images/imoveis/sobrado-sao-judas21.webp",
-        "assets/images/imoveis/sobrado-sao-judas22.webp",
-        "assets/images/imoveis/sobrado-sao-judas23.webp"
+        "assets/images/imoveis/sobrado-sao-judas21.webp"
       ]        
     },
   {
@@ -135,7 +133,9 @@
         "assets/images/imoveis/sitio-holambra17.webp",
         "assets/images/imoveis/sitio-holambra18.webp",
         "assets/images/imoveis/sitio-holambra19.webp",  
-      "assets/images/imoveis/sitio-holambra20.webp"
+      "assets/images/imoveis/sitio-holambra20.webp",
+      "assets/images/imoveis/sitio-holambra21.webp",
+        "assets/images/imoveis/sitio-holambra22.webp"
       ]
     },
     {
@@ -155,6 +155,37 @@
       "assets/images/imoveis/casa-vo-maria-sala.webp",
       "assets/images/imoveis/casa-vo-maria-quarto1.webp",
       "assets/images/imoveis/casa-vo-maria-banheiro.webp"
+    ]
+  },
+  {
+    "id": "imovel-8",
+    "titulo": "Apartamento no recanto da fortuna",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "São Marcos, Campinas - SP",
+    "preco": "R$ 210.000,00",
+    "descricao": "Vendo apartamento no recanto da fortuna no são Marcos já campinas tem bicicletário salão de festas play Glauce garagem coberta  quero 210 mil e o comprador assume mais 93  mil de financiamento de  680 por mes, 3 andar bloco kap 42. Com saída próximo PR dom Pedro, via angueira, bandeirantes e  saída pra Paulínia",
+    "video": "assets/images/imoveis/apartamento-recanto-da-fortuna.mp4",
+    "fotos": [
+      "assets/images/imoveis/apartamento-recanto-fortuna1.webp"
+    ]
+  },
+  {
+    "id": "imovel-9",
+    "titulo": "Chácara em Nazaré Paulista",
+    "categoria": "Chácara",
+    "area": "500 m²",
+    "localizacao": "Nazaré Paulista, Campinas - SP",
+    "preco": "R$ 280.000,00",
+    "descricao": "Chácara em Nazaré Paulista a venda com 500 metros quadrados, casa e piscina. 2 lotes limpos de 250 metros cada um, 85 mil cada. Documento contrato de gaveta reconhecido firma em cartório e já pediu escritura por uso campeão.",
+    "fotos": [
+      "assets/images/imoveis/chacara-nazare-paulista1.webp",
+      "assets/images/imoveis/chacara-nazare-paulista2.webp",
+      "assets/images/imoveis/chacara-nazare-paulista3.webp",
+      "assets/images/imoveis/chacara-nazare-paulista4.webp",
+      "assets/images/imoveis/chacara-nazare-paulista5.webp",
+      "assets/images/imoveis/chacara-nazare-paulista6.webp",
+      "assets/images/imoveis/chacara-nazare-paulista7.webp"
     ]
   }
 ]

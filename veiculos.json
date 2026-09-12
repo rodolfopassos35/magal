@@ -98,5 +98,20 @@
       "assets/images/veiculos/fiorino-09-5.webp",
       "assets/images/veiculos/fiorino-09-6.webp" 
     ]
+  },
+  {
+  "id": "TOYOTA-75",
+    "titulo": "Toyota Bandeirante 4x4",
+    "categoria": "Caminhão",
+    "ano": "1975",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "35.000,00",
+    "descricao": "Motor Mercedes. Documento com uma transferência pendente. Não aceito trocas.",
+    "fotos": ["assets/images/veiculos/toyota-75.webp"],
+    "videos": [
+    "assets/images/veiculos/toyota-75-1.mp4",
+    "assets/images/veiculos/toyota-75-2.mp4"
+    ]
   }
 ]

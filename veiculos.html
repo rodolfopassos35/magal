@@ -106,14 +106,39 @@
 
         <div class="modal-body">
           <!-- Área da Galeria de Fotos -->
+          <!-- Área do Exibidor Principal (Foto ou Vídeo) -->
           <div class="modal-galeria">
             <img
               id="modal-foto-principal"
               src=""
-              alt="Foto Principal do Veículo"
+              alt="Foto Principal"
+              style="display: none; width: 100%; border-radius: 8px"
             />
-            <div id="modal-thumbs" class="modal-thumbs">
-              <!-- Miniaturas inseridas via JS -->
+            <video
+              id="modal-video-principal"
+              controls
+              style="
+                display: none;
+                width: 100%;
+                border-radius: 8px;
+                max-height: 350px;
+                background: #000;
+              "
+            >
+              <source id="modal-video-src" src="" type="video/mp4" />
+            </video>
+
+            <div
+              id="modal-thumbs"
+              class="modal-thumbs"
+              style="
+                margin-top: 10px;
+                display: flex;
+                gap: 8px;
+                overflow-x: auto;
+              "
+            >
+              <!-- Miniaturas de fotos e vídeos via JS -->
             </div>
           </div>
 
@@ -253,24 +278,30 @@
       // Renderiza a lista de cards
       function renderizarCards(veiculos) {
         container.innerHTML = veiculos
-          .map(
-            (v) => `
-      <div class="card-produto">
-        <img src="${v.fotos[0]}" alt="${v.titulo}" loading="lazy" />
-        <div class="card-prod-body">
-          <span class="categoria-tag">${v.categoria}</span>
-          <h3>${v.titulo}</h3>
-          <p class="specs">Ano ${v.ano} • ${v.km}</p>
-          <div class="preco-container">
-            <span class="preco">${v.preco}</span>
+          .map((v) => {
+            // Define a imagem da capa (foto principal ou imagem padrão para vídeos)
+            const capa =
+              v.fotos && v.fotos.length > 0
+                ? v.fotos[0]
+                : "assets/images/thumb-video-placeholder.png"; // Ou uma foto genérica
+
+            return `
+        <div class="card-produto">
+          <img src="${capa}" alt="${v.titulo}" loading="lazy" />
+          <div class="card-prod-body">
+            <span class="categoria-tag">${v.categoria}</span>
+            <h3>${v.titulo}</h3>
+            <p class="specs">Ano ${v.ano} • ${v.km || "N/A"}</p>
+            <div class="preco-container">
+              <span class="preco">R$ ${v.preco}</span>
+            </div>
+            <button onclick="abrirModal('${v.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
+              ${v.fotos && v.fotos.length > 0 ? "Ver Mais Fotos" : "Ver Vídeos"}
+            </button>
           </div>
-          <button onclick="abrirModal('${v.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
-            Ver Mais Fotos
-          </button>
         </div>
-      </div>
-    `,
-          )
+      `;
+          })
           .join("");
       }
 
@@ -278,17 +309,8 @@
         const v = listaVeiculos.find((item) => item.id === id);
         if (!v) return;
 
-        // Lógica do Vídeo
-        const videoContainer = document.getElementById("modal-video-container");
-        const videoPlayer = document.getElementById("modal-video");
-
-        if (v.video) {
-          videoPlayer.src = v.video;
-          videoContainer.style.display = "block";
-        } else {
-          videoPlayer.src = "";
-          videoContainer.style.display = "none";
-        }
+        const fotos = v.fotos || [];
+        const videos = v.videos || (v.video ? [v.video] : []); // Suporta retrocompatibilidade se houver só 'video'
 
         document.getElementById("modal-titulo").textContent = v.titulo;
         document.getElementById("modal-categoria").textContent = v.categoria;
@@ -298,19 +320,33 @@
           v.combustivel;
         document.getElementById("modal-desc").textContent = v.descricao;
 
-        // Foto Principal
-        const imgPrincipal = document.getElementById("modal-foto-principal");
-        imgPrincipal.src = v.fotos[0];
+        // Lógica de exibição principal no topo
+        if (fotos.length > 0) {
+          exibirFoto(fotos[0]);
+        } else if (videos.length > 0) {
+          exibirVideo(videos[0]);
+        }
 
-        // Miniaturas da Galeria
+        // Monta as miniaturas (Fotos + Vídeos)
         const thumbsContainer = document.getElementById("modal-thumbs");
-        thumbsContainer.innerHTML = v.fotos
-          .map(
-            (foto, index) => `
-    <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
-  `,
-          )
-          .join("");
+        let thumbsHTML = "";
+
+        // Thumbs de fotos
+        fotos.forEach((foto, index) => {
+          thumbsHTML += `<img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="exibirFoto('${foto}', this)" style="cursor:pointer; width:60px; height:60px; object-fit:cover; border-radius:4px;" />`;
+        });
+
+        // Thumbs de vídeos (Representados por um botão/ícone com indicador de vídeo)
+        videos.forEach((video, index) => {
+          const isActive = fotos.length === 0 && index === 0 ? "active" : "";
+          thumbsHTML += `
+      <div class="thumb-video ${isActive}" onclick="exibirVideo('${video}', this)" style="cursor:pointer; width:60px; height:60px; background:#1E2229; color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:11px; font-weight:bold;">
+        ▶ Vídeo ${index + 1}
+      </div>
+    `;
+        });
+
+        thumbsContainer.innerHTML = thumbsHTML;
 
         // Link WhatsApp
         const msg = encodeURIComponent(
@@ -320,6 +356,41 @@
           `https://wa.me/5519974204995?text=${msg}`;
 
         modal.classList.add("active");
+      }
+
+      function exibirFoto(src, el) {
+        const imgEl = document.getElementById("modal-foto-principal");
+        const videoEl = document.getElementById("modal-video-principal");
+
+        videoEl.pause();
+        videoEl.style.display = "none";
+
+        imgEl.src = src;
+        imgEl.style.display = "block";
+
+        atualizarThumbAtiva(el);
+      }
+
+      function exibirVideo(src, el) {
+        const imgEl = document.getElementById("modal-foto-principal");
+        const videoEl = document.getElementById("modal-video-principal");
+        const videoSrc = document.getElementById("modal-video-src");
+
+        imgEl.style.display = "none";
+
+        videoSrc.src = src;
+        videoEl.load();
+        videoEl.style.display = "block";
+
+        atualizarThumbAtiva(el);
+      }
+
+      function atualizarThumbAtiva(el) {
+        if (!el) return;
+        document
+          .querySelectorAll("#modal-thumbs > *")
+          .forEach((child) => child.classList.remove("active"));
+        el.classList.add("active");
       }
 
       function trocarFoto(src, thumb) {
