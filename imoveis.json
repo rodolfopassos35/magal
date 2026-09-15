@@ -187,5 +187,122 @@
       "assets/images/imoveis/chacara-nazare-paulista6.webp",
       "assets/images/imoveis/chacara-nazare-paulista7.webp"
     ]
+  },
+  {
+    "id": "imovel-10",
+    "titulo": "Casa em Matão",
+    "categoria": "Casa",
+    "area": "200 m²",
+    "localizacao": "Matão, Campinas - SP",
+    "preco": "R$ 150.000,00",
+    "descricao": "Casa em Matão com 2 dormitórios, sala, cozinha, banheiro e quintal. Documento de posse da prefeitura não corre risco de perder.",
+    "fotos": [
+      "assets/images/imoveis/casa-matão1.webp",
+      "assets/images/imoveis/casa-matão2.webp",
+      "assets/images/imoveis/casa-matão3.webp",
+      "assets/images/imoveis/casa-matão4.webp",
+      "assets/images/imoveis/casa-matão5.webp",
+      "assets/images/imoveis/casa-matão6.webp",
+      "assets/images/imoveis/casa-matão7.webp"
+    ]
+  },
+  {
+    "id": "imovel-11",
+    "titulo": "Rancho/Terreno a venda em aparecida do taboão",
+    "categoria": "Rancho/Terreno",
+    "area": "2.000 m²",
+    "localizacao": "Aparecida do Taboão, Campinas - SP",
+    "preco": "R$ 150.000,00",
+    "descricao": "Rancho/Terreno a venda em aparecida do taboão, com 2.000 metros quadrados, com escritura e registro de imóveis. Valor: R$ 150.000,00. Aceita troca por carro ou moto. Contato: (19) 99999-9999.",
+    "fotos": [
+      "assets/images/imoveis/rancho-terreno1.webp",
+      "assets/images/imoveis/rancho-terreno2.webp",
+      "assets/images/imoveis/rancho-terreno3.webp",
+      "assets/images/imoveis/rancho-terreno4.webp",
+      "assets/images/imoveis/rancho-terreno5.webp",
+      "assets/images/imoveis/rancho-terreno6.webp"
+    ]
+  },
+  {
+    "id": "imovel-12",
+    "titulo": "Casa no Portal Bordon 2",
+    "categoria": "Casa",
+    "area": "200 m²",
+    "localizacao": "Portal Bordon 2, Sumaré - SP",
+    "preco": "R$ 250.000,00",
+    "descricao": "Casa no Portal Bordon 2 em Sumaré com terreno de 200 metros, 4 quartos (2 suítes), 1 escritório, 3 banheiros, piscina e portão basculante. Falta bater a laje da frente. Falta quitar 34 parcelas de R$1672 do terreno. Aceita carro no negócio.",
+    "fotos": [
+      "assets/images/imoveis/casa-portal-bordon7.webp",
+      "assets/images/imoveis/casa-portal-bordon1.webp",
+      "assets/images/imoveis/casa-portal-bordon2.webp",
+      "assets/images/imoveis/casa-portal-bordon3.webp",
+      "assets/images/imoveis/casa-portal-bordon4.webp",
+      "assets/images/imoveis/casa-portal-bordon5.webp",
+      "assets/images/imoveis/casa-portal-bordon6.webp",
+      "assets/images/imoveis/casa-portal-bordon8.webp",
+      "assets/images/imoveis/casa-portal-bordon9.webp",
+      "assets/images/imoveis/casa-portal-bordon10.webp",
+      "assets/images/imoveis/casa-portal-bordon11.webp"
+    ]
+  },
+  {
+    "id": "imovel-13",
+    "titulo": "Casa na Avenida Santo Irineu",
+    "categoria": "Casa",
+    "area": "",
+    "localizacao": "Avenida Santo Irineu, Sumaré, SP",
+    "preco": "R$140.000",
+    "descricao": "2 quartos 1 banheiro – Casa",
+    "fotos": [
+      "assets/images/imoveis/casa-avenida-santo-irineu1.webp",
+      "assets/images/imoveis/casa-avenida-santo-irineu2.webp",
+      "assets/images/imoveis/casa-avenida-santo-irineu3.webp",
+      "assets/images/imoveis/casa-avenida-santo-irineu5.webp",
+      "assets/images/imoveis/casa-avenida-santo-irineu6.webp",
+      "assets/images/imoveis/casa-avenida-santo-irineu7.webp"
+    ]
+  },
+  {
+    "id": "imovel-14",
+    "titulo": "Casa a venda no jardim dos ipês",
+    "categoria": "Casa",
+    "area": "",
+    "localizacao": "Jardim dos Ipês, Sumaré, SP",
+    "preco": "R$270.000",
+    "descricao": "Casa a venda no jardim dos ipês  Sumaré sp  5 quarto sendo uma suíte garagem pra  2 carros 1  banheiro  mais três cômodos  1 banheiro e fogão a lenha em cima da lage  escriturada.  Valor 270. Só dinheiro ",
+    "fotos": [
+      "assets/images/imoveis/casa-jardim-ipes1.webp",
+      "assets/images/imoveis/casa-jardim-ipes2.webp",
+      "assets/images/imoveis/casa-jardim-ipes3.webp",
+      "assets/images/imoveis/casa-jardim-ipes4.webp",
+      "assets/images/imoveis/casa-jardim-ipes5.webp",
+      "assets/images/imoveis/casa-jardim-ipes6.webp",
+      "assets/images/imoveis/casa-jardim-ipes7.webp",
+      "assets/images/imoveis/casa-jardim-ipes8.webp",
+      "assets/images/imoveis/casa-jardim-ipes9.webp",
+      "assets/images/imoveis/casa-jardim-ipes10.webp"
+    ]
+  },
+  {
+    "id": "imovel-15",
+    "titulo": "Vendo casa no bairro Matão",
+    "categoria": "Casa",
+    "area": "360m",
+    "localizacao": "Matão, Sumaré, SP",
+    "preco": "R$350.000",
+    "descricao": "Vendo casa no bairro Matão terreno de 360m 3 dormitórios dois banheiros uma edícula no fundo escritura não aceita troca",
+    "fotos": [
+      "assets/images/imoveis/casa-bairro-matao2.webp",
+      "assets/images/imoveis/casa-bairro-matao1.webp",
+      "assets/images/imoveis/casa-bairro-matao3.webp",
+      "assets/images/imoveis/casa-bairro-matao4.webp",
+      "assets/images/imoveis/casa-bairro-matao5.webp",
+      "assets/images/imoveis/casa-bairro-matao6.webp",
+      "assets/images/imoveis/casa-bairro-matao7.webp",
+      "assets/images/imoveis/casa-bairro-matao8.webp",
+      "assets/images/imoveis/casa-bairro-matao9.webp",
+      "assets/images/imoveis/casa-bairro-matao10.webp",
+      "assets/images/imoveis/casa-bairro-matao11.webp"
+    ]
   }
 ]

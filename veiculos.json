@@ -113,5 +113,41 @@
     "assets/images/veiculos/toyota-75-1.mp4",
     "assets/images/veiculos/toyota-75-2.mp4"
     ]
+  },
+  {
+    "id": "PR-40",
+    "titulo": "PR 40",
+    "categoria": "Caminhão",
+    "ano": "2020",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "40.000,00",
+    "descricao": "Vende PR desmonta motor 112 desmontado motor fechado 111 turbinado  câmbio deferêncial c Gabina  tudo em perfeito estado q se encontra valo   40.000 mil;",
+    "fotos": [
+      "assets/images/veiculos/pr-40-1.webp",
+      "assets/images/veiculos/pr-40-2.webp",
+      "assets/images/veiculos/pr-40-3.webp",
+      "assets/images/veiculos/pr-40-4.webp"
+    ]
+  },
+  {
+    "id": "1214-97",
+    "titulo": "1214 ano 97",
+    "categoria": "Caminhão",
+    "ano": "1997",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "125.900,00",
+    "descricao": "Motor.366 turbo suspensor no truck calçado pega e trabalha carroceria de 8.30. ",
+    "fotos": [
+      "assets/images/veiculos/1214-97-1.webp",
+      "assets/images/veiculos/1214-97-2.webp",
+      "assets/images/veiculos/1214-97-3.webp",
+      "assets/images/veiculos/1214-97-4.webp",
+      "assets/images/veiculos/1214-97-5.webp",
+      "assets/images/veiculos/1214-97-6.webp",
+      "assets/images/veiculos/1214-97-7.webp",
+      "assets/images/veiculos/1214-97-8.webp"
+    ]
   }
 ]
