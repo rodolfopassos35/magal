@@ -304,5 +304,59 @@
       "assets/images/imoveis/casa-bairro-matao10.webp",
       "assets/images/imoveis/casa-bairro-matao11.webp"
     ]
+  },
+  {
+    "id": "imovel-16",
+    "titulo": "Casa Parque Cidade, Campinas",
+    "categoria": "Casa",
+    "area": "",
+    "localizacao": "Campinas",
+    "preco": "R$295.000",
+    "descricao": "Duas casas no mesmo terreno com 4 cômodos, uma tem garagem pra três carros, já a outra tem corredor pra moto, bairro parque cidade Campinas, rua 8, asfalto, luz, água, documento em dias, aceita troca por carro valor.",
+    "fotos": [
+      "assets/images/imoveis/casa-parque-cidade-campinas1.webp",
+      "assets/images/imoveis/casa-parque-cidade-campinas2.webp",
+      "assets/images/imoveis/casa-parque-cidade-campinas3.webp",
+      "assets/images/imoveis/casa-parque-cidade-campinas4.webp",
+      "assets/images/imoveis/casa-parque-cidade-campinas5.webp",
+      "assets/images/imoveis/casa-parque-cidade-campinas6.webp",
+      "assets/images/imoveis/casa-parque-cidade-campinas7.webp",
+      "assets/images/imoveis/casa-parque-cidade-campinas8.webp",
+      "assets/images/imoveis/casa-parque-cidade-campinas9.webp"
+    ]
+  },
+  {
+    "id": "imovel-17",
+    "titulo": "Casa no Jardim Eunice",
+    "categoria": "Casa",
+    "area": "",
+    "localizacao": "Jardim Eunice, Sumaré, SP",
+    "preco": "R$ 150.000,00",
+    "descricao": "Casa com 4 cômodos, 1 banheiro, mais 1 quarto e banheiro e cozinha em construção. Lage com estrutura para sobrado. Térreo de 125 m², asfalto, murado. Bairro Jardim Eunice, Sumaré-SP. Estrutura tudo ok.",
+    "fotos": [
+      "assets/images/imoveis/casa-jardim-eunice1.webp",
+      "assets/images/imoveis/casa-jardim-eunice2.webp",
+      "assets/images/imoveis/casa-jardim-eunice3.webp",
+      "assets/images/imoveis/casa-jardim-eunice4.webp",
+      "assets/images/imoveis/casa-jardim-eunice5.webp",
+      "assets/images/imoveis/casa-jardim-eunice6.webp",
+      "assets/images/imoveis/casa-jardim-eunice7.webp",
+      "assets/images/imoveis/casa-jardim-eunice8.webp",
+      "assets/images/imoveis/casa-jardim-eunice9.webp"
+    ]
+  },
+  {
+    "id": "imovel-18",
+    "titulo": "Terreno em Espírito Santo do Pinhal",
+    "categoria": "Terreno",
+    "area": "1000 m²",
+    "localizacao": "Espírito Santo do Pinhal, SP",
+    "preco": "R$ 85.000,00",
+    "descricao": "Terreno de 1000 metros com infraestrutura já em construção. Próximo a rodovias e com acesso fácil. Bairro Espírito Santo do Pinhal, Sumaré-SP.",
+    "fotos": [
+      "assets/images/imoveis/terreno-espirito-santo-pinhal1.webp",
+      "assets/images/imoveis/terreno-espirito-santo-pinhal2.webp",
+      "assets/images/imoveis/terreno-espirito-santo-pinhal3.webp"
+    ]
   }
 ]

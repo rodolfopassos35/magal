@@ -149,5 +149,68 @@
       "assets/images/veiculos/1214-97-7.webp",
       "assets/images/veiculos/1214-97-8.webp"
     ]
+  },
+  {
+    "id": "MERCEDES-1620",
+    "titulo": "Caminhão Mercedes 1620",
+    "categoria": "Caminhão",
+    "ano": "1994",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "150.000,00",
+    "descricao": "Pneus bons, motor em ótimo estado, câmbio diferencial, documento em ordem. Tudo em dias.",
+    "video": "assets/images/veiculos/mercedes-1620.mp4",
+    "fotos": [
+      "assets/images/veiculos/mercedes-1620.webp"
+    ]
+  },
+  {
+    "id": "FIAT-82",
+    "titulo": "Caminhão Fiat baú ano 82",
+    "categoria": "Caminhão",
+    "ano": "1982",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "45.000,00",
+    "descricao": "Mecânica da F 4.000, motor câmbio deferêncial, documento ok. 019 974204995. Valor.  45.000. aceita troca.",
+    "fotos": [
+      "assets/images/veiculos/fiat-82-1.webp",
+      "assets/images/veiculos/fiat-82-2.webp",
+      "assets/images/veiculos/fiat-82-3.webp"
+    ]
+  },
+  {
+    "id": "RENAULT-2013",
+    "titulo": "2013 Renault Master",
+    "categoria": "Caminhão",
+    "ano": "2013",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "130.000,00",
+    "descricao": "Veículo de trabalho todo revisado, pneus bons, mecânica em dia, somente venda. 2.5/, valor 130 mil.",
+    "fotos": [
+      "assets/images/veiculos/renault-2013-1.webp",
+      "assets/images/veiculos/renault-2013-2.webp",
+      "assets/images/veiculos/renault-2013-3.webp",
+      "assets/images/veiculos/renault-2013-4.webp",
+      "assets/images/veiculos/renault-2013-5.webp",
+      "assets/images/veiculos/renault-2013-6.webp",
+      "assets/images/veiculos/renault-2013-7.webp"
+    ]
+  },
+  {
+    "id": "LP-321",
+    "titulo": "Caminhão LP 321",
+    "categoria": "Caminhão",
+    "ano": "",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "50.000,00",
+    "descricao": "Muk garrafa  PR 2. a 3 toneladas  50 mil",
+    "video": "assets/images/veiculos/lp-321.mp4",
+    "fotos": [
+      "assets/images/veiculos/lp-321-1.webp"
+    ]
   }
 ]
+
