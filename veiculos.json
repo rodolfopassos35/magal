@@ -1,5 +1,26 @@
 [
   {
+    "id": "FUSCA-1974",
+    "titulo": "Fusca 1974",
+    "categoria": "Carro",
+    "ano": "1974",
+    "km": "",
+    "combustivel": "Gasolina",
+    "preco": "33.000,00",
+    "descricao": "Fusca, reformado. É 1974, motor 1500. Motor e mecânica toda refeita, piso trocado com isolamento, carpete e tapetes, pneus novos, roda de liga, tapeçaria nova.\nAno. 74 zero motor ok peneus Lata documento pode ter outro igual. Mais melhor não .  Pedida   35.000 mais sai por 33.000",
+    "fotos": [
+      "assets/images/veiculos/fusca-1974-1.webp",
+      "assets/images/veiculos/fusca-1974-2.webp",
+      "assets/images/veiculos/fusca-1974-3.webp",
+      "assets/images/veiculos/fusca-1974-4.webp",
+      "assets/images/veiculos/fusca-1974-5.webp",
+      "assets/images/veiculos/fusca-1974-6.webp",
+      "assets/images/veiculos/fusca-1974-7.webp",
+      "assets/images/veiculos/fusca-1974-8.webp",
+      "assets/images/veiculos/fusca-1974-9.webp"
+    ]
+  },
+  {
     "id": "710-97",
     "titulo": "710",
     "categoria": "Caminhão",
