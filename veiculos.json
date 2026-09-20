@@ -21,6 +21,20 @@
     ]
   },
   {
+    "id": "FIAT-MOBI-18",
+    "titulo": "Fiat Mobi 2018",
+    "categoria": "Carro",
+    "ano": "2018",
+    "km": "",
+    "combustivel": "Gasolina",
+    "preco": "18.000,00 + 20 parcelas de 1.680,00",
+    "descricao": "Fiat Mobi 2018, 18 mil de entrada e assumir o restante, falta 20 parcela de 1680",
+  "video": "assets/images/veiculos/fiat-mobi-18.mp4",
+    "fotos": [
+      "assets/images/veiculos/fiat-mobi-18-1.webp"
+    ]
+  },
+  {
     "id": "710-97",
     "titulo": "710",
     "categoria": "Caminhão",
