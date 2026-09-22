@@ -358,5 +358,18 @@
       "assets/images/imoveis/terreno-espirito-santo-pinhal2.webp",
       "assets/images/imoveis/terreno-espirito-santo-pinhal3.webp"
     ]
+  },
+  {
+    "id": "imovel-19",
+    "titulo": "Chácara em Pereira Barreto",
+    "categoria": "Chácara", 
+    "area": "166 alqueires",
+    "localizacao": "Pereira Barreto, SP",
+    "preco": "R$ 205.000,00",
+    "descricao": "Chácara a venda em Pereira Barreto com 166 alqueires, ideal para agricultura ou lazer. Valor: R$ 205.000,00.",
+    "video": "assets/images/imoveis/chacara-pereira-barreto.mp4",
+    "fotos": [
+      "assets/images/imoveis/chacara-pereira-barreto1.webp"
+    ]
   }
 ]

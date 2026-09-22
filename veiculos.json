@@ -21,6 +21,36 @@
     ]
   },
   {
+    "id": "MERCEDES-16",
+    "titulo": "Mercedes 2016",
+    "categoria": "Carro",
+    "ano": "2016",
+    "km": "169.000 km",
+    "combustivel": "Diesel",
+    "preco": "110.000,00",
+    "descricao": "Mercedes 2016, 169 mil km, motor 2.0 diesel, câmbio automático, direção hidráulica, ar condicionado, bancos de couro,rodas de liga leve, sistema de som premium. Veículo em excelente estado de conservação.",
+    "fotos": [
+      "assets/images/veiculos/mercedes-16-3.webp",
+      "assets/images/veiculos/mercedes-16-1.webp",
+      "assets/images/veiculos/mercedes-16-2.webp"
+    ]
+  },
+  {
+    "id": "PAJERO-2005",
+    "titulo": "Pajero 2005",
+    "categoria": "Carro",
+    "ano": "2005",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "55.000,00",
+    "descricao": "Mitsubishi",
+    "fotos": [
+      "assets/images/veiculos/pajero-2005-1.webp",
+      "assets/images/veiculos/pajero-2005-2.webp",
+      "assets/images/veiculos/pajero-2005-3.webp"
+    ]
+  },
+  {
     "id": "FIAT-MOBI-18",
     "titulo": "Fiat Mobi 2018",
     "categoria": "Carro",
