@@ -51,6 +51,56 @@
     ]
   },
   {
+    "id":"Ranger-20",
+    "titulo":"Ranger 2020",
+    "categoria":"Caminhonete",
+    "ano":"2020",
+    "km":"",
+    "combustivel":"Diesel",
+    "preco":"",
+    "descricao":"Ranger  ano 2020  6 marchas 2.2  a diesel vendo ou troco documento ok sem passagem de leilão",
+    "fotos":[
+      "assets/images/veiculos/ranger-20-1.webp",
+      "assets/images/veiculos/ranger-20-2.webp",
+      "assets/images/veiculos/ranger-20-3.webp",
+      "assets/images/veiculos/ranger-20-4.webp",
+      "assets/images/veiculos/ranger-20-5.webp"
+      
+    ]
+  },
+  {
+    "id": "",
+    "titulo": "VW 8.160",
+    "categoria": "Caminhão",
+    "ano": "2017",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "250.000,00",
+    "descricao": "Baú misto Seco e refrigerado",
+    "fotos": [
+      "assets/images/veiculos/vw-8.160-1.webp",
+      "assets/images/veiculos/vw-8.160-2.webp",
+      "assets/images/veiculos/vw-8.160-3.webp",
+      "assets/images/veiculos/vw-8.160-4.webp"
+    ]    
+  },
+  {
+    "id": "MB-1418-93",
+    "titulo": "MB 1418",
+    "categoria": "Caminhão",
+    "ano": "1993",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "115.000,00",
+    "descricao": "Chassis 10,50 MTS",
+    "fotos": [
+      "assets/images/veiculos/mb-1418-93-1.webp",
+      "assets/images/veiculos/mb-1418-93-2.webp",
+      "assets/images/veiculos/mb-1418-93-3.webp",
+      "assets/images/veiculos/mb-1418-93-4.webp"
+    ]
+  },
+  {
     "id": "FIAT-MOBI-18",
     "titulo": "Fiat Mobi 2018",
     "categoria": "Carro",
@@ -65,19 +115,35 @@
     ]
   },
   {
-    "id": "710-97",
-    "titulo": "710",
+    "id": "1113-83",
+    "titulo": "Caminhão 1113 ano 1983",
     "categoria": "Caminhão",
-    "ano": "1997",
+    "ano": "1983",
     "km": "",
     "combustivel": "Diesel",
-    "preco": "89.900,00",
-    "descricao": "mecânica a toda prova, baú de 4.30 com porta lateral, turbo direção hidráulica, freios a óleo",
+    "preco": "65.000,00",
+    "descricao": "1113 ano 83 direção hidráulica turbo suspensor no truk, calçado de pêneus. Valor pra venda 65 mil troca 72 mil.",
     "fotos": [
-      "assets/images/veiculos/710-1.webp",
-      "assets/images/veiculos/710-2.webp",
-      "assets/images/veiculos/710-3.webp",
-      "assets/images/veiculos/710-4.webp"
+      "assets/images/veiculos/1113-83-1.webp"
+    ]
+  },
+  {
+    "id": "815-09",
+    "titulo": "815",
+    "categoria": "Caminhão",
+    "ano": "2009",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "168.000,00",
+    "descricao": "com baú saider de 5 metros preço 168 mil, sem o saider 142 mil ",
+    "videos": [
+      "assets/images/veiculos/815-09-1.mp4",
+      "assets/images/veiculos/815-09-2.mp4"
+    ],
+    "fotos": [
+      "assets/images/veiculos/815-09-1.webp",
+      "assets/images/veiculos/815-09-2.webp",
+      "assets/images/veiculos/815-09-3.webp"
     ]
   },
   {
