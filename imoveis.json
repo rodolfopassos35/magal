@@ -8,29 +8,29 @@
     "preco": "R$ 650.000,00",
     "descricao": "Terreno de 270m², escriturado e IPTU ok. Próximo a mercado, posto de gasolina, ponto de ônibus, igreja, UPA e comércio geral. Aceita troca por chácara com casa, rio e piscina em Monte Mor, Mogi Guaçu, Mogi Mirim, Cosmópolis, Conchal ou Artur Nogueira (sem volta em dinheiro).",
     "fotos": [
-        "assets/images/imoveis/sobrado-sao-judas2.webp",
-        "assets/images/imoveis/sobrado-sao-judas1.webp",
-        "assets/images/imoveis/sobrado-sao-judas3.webp",
-        "assets/images/imoveis/sobrado-sao-judas4.webp",
-        "assets/images/imoveis/sobrado-sao-judas5.webp",
-        "assets/images/imoveis/sobrado-sao-judas6.webp",
-        "assets/images/imoveis/sobrado-sao-judas7.webp",
-        "assets/images/imoveis/sobrado-sao-judas8.webp",
-        "assets/images/imoveis/sobrado-sao-judas9.webp",
-        "assets/images/imoveis/sobrado-sao-judas10.webp",
-        "assets/images/imoveis/sobrado-sao-judas11.webp",
-        "assets/images/imoveis/sobrado-sao-judas12.webp",
-        "assets/images/imoveis/sobrado-sao-judas13.webp",
-        "assets/images/imoveis/sobrado-sao-judas14.webp",
-        "assets/images/imoveis/sobrado-sao-judas15.webp",
-        "assets/images/imoveis/sobrado-sao-judas16.webp",
-        "assets/images/imoveis/sobrado-sao-judas17.webp",
-        "assets/images/imoveis/sobrado-sao-judas18.webp",
-        "assets/images/imoveis/sobrado-sao-judas19.webp",
-        "assets/images/imoveis/sobrado-sao-judas20.webp",
-        "assets/images/imoveis/sobrado-sao-judas21.webp"
-      ]        
-    },
+      "assets/images/imoveis/sobrado-sao-judas2.webp",
+      "assets/images/imoveis/sobrado-sao-judas1.webp",
+      "assets/images/imoveis/sobrado-sao-judas3.webp",
+      "assets/images/imoveis/sobrado-sao-judas4.webp",
+      "assets/images/imoveis/sobrado-sao-judas5.webp",
+      "assets/images/imoveis/sobrado-sao-judas6.webp",
+      "assets/images/imoveis/sobrado-sao-judas7.webp",
+      "assets/images/imoveis/sobrado-sao-judas8.webp",
+      "assets/images/imoveis/sobrado-sao-judas9.webp",
+      "assets/images/imoveis/sobrado-sao-judas10.webp",
+      "assets/images/imoveis/sobrado-sao-judas11.webp",
+      "assets/images/imoveis/sobrado-sao-judas12.webp",
+      "assets/images/imoveis/sobrado-sao-judas13.webp",
+      "assets/images/imoveis/sobrado-sao-judas14.webp",
+      "assets/images/imoveis/sobrado-sao-judas15.webp",
+      "assets/images/imoveis/sobrado-sao-judas16.webp",
+      "assets/images/imoveis/sobrado-sao-judas17.webp",
+      "assets/images/imoveis/sobrado-sao-judas18.webp",
+      "assets/images/imoveis/sobrado-sao-judas19.webp",
+      "assets/images/imoveis/sobrado-sao-judas20.webp",
+      "assets/images/imoveis/sobrado-sao-judas21.webp"
+    ]
+  },
   {
     "id": "imovel-2",
     "titulo": "Apartamento no Jardim Minda",
@@ -69,42 +69,42 @@
       "assets/images/imoveis/apartamento-matao5.webp"
     ]
   },
-    {
-      "id": "imovel-4",
-      "titulo": "Condomínio São Pedro ",
-      "categoria": "Apartamento",
-      "area": "",
-      "localizacao": "Condomínio São Pedro, Sumaré - SP",
-      "preco": "R$ 110.000,00",
-      "descricao": "Apartamento no condomínio São Pedro, em ótimo estado. Ideal para moradia ou investimento.",
-        "fotos": [
-          "assets/images/imoveis/condominio-sao-pedro1.webp",
-          "assets/images/imoveis/condominio-sao-pedro2.webp",
-          "assets/images/imoveis/condominio-sao-pedro3.webp",
-          "assets/images/imoveis/condominio-sao-pedro4.webp"
-        ]
-    },
-    {
-      "id": "imovel-5",
-      "titulo": "Casa no Bairro Chico Amaral",
-      "categoria": "Casa",
-      "area": "",
-      "localizacao": "Bairro Chico Amaral, Hortolândia - SP",
-      "preco": "R$ 150.000,00",
-      "descricao": "Casa no bairro Chico Amaral, em ótimo estado. Ideal para moradia ou investimento.",
-      "fotos": [
-        "assets/images/imoveis/casa-chico-amaral1.webp",
-        "assets/images/imoveis/casa-chico-amaral2.webp",
-        "assets/images/imoveis/casa-chico-amaral3.webp",
-        "assets/images/imoveis/casa-chico-amaral4.webp",
-        "assets/images/imoveis/casa-chico-amaral5.webp",
-        "assets/images/imoveis/casa-chico-amaral6.webp",
-        "assets/images/imoveis/casa-chico-amaral7.webp",
-        "assets/images/imoveis/casa-chico-amaral8.webp",
-        "assets/images/imoveis/casa-chico-amaral9.webp"
-      ]
-    },
-   {
+  {
+    "id": "imovel-4",
+    "titulo": "Condomínio São Pedro ",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "Condomínio São Pedro, Sumaré - SP",
+    "preco": "R$ 110.000,00",
+    "descricao": "Apartamento no condomínio São Pedro, em ótimo estado. Ideal para moradia ou investimento.",
+    "fotos": [
+      "assets/images/imoveis/condominio-sao-pedro1.webp",
+      "assets/images/imoveis/condominio-sao-pedro2.webp",
+      "assets/images/imoveis/condominio-sao-pedro3.webp",
+      "assets/images/imoveis/condominio-sao-pedro4.webp"
+    ]
+  },
+  {
+    "id": "imovel-5",
+    "titulo": "Casa no Bairro Chico Amaral",
+    "categoria": "Casa",
+    "area": "",
+    "localizacao": "Bairro Chico Amaral, Hortolândia - SP",
+    "preco": "R$ 150.000,00",
+    "descricao": "Casa no bairro Chico Amaral, em ótimo estado. Ideal para moradia ou investimento.",
+    "fotos": [
+      "assets/images/imoveis/casa-chico-amaral1.webp",
+      "assets/images/imoveis/casa-chico-amaral2.webp",
+      "assets/images/imoveis/casa-chico-amaral3.webp",
+      "assets/images/imoveis/casa-chico-amaral4.webp",
+      "assets/images/imoveis/casa-chico-amaral5.webp",
+      "assets/images/imoveis/casa-chico-amaral6.webp",
+      "assets/images/imoveis/casa-chico-amaral7.webp",
+      "assets/images/imoveis/casa-chico-amaral8.webp",
+      "assets/images/imoveis/casa-chico-amaral9.webp"
+    ]
+  },
+  {
     "id": "imovel-6",
     "titulo": "Sítio com Tanques de Peixe",
     "categoria": "Sítio • Aceita Permuta",
@@ -114,31 +114,31 @@
     "descricao": "Sítio com 24 mil m² com vários tanques para peixes. Ótima estrutura. Estuda troca/permuta por imóveis na região de Campinas.",
     "video": "assets/images/imoveis/WhatsApp Video 2026-09-11 at 11.58.48.mp4",
     "fotos": [
-        "assets/images/imoveis/sitio-holambra2.webp",
-        "assets/images/imoveis/sitio-holambra1.webp",
-        "assets/images/imoveis/sitio-holambra3.webp",
-        "assets/images/imoveis/sitio-holambra4.webp",
-        "assets/images/imoveis/sitio-holambra5.webp",
-        "assets/images/imoveis/sitio-holambra6.webp",
-        "assets/images/imoveis/sitio-holambra7.webp",
-        "assets/images/imoveis/sitio-holambra8.webp",
-        "assets/images/imoveis/sitio-holambra9.webp",
-        "assets/images/imoveis/sitio-holambra10.webp",
-        "assets/images/imoveis/sitio-holambra11.webp",
-        "assets/images/imoveis/sitio-holambra12.webp",
-        "assets/images/imoveis/sitio-holambra13.webp",
-        "assets/images/imoveis/sitio-holambra14.webp",
-        "assets/images/imoveis/sitio-holambra15.webp",
-        "assets/images/imoveis/sitio-holambra16.webp",
-        "assets/images/imoveis/sitio-holambra17.webp",
-        "assets/images/imoveis/sitio-holambra18.webp",
-        "assets/images/imoveis/sitio-holambra19.webp",  
+      "assets/images/imoveis/sitio-holambra2.webp",
+      "assets/images/imoveis/sitio-holambra1.webp",
+      "assets/images/imoveis/sitio-holambra3.webp",
+      "assets/images/imoveis/sitio-holambra4.webp",
+      "assets/images/imoveis/sitio-holambra5.webp",
+      "assets/images/imoveis/sitio-holambra6.webp",
+      "assets/images/imoveis/sitio-holambra7.webp",
+      "assets/images/imoveis/sitio-holambra8.webp",
+      "assets/images/imoveis/sitio-holambra9.webp",
+      "assets/images/imoveis/sitio-holambra10.webp",
+      "assets/images/imoveis/sitio-holambra11.webp",
+      "assets/images/imoveis/sitio-holambra12.webp",
+      "assets/images/imoveis/sitio-holambra13.webp",
+      "assets/images/imoveis/sitio-holambra14.webp",
+      "assets/images/imoveis/sitio-holambra15.webp",
+      "assets/images/imoveis/sitio-holambra16.webp",
+      "assets/images/imoveis/sitio-holambra17.webp",
+      "assets/images/imoveis/sitio-holambra18.webp",
+      "assets/images/imoveis/sitio-holambra19.webp",
       "assets/images/imoveis/sitio-holambra20.webp",
       "assets/images/imoveis/sitio-holambra21.webp",
-        "assets/images/imoveis/sitio-holambra22.webp"
-      ]
-    },
-    {
+      "assets/images/imoveis/sitio-holambra22.webp"
+    ]
+  },
+  {
     "id": "imovel-7",
     "titulo": "Casa no jd. São Marcos",
     "categoria": "Casa",
@@ -362,7 +362,7 @@
   {
     "id": "imovel-19",
     "titulo": "Chácara em Pereira Barreto",
-    "categoria": "Chácara", 
+    "categoria": "Chácara",
     "area": "166 alqueires",
     "localizacao": "Pereira Barreto, SP",
     "preco": "R$ 205.000,00",
@@ -371,6 +371,25 @@
     "fotos": [
       "assets/images/imoveis/chacara-pereira-barreto.webp",
       "assets/images/imoveis/chacara-pereira-barreto1.webp"
+    ]
+  },
+  {
+    "id": "imovel-2930",
+    "titulo": "Terreno Condominio pantanal 2",
+    "categoria": "Terreno",
+    "area": "",
+    "localizacao": "próximo Hortolândia",
+    "preco": "150.000,00",
+    "descricao": "Terreno a venda próximo Amanda, Pega carro até 50 mil, terreno com 500 metros, contrato de compra e venda, reconhecido firma já tem vários pé de frutas~",
+    "fotos": [
+      "assets/images/imoveis/imovel-2930-1.webp",
+      "assets/images/imoveis/imovel-2930-2.webp",
+      "assets/images/imoveis/imovel-2930-3.webp",
+      "assets/images/imoveis/imovel-2930-4.webp",
+      "assets/images/imoveis/imovel-2930-5.webp",
+      "assets/images/imoveis/imovel-2930-6.webp",
+      "assets/images/imoveis/imovel-2930-7.webp",
+      "assets/images/imoveis/imovel-2930-8.webp"
     ]
   }
 ]

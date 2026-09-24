@@ -51,21 +51,20 @@
     ]
   },
   {
-    "id":"Ranger-20",
-    "titulo":"Ranger 2020",
-    "categoria":"Caminhonete",
-    "ano":"2020",
-    "km":"",
-    "combustivel":"Diesel",
-    "preco":"",
-    "descricao":"Ranger  ano 2020  6 marchas 2.2  a diesel vendo ou troco documento ok sem passagem de leilão",
-    "fotos":[
+    "id": "Ranger-20",
+    "titulo": "Ranger 2020",
+    "categoria": "Caminhonete",
+    "ano": "2020",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "",
+    "descricao": "Ranger  ano 2020  6 marchas 2.2  a diesel vendo ou troco documento ok sem passagem de leilão",
+    "fotos": [
       "assets/images/veiculos/ranger-20-1.webp",
       "assets/images/veiculos/ranger-20-2.webp",
       "assets/images/veiculos/ranger-20-3.webp",
       "assets/images/veiculos/ranger-20-4.webp",
       "assets/images/veiculos/ranger-20-5.webp"
-      
     ]
   },
   {
@@ -82,7 +81,7 @@
       "assets/images/veiculos/vw-8.160-2.webp",
       "assets/images/veiculos/vw-8.160-3.webp",
       "assets/images/veiculos/vw-8.160-4.webp"
-    ]    
+    ]
   },
   {
     "id": "MB-1418-93",
@@ -109,7 +108,7 @@
     "combustivel": "Gasolina",
     "preco": "18.000,00 + 20 parcelas de 1.680,00",
     "descricao": "Fiat Mobi 2018, 18 mil de entrada e assumir o restante, falta 20 parcela de 1680",
-  "video": "assets/images/veiculos/fiat-mobi-18.mp4",
+    "video": "assets/images/veiculos/fiat-mobi-18.mp4",
     "fotos": [
       "assets/images/veiculos/fiat-mobi-18-1.webp"
     ]
@@ -159,7 +158,7 @@
       "assets/images/veiculos/f4000-1.webp",
       "assets/images/veiculos/f4000-2.webp",
       "assets/images/veiculos/f4000-3.webp",
-      "assets/images/veiculos/f4000-4.webp", 
+      "assets/images/veiculos/f4000-4.webp",
       "assets/images/veiculos/f4000-5.webp"
     ]
   },
@@ -227,11 +226,11 @@
       "assets/images/veiculos/fiorino-09-3.webp",
       "assets/images/veiculos/fiorino-09-4.webp",
       "assets/images/veiculos/fiorino-09-5.webp",
-      "assets/images/veiculos/fiorino-09-6.webp" 
+      "assets/images/veiculos/fiorino-09-6.webp"
     ]
   },
   {
-  "id": "TOYOTA-75",
+    "id": "TOYOTA-75",
     "titulo": "Toyota Bandeirante 4x4",
     "categoria": "Caminhão",
     "ano": "1975",
@@ -239,10 +238,12 @@
     "combustivel": "Diesel",
     "preco": "35.000,00",
     "descricao": "Motor Mercedes. Documento com uma transferência pendente. Não aceito trocas.",
-    "fotos": ["assets/images/veiculos/toyota-75.webp"],
+    "fotos": [
+      "assets/images/veiculos/toyota-75.webp"
+    ],
     "videos": [
-    "assets/images/veiculos/toyota-75-1.mp4",
-    "assets/images/veiculos/toyota-75-2.mp4"
+      "assets/images/veiculos/toyota-75-1.mp4",
+      "assets/images/veiculos/toyota-75-2.mp4"
     ]
   },
   {
@@ -342,6 +343,62 @@
     "fotos": [
       "assets/images/veiculos/lp-321-1.webp"
     ]
+  },
+  {
+    "id": "veiculo-2907",
+    "titulo": "F-600",
+    "categoria": "Caminhão",
+    "ano": "1975",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "75.000,00",
+    "descricao": "f600\nMotor 352 mercedes turbinado\nFreio a ar\nDireção hidráulica \nEmbreagem hidráulica\nCacamba ja cadastrada no caminhão dentro das normas\nAno 75. Documento ok peneus bom frei ar 10 parados eixo dianteiro e deferencial do Mercedes revisado frei estacionar  valor  75.000",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2907-1.webp",
+      "assets/images/veiculos/veiculo-2907-2.webp",
+      "assets/images/veiculos/veiculo-2907-3.webp",
+      "assets/images/veiculos/veiculo-2907-4.webp",
+      "assets/images/veiculos/veiculo-2907-5.webp",
+      "assets/images/veiculos/veiculo-2907-6.webp",
+      "assets/images/veiculos/veiculo-2907-7.webp",
+      "assets/images/veiculos/veiculo-2907-8.webp"
+    ]
+  },
+  {
+    "id": "veiculo-6039",
+    "titulo": "F1000",
+    "categoria": "Caminhão",
+    "ano": "1980",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "65.000",
+    "descricao": "F1000 ano 80 trabalhando  65.000",
+    "fotos": [
+      "assets/images/veiculos/veiculo-6039-1.webp",
+      "assets/images/veiculos/veiculo-6039-2.webp",
+      "assets/images/veiculos/veiculo-6039-3.webp",
+      "assets/images/veiculos/veiculo-6039-4.webp",
+      "assets/images/veiculos/veiculo-6039-5.webp"
+    ]
+  },
+  {
+    "id": "veiculo-7084",
+    "titulo": "Volvo",
+    "categoria": "Carreta",
+    "ano": "1994",
+    "km": "",
+    "combustivel": "Diesel",
+    "preco": "90.000,00",
+    "descricao": "Carreta ano 94 e cavalo ano 85 tudo empevavel revisado caminhão bom valor do conjunto. 90 mil, na troca muda",
+    "fotos": [
+      "assets/images/veiculos/veiculo-7084-1.webp",
+      "assets/images/veiculos/veiculo-7084-2.webp",
+      "assets/images/veiculos/veiculo-7084-3.webp",
+      "assets/images/veiculos/veiculo-7084-4.webp",
+      "assets/images/veiculos/veiculo-7084-5.webp",
+      "assets/images/veiculos/veiculo-7084-6.webp",
+      "assets/images/veiculos/veiculo-7084-7.webp",
+      "assets/images/veiculos/veiculo-7084-8.webp"
+    ]
   }
 ]
-
