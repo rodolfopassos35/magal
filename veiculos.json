@@ -400,5 +400,34 @@
       "assets/images/veiculos/veiculo-7084-7.webp",
       "assets/images/veiculos/veiculo-7084-8.webp"
     ]
+  },
+  {
+    "id": "veiculo-7949",
+    "titulo": "Palio Weekend 1.6",
+    "categoria": "carro",
+    "ano": "1997",
+    "km": "",
+    "combustivel": "",
+    "preco": "",
+    "descricao": "Palio Weekend 1.6 – Ano 1997 Documentação em dia Pneus em bom estado Motor e câmbio funcionando perfeitamente Nunca passou por leilão",
+    "fotos": [
+      "assets/images/veiculos/veiculo-7949-1.webp"
+    ]
+  },
+  {
+    "id": "veiculo-2629",
+    "titulo": "Modelo: FIAT Uno",
+    "categoria": "carro",
+    "ano": "2009",
+    "km": "",
+    "combustivel": "Flex",
+    "preco": "21.680,00",
+    "descricao": "Modelo: FIAT Uno Mille WAY ECONOMY Ano/Modelo: 2009/2010 Cor: Branco Placa: MGU2H55 Local de registro: São Bonifácio, SC Licenciamento válido até: 31 de julho Data de referência: setembro de 2026 Valores de mercado (Tabela Fipe) Versão 2 portas (2010 Flex): R$ 21.680,00 Versão 4 portas (2010 Flex): R$ 26.673,00",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2629-4.webp",
+      "assets/images/veiculos/veiculo-2629-1.webp",
+      "assets/images/veiculos/veiculo-2629-2.webp",
+      "assets/images/veiculos/veiculo-2629-3.webp"
+    ]
   }
 ]

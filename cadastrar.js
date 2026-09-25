@@ -5,14 +5,23 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Argumentos: node cadastrar.js <tipo> "<texto>" [qtd_fotos]
+// Argumentos: node cadastrar.js <tipo> "<texto>" [qtd_fotos] [categoria_opcional]
 const tipo = process.argv[2];
 const textoBruto = process.argv[3];
-const qtdFotos = parseInt(process.argv[4]) || 1; // Padrão: 1 foto se não for informado
+// Verifica se o 4º argumento é número ou nome de categoria
+const arg4 = process.argv[4];
+const arg5 = process.argv[5];
+
+const qtdFotos = !isNaN(parseInt(arg4))
+  ? parseInt(arg4)
+  : !isNaN(parseInt(arg5))
+    ? parseInt(arg5)
+    : 1;
+const categoriaInformada = isNaN(parseInt(arg4)) ? arg4 : arg5;
 
 if (!tipo || !textoBruto) {
   console.log(
-    '❌ Uso correto: node cadastrar.js <veiculo|imovel> "<texto>" [qtd_fotos]',
+    '❌ Uso correto: node cadastrar.js <veiculo|imovel> "<texto>" [qtd_fotos] [categoria_opcional]',
   );
   process.exit(1);
 }
@@ -29,22 +38,19 @@ try {
   process.exit(1);
 }
 
-// Limpeza geral do texto do WhatsApp
+// Limpeza geral do texto
 function limparTexto(texto) {
   return texto
-    .replace(/\[\d{2}:\d{2}, \d{2}\/\d{2}\/\d{4}\]\s*[^:]+:\s*/g, "") // Remove cabeçalhos do WhatsApp
-    .replace(/\s+/g, " ") // Substitui múltiplos espaços por um único
+    .replace(/\[\d{2}:\d{2}, \d{2}\/\d{2}\/\d{4}\]\s*[^:]+:\s*/g, "")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
 function extrairPreco(texto) {
-  // Trata "Valor 150." ou "150 mil" ou "150.000"
   const matchMil =
     texto.match(/valor\s*:?\s*(\d{2,3})\b\./i) ||
     texto.match(/(\d{2,3})\s*mil/i);
-  if (matchMil) {
-    return `${matchMil[1]}.000,00`;
-  }
+  if (matchMil) return `${matchMil[1]}.000,00`;
 
   const matchCompleto = texto.match(/(\d{1,3}(\.\d{3})+,\d{2})/);
   if (matchCompleto) return matchCompleto[0];
@@ -58,78 +64,109 @@ function extrairPreco(texto) {
   return "";
 }
 
-function extrairCategoria(texto, tipo) {
+function identificarCategoria(texto, tipo) {
+  if (categoriaInformada) return categoriaInformada;
+
   const t = texto.toLowerCase();
+
   if (tipo === "imovel") {
     if (t.includes("terreno")) return "Terreno";
     if (t.includes("chácara") || t.includes("chacara")) return "Chácara";
-    if (t.includes("sitio") || t.includes("sítio")) return "Sítio";
+    if (t.includes("sítio") || t.includes("sitio")) return "Sítio";
     if (t.includes("apartamento") || t.includes("apto")) return "Apartamento";
     if (t.includes("casa")) return "Casa";
     return "Imóvel";
   } else {
+    // 1. Carreta / Conjunto
+    if (
+      t.includes("carreta") ||
+      t.includes("cavalo") ||
+      t.includes("conjunto") ||
+      t.includes("bitrem") ||
+      t.includes("bi-trem") ||
+      t.includes("rodotrem")
+    ) {
+      return "Carreta";
+    }
+
+    // 2. Caminhão
     if (
       t.includes("caminhão") ||
       t.includes("caminhao") ||
       t.includes("f600") ||
-      t.includes("mb") ||
-      t.includes("vw")
-    )
+      t.includes("mb ") ||
+      t.includes("vw ") ||
+      t.includes("scania") ||
+      t.includes("volvo") ||
+      t.includes("iveco")
+    ) {
       return "Caminhão";
+    }
+
+    // 3. Caminhonete
     if (
       t.includes("caminhonete") ||
+      t.includes("hilux") ||
+      t.includes("s10") ||
       t.includes("ranger") ||
-      t.includes("f1000")
-    )
+      t.includes("f1000") ||
+      t.includes("strada") ||
+      t.includes("saveiro") ||
+      t.includes("montana") ||
+      t.includes("ram") ||
+      t.includes("l200")
+    ) {
       return "Caminhonete";
+    }
+
+    // 4. Moto
+    if (
+      t.includes("moto") ||
+      t.includes("honda") ||
+      t.includes("yamaha") ||
+      t.includes("cg ") ||
+      t.includes("titan") ||
+      t.includes("biz") ||
+      t.includes("fan ") ||
+      t.includes("bros") ||
+      t.includes("xre") ||
+      t.includes("cb ")
+    ) {
+      return "Moto";
+    }
+
+    // 5. Padrão para os demais veículos
     return "Carro";
   }
 }
 
-function extrairLocalizacao(texto) {
-  const cidades = [
-    "hortolândia",
-    "hortolandia",
-    "sumaré",
-    "sumare",
-    "campinas",
-    "paulínia",
-    "paulinia",
-    "monte mor",
-  ];
-  const t = texto.toLowerCase();
-
-  for (const c of cidades) {
-    if (t.includes(c)) {
-      // Procura por expressões como "próximo hortolândia" ou apenas a cidade
-      const matchProx = texto.match(new RegExp(`(próximo\\s+)?${c}`, "i"));
-      return matchProx ? matchProx[0] : c;
-    }
+function extrairTitulo(texto, categoria, tipo) {
+  if (tipo === "veiculo") {
+    // Pega as 3 primeiras palavras do texto para formar o título (Ex: "Palio Weekend 1.6")
+    const palavras = texto.split(" ");
+    const modelo = palavras
+      .slice(0, 3)
+      .join(" ")
+      .replace(/[,.-]$/, "");
+    return modelo || `${categoria} à venda`;
+  } else {
+    const matchCond = texto.match(
+      /condomínio\s+([a-záàâãéèêíóôõúç0-9\s]+?)(?=\.|\,|$)/i,
+    );
+    if (matchCond)
+      return `${categoria} ${matchCond[0]}`.replace(/\s+/g, " ").trim();
+    return `${categoria} à venda`;
   }
-  return "";
-}
-
-function extrairTitulo(texto, categoria) {
-  const t = texto.toLowerCase();
-  // Busca por nome de condomínio ou bairro no texto
-  const matchCond = texto.match(
-    /condomínio\s+([a-záàâãéèêíóôõúç0-9\s]+?)(?=\.|\,|$)/i,
-  );
-  if (matchCond) {
-    return `${categoria} ${matchCond[0]}`.replace(/\s+/g, " ").trim();
-  }
-  return `${categoria} à venda`;
 }
 
 // Processamento
 const textoLimpo = limparTexto(textoBruto);
 const preco = extrairPreco(textoLimpo);
-const categoria = extrairCategoria(textoLimpo, tipo);
-const localizacao = extrairLocalizacao(textoLimpo);
-const titulo = extrairTitulo(textoLimpo, categoria);
+const categoria = identificarCategoria(textoLimpo, tipo);
+const titulo = extrairTitulo(textoLimpo, categoria, tipo);
 const idGerado = `${tipo}-${Date.now().toString().slice(-4)}`;
 
-// Gera lista de fotos dinamicamente conforme a quantidade informada
+// Monta lista de fotos
 const fotos = [];
 const pasta = tipo === "veiculo" ? "veiculos" : "imoveis";
 for (let i = 1; i <= qtdFotos; i++) {
@@ -138,21 +175,11 @@ for (let i = 1; i <= qtdFotos; i++) {
 
 let novoItem = {};
 
-if (tipo === "imovel") {
-  novoItem = {
-    id: idGerado,
-    titulo: titulo,
-    categoria: categoria,
-    area: "",
-    localizacao: localizacao,
-    preco: preco,
-    descricao: textoLimpo,
-    fotos: fotos,
-  };
-} else {
+if (tipo === "veiculo") {
   const matchAno =
     textoLimpo.match(/ano\s*:?\s*(\d{2,4})/i) ||
-    textoLimpo.match(/\b(19\d{2}|20\d{2})\b/);
+    textoLimpo.match(/\b(19\d{2}|20\d{2})\b/) ||
+    textoLimpo.match(/\b(\d{2})\b/);
   let ano = matchAno ? matchAno[1] : "";
   if (ano.length === 2) ano = (parseInt(ano) > 30 ? "19" : "20") + ano;
 
@@ -162,7 +189,18 @@ if (tipo === "imovel") {
     categoria: categoria,
     ano: ano,
     km: "",
-    combustivel: "Diesel",
+    combustivel: categoria === "Caminhão" ? "Diesel" : "Flex", // Ajuste dinâmico
+    preco: preco,
+    descricao: textoLimpo,
+    fotos: fotos,
+  };
+} else {
+  novoItem = {
+    id: idGerado,
+    titulo: titulo,
+    categoria: categoria,
+    area: "",
+    localizacao: "",
     preco: preco,
     descricao: textoLimpo,
     fotos: fotos,
@@ -172,5 +210,5 @@ if (tipo === "imovel") {
 dados.push(novoItem);
 fs.writeFileSync(caminhoArquivo, JSON.stringify(dados, null, 2), "utf-8");
 
-console.log(`\n✅ Sucesso! Novo ${tipo} adicionado com ${qtdFotos} foto(s):`);
+console.log(`\n✅ Sucesso! Novo ${tipo} adicionado:`);
 console.log(novoItem);
