@@ -244,26 +244,25 @@
         container.innerHTML = imoveis
           .map(
             (i) => `
-      <div class="card-produto">
-        <img src="${i.fotos[0]}" alt="${i.titulo}" loading="lazy" />
-        <div class="card-prod-body">
-          <span class="categoria-tag">${i.categoria}</span>
-          <h3>${i.titulo}</h3>
-          <p class="specs">${i.area} • ${i.localizacao}</p>
-          <div class="preco-container">
-            <span class="preco">${i.preco}</span>
-          </div>
-          <button onclick="abrirModal('${i.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
-            Ver Mais Fotos
-          </button>
-        </div>
+  <div class="card-produto">
+    <img src="${i.fotos[0]}" alt="${i.titulo}" loading="lazy" />
+    <div class="card-prod-body">
+      <span class="categoria-tag">${i.categoria}</span>
+      <h3>${i.titulo}</h3>
+      <p class="specs">${i.area} • ${i.localizacao}</p>
+      <div class="preco-container">
+        <span class="preco">${i.preco}</span>
       </div>
-    `,
+      <button onclick="abrirModal('${i.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
+        Ver Mais Fotos
+      </button>
+    </div>
+  </div>
+`,
           )
           .join("");
       }
 
-      // ✅ CÓDIGO CORRIGIDO:
       function abrirModal(id) {
         const item = listaImoveis.find((imovel) => imovel.id === id);
         if (!item) return;
@@ -292,8 +291,8 @@
         thumbsContainer.innerHTML = item.fotos
           .map(
             (foto, index) => `
-    <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
-  `,
+<img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
+`,
           )
           .join("");
 
@@ -314,11 +313,20 @@
         thumb.classList.add("active");
       }
 
-      btnFechar.addEventListener("click", () =>
-        modal.classList.remove("active"),
-      );
+      // Função para fechar o modal e pausar a reprodução do vídeo
+      function fecharModal() {
+        modal.classList.remove("active");
+
+        const videoPlayer = document.getElementById("modal-video");
+        if (videoPlayer) {
+          videoPlayer.pause();
+          videoPlayer.currentTime = 0;
+        }
+      }
+
+      btnFechar.addEventListener("click", fecharModal);
       window.addEventListener("click", (e) => {
-        if (e.target === modal) modal.classList.remove("active");
+        if (e.target === modal) fecharModal();
       });
     </script>
   </body>

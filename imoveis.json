@@ -391,5 +391,18 @@
       "assets/images/imoveis/imovel-2930-7.webp",
       "assets/images/imoveis/imovel-2930-8.webp"
     ]
+  },
+  {
+    "id": "imovel-5579",
+    "titulo": "Imóvel à venda",
+    "categoria": "Imóvel",
+    "area": "1795 metros",
+    "localizacao": "",
+    "preco": "160.000,00",
+    "descricao": "Estrada Paiol da vargia Bairro das formigas cidade Toledo 1795 metros. Valor 160.000 896 metros. 130.00 . Estrada com asfalto Luz Escritura registrado em cartório Proximo pereira. A 2. kM toledo. 5. KL próximo tem depósito de material mercado açougue farmácia posto gasolina Lanchonete Pesqueiro",
+    "fotos": [
+      "assets/images/imoveis/imovel-5579-1.webp",
+      "assets/images/imoveis/imovel-5579-2.webp"
+    ]
   }
 ]

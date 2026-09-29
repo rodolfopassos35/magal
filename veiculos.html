@@ -143,7 +143,7 @@
           </div>
 
           <!-- Container do Vídeo (Adicionado) -->
-          <div
+          <!-- <div
             id="modal-video-container"
             style="display: none; margin-top: 15px"
           >
@@ -157,7 +157,7 @@
               <source src="" type="video/mp4" />
               Seu navegador não suporta vídeos.
             </video>
-          </div>
+          </div> -->
 
           <!-- Informações do Veículo -->
           <div class="modal-info">
@@ -279,28 +279,27 @@
       function renderizarCards(veiculos) {
         container.innerHTML = veiculos
           .map((v) => {
-            // Define a imagem da capa (foto principal ou imagem padrão para vídeos)
             const capa =
               v.fotos && v.fotos.length > 0
                 ? v.fotos[0]
-                : "assets/images/thumb-video-placeholder.png"; // Ou uma foto genérica
+                : "assets/images/thumb-video-placeholder.png";
 
             return `
-        <div class="card-produto">
-          <img src="${capa}" alt="${v.titulo}" loading="lazy" />
-          <div class="card-prod-body">
-            <span class="categoria-tag">${v.categoria}</span>
-            <h3>${v.titulo}</h3>
-            <p class="specs">Ano ${v.ano} • ${v.km || "N/A"}</p>
-            <div class="preco-container">
-              <span class="preco">R$ ${v.preco}</span>
-            </div>
-            <button onclick="abrirModal('${v.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
-              ${v.fotos && v.fotos.length > 0 ? "Ver Mais Fotos" : "Ver Vídeos"}
-            </button>
-          </div>
+    <div class="card-produto">
+      <img src="${capa}" alt="${v.titulo}" loading="lazy" />
+      <div class="card-prod-body">
+        <span class="categoria-tag">${v.categoria}</span>
+        <h3>${v.titulo}</h3>
+        <p class="specs">Ano ${v.ano} • ${v.km || "N/A"}</p>
+        <div class="preco-container">
+          <span class="preco">R$ ${v.preco}</span>
         </div>
-      `;
+        <button onclick="abrirModal('${v.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
+          ${v.fotos && v.fotos.length > 0 ? "Ver Mais Fotos" : "Ver Vídeos"}
+        </button>
+      </div>
+    </div>
+  `;
           })
           .join("");
       }
@@ -310,7 +309,7 @@
         if (!v) return;
 
         const fotos = v.fotos || [];
-        const videos = v.videos || (v.video ? [v.video] : []); // Suporta retrocompatibilidade se houver só 'video'
+        const videos = v.videos || (v.video ? [v.video] : []);
 
         document.getElementById("modal-titulo").textContent = v.titulo;
         document.getElementById("modal-categoria").textContent = v.categoria;
@@ -331,19 +330,17 @@
         const thumbsContainer = document.getElementById("modal-thumbs");
         let thumbsHTML = "";
 
-        // Thumbs de fotos
         fotos.forEach((foto, index) => {
           thumbsHTML += `<img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="exibirFoto('${foto}', this)" style="cursor:pointer; width:60px; height:60px; object-fit:cover; border-radius:4px;" />`;
         });
 
-        // Thumbs de vídeos (Representados por um botão/ícone com indicador de vídeo)
         videos.forEach((video, index) => {
           const isActive = fotos.length === 0 && index === 0 ? "active" : "";
           thumbsHTML += `
-      <div class="thumb-video ${isActive}" onclick="exibirVideo('${video}', this)" style="cursor:pointer; width:60px; height:60px; background:#1E2229; color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:11px; font-weight:bold;">
-        ▶ Vídeo ${index + 1}
-      </div>
-    `;
+  <div class="thumb-video ${isActive}" onclick="exibirVideo('${video}', this)" style="cursor:pointer; width:60px; height:60px; background:#1E2229; color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:11px; font-weight:bold;">
+    ▶ Vídeo ${index + 1}
+  </div>
+`;
         });
 
         thumbsContainer.innerHTML = thumbsHTML;
@@ -362,8 +359,10 @@
         const imgEl = document.getElementById("modal-foto-principal");
         const videoEl = document.getElementById("modal-video-principal");
 
-        videoEl.pause();
-        videoEl.style.display = "none";
+        if (videoEl) {
+          videoEl.pause();
+          videoEl.style.display = "none";
+        }
 
         imgEl.src = src;
         imgEl.style.display = "block";
@@ -393,19 +392,20 @@
         el.classList.add("active");
       }
 
-      function trocarFoto(src, thumb) {
-        document.getElementById("modal-foto-principal").src = src;
-        document
-          .querySelectorAll(".modal-thumbs img")
-          .forEach((i) => i.classList.remove("active"));
-        thumb.classList.add("active");
+      // Função para fechar o modal e pausar o áudio/vídeo
+      function fecharModal() {
+        modal.classList.remove("active");
+
+        const videoEl = document.getElementById("modal-video-principal");
+        if (videoEl) {
+          videoEl.pause();
+          videoEl.currentTime = 0;
+        }
       }
 
-      btnFechar.addEventListener("click", () =>
-        modal.classList.remove("active"),
-      );
+      btnFechar.addEventListener("click", fecharModal);
       window.addEventListener("click", (e) => {
-        if (e.target === modal) modal.classList.remove("active");
+        if (e.target === modal) fecharModal();
       });
     </script>
   </body>

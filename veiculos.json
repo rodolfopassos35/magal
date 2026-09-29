@@ -429,5 +429,89 @@
       "assets/images/veiculos/veiculo-2629-2.webp",
       "assets/images/veiculos/veiculo-2629-3.webp"
     ]
+  },
+  {
+    "id": "veiculo-6476",
+    "titulo": "Iveco 7017",
+    "categoria": "caminhão",
+    "ano": "2014",
+    "km": "",
+    "combustivel": "diesel",
+    "preco": "140.000,00",
+    "descricao": "Iveco 7017 carroceria, ano 2014, valor 140.000",
+    "fotos": [
+      "assets/images/veiculos/veiculo-6476-1.webp",
+      "assets/images/veiculos/veiculo-6476-2.webp",
+      "assets/images/veiculos/veiculo-6476-3.webp",
+      "assets/images/veiculos/veiculo-6476-4.webp",
+      "assets/images/veiculos/veiculo-6476-5.webp",
+      "assets/images/veiculos/veiculo-6476-6.webp",
+      "assets/images/veiculos/veiculo-6476-7.webp",
+      "assets/images/veiculos/veiculo-6476-8.webp"
+    ]
+  },
+  {
+    "id": "veiculo-8283",
+    "titulo": "meriva",
+    "categoria": "carro",
+    "ano": "2012",
+    "km": "",
+    "combustivel": "Flex",
+    "preco": "28.000,00",
+    "descricao": "Ano 2012 modelo maxx. 1.4 flex tabela Fipe 30.700 faz 28.000 no dinheiro toda revisada documento ok carro com procedeça",
+    "fotos": [
+      "assets/images/veiculos/veiculo-8283-2.webp",
+      "assets/images/veiculos/veiculo-8283-1.webp",
+      "assets/images/veiculos/veiculo-8283-3.webp"
+    ]
+  },
+  {
+    "id": "veiculo-9683",
+    "titulo": "FIORINO ENDURANCE ",
+    "categoria": "carro",
+    "ano": "2022",
+    "km": "148.038",
+    "combustivel": "Flex",
+    "preco": "77.000,00",
+    "descricao": "📍 *SUMARÉ-SP* 🚘 *FIORINO ENDURANCE EVO 1.4 COMPLETO* 🗓️ *2022/2023* ⚙️ *Km: 148.038* *Manual ok* 🛜*Média:85.000,00* 📈 *Fipe: 82.606,00* 💵 *Valor: 77,000 📷 *Tenho Fotos e Vídeos* 🎯 *Veículo Comigo* 📣 *Veiculo vendido na* *Modalidade de Repasse nas Condições e Estado de Conservação em que se encontra.* 🚨 *Lembrando que, Veículo de Repasse não tem Garantia cadastrar.js veiculo",
+    "video": "assets/images/veiculos/fiorino-endurece.mp4",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9683-1.webp",
+      "assets/images/veiculos/veiculo-9683-2.webp",
+      "assets/images/veiculos/veiculo-9683-3.webp",
+      "assets/images/veiculos/veiculo-9683-4.webp"
+    ]
+  },
+  {
+    "id": "veiculo-1967",
+    "titulo": "Toyota Corolla",
+    "categoria": "Carro",
+    "ano": "2010",
+    "km": "180.000 KM",
+    "combustivel": "Flex",
+    "preco": "57.800,00",
+    "descricao": "Toyota Corolla seg. 2010 em perfeito estado de conservação bom de tudo documentado ok tudo revisado procedência KL. 180. Valor. 57.800",
+    "fotos": [
+      "assets/images/veiculos/veiculo-1967-1.webp"
+    ],
+    "videos": [
+      "assets/images/veiculos/veiculo-1967-video-1.mp4"
+    ]
+  },
+  {
+    "id": "veiculo-2219",
+    "titulo": "Volvo 2010 zera",
+    "categoria": "carro",
+    "ano": "2010",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "",
+    "descricao": "Volvo 2010 zera motor peneu câmbio documento corro com procedeça laudo caltelar aprovado vende ou troca em outro de menor valor ou maior valor troca também por um caminhão trez quarto com uma volta pequena valor pedida. 55. Mil",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2219-1.webp",
+      "assets/images/veiculos/veiculo-2219-2.webp",
+      "assets/images/veiculos/veiculo-2219-3.webp"
+    ],
+    "videos": []
   }
 ]
