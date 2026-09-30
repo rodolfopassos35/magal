@@ -121,10 +121,16 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "65.000,00",
-    "descricao": "1113 ano 83 direção hidráulica turbo suspensor no truk, calçado de pêneus. Valor pra venda 65 mil troca 72 mil.",
+    "descricao": "1113 ano 83 direção hidráulica turbo suspensor no truk, calçado de pneus. Valor pra venda 65 mil, na troca 75 mil, pega carro de até 35.000,00",
     "fotos": [
-      "assets/images/veiculos/1113-83-1.webp"
-    ]
+      "assets/images/veiculos/1113-83-1.webp",
+      "assets/images/veiculos/1113-83-2.webp",
+      "assets/images/veiculos/1113-83-3.webp",
+      "assets/images/veiculos/1113-83-4.webp",
+      "assets/images/veiculos/1113-83-5.webp",
+      "assets/images/veiculos/1113-83-6.webp"
+    ],
+    "video": "assets/images/veiculos/1113-83.mp4"
   },
   {
     "id": "815-09",
@@ -212,13 +218,13 @@
   },
   {
     "id": "FIORINO-09",
-    "titulo": "Fiorino 2009",
-    "categoria": "Caminhão",
-    "ano": "2009",
+    "titulo": "Fiorino",
+    "categoria": "Carro",
+    "ano": "2009/10",
     "km": "69.000 km",
-    "combustivel": "Diesel",
-    "preco": "36.000,00",
-    "descricao": "Recibo em branco KL69 mil. Documento motor lata peneu impecável valor. 36.000//",
+    "combustivel": "",
+    "preco": "26.000,00",
+    "descricao": "Recibo em branco KL69 mil. Documento motor lata peneu impecável, tem uma passagem de leilão  e uma remarcação no chassis tudo dentro da lei. ",
     "video": "assets/images/veiculos/WhatsApp Video 2026-09-11 at 12.52.42.mp4",
     "fotos": [
       "assets/images/veiculos/fiorino-09-1.webp",
@@ -226,7 +232,15 @@
       "assets/images/veiculos/fiorino-09-3.webp",
       "assets/images/veiculos/fiorino-09-4.webp",
       "assets/images/veiculos/fiorino-09-5.webp",
-      "assets/images/veiculos/fiorino-09-6.webp"
+      "assets/images/veiculos/fiorino-09-6.webp",
+      "assets/images/veiculos/fiorino-09-7.webp",
+      "assets/images/veiculos/fiorino-09-8.webp",
+      "assets/images/veiculos/fiorino-09-9.webp",
+      "assets/images/veiculos/fiorino-09-10.webp",
+      "assets/images/veiculos/fiorino-09-11.webp",
+      "assets/images/veiculos/fiorino-09-12.webp",
+      "assets/images/veiculos/fiorino-09-13.webp",
+      "assets/images/veiculos/fiorino-09-14.webp"
     ]
   },
   {
@@ -511,6 +525,59 @@
       "assets/images/veiculos/veiculo-2219-1.webp",
       "assets/images/veiculos/veiculo-2219-2.webp",
       "assets/images/veiculos/veiculo-2219-3.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-7058",
+    "titulo": "BMW",
+    "categoria": "carro",
+    "ano": "2013/2014",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "59.000,00",
+    "descricao": "BMW 2013. 2014 vendo ou troco por carro. menor valor carro tudo em dia motor, suspensão freio, câmbio, tapeçaria, documento, ar gelando e freio ABS valor no dinheiro 59.000 se for troca outro preço",
+    "fotos": [
+      "assets/images/veiculos/veiculo-7058-2.webp",
+      "assets/images/veiculos/veiculo-7058-1.webp",
+      "assets/images/veiculos/veiculo-7058-3.webp",
+      "assets/images/veiculos/veiculo-7058-4.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-0625",
+    "titulo": "Esplinter bau, ano",
+    "categoria": "carga",
+    "ano": "2014",
+    "km": "460 km",
+    "combustivel": "Flex",
+    "preco": "150.000,00",
+    "descricao": "Esplinter bau, ano 2014, valor 150.000,00, mecanica boa, motor com notas de peça novas",
+    "fotos": [
+      "assets/images/veiculos/veiculo-0625-1.webp",
+      "assets/images/veiculos/veiculo-0625-2.webp",
+      "assets/images/veiculos/veiculo-0625-3.webp",
+      "assets/images/veiculos/veiculo-0625-4.webp",
+      "assets/images/veiculos/veiculo-0625-5.webp",
+      "assets/images/veiculos/veiculo-0625-6.webp",
+      "assets/images/veiculos/veiculo-0625-7.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9114",
+    "titulo": "Ducato",
+    "categoria": "carro",
+    "ano": "2014",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "95.000,00",
+    "descricao": "Ducato ano 2014, valor 95.000,00",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9114-1.webp",
+      "assets/images/veiculos/veiculo-9114-2.webp",
+      "assets/images/veiculos/veiculo-9114-3.webp"
     ],
     "videos": []
   }
