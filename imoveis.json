@@ -404,5 +404,32 @@
       "assets/images/imoveis/imovel-5579-1.webp",
       "assets/images/imoveis/imovel-5579-2.webp"
     ]
+  },
+  {
+    "id": "imovel-2439",
+    "titulo": "Residencial barra bonita",
+    "categoria": "Apartamento",
+    "area": "43.62 m²",
+    "localizacao": "Matão, Sumaré, SP",
+    "preco": "120.000,00",
+    "descricao": "Apartamento Residencial barra bonita 1 andar 43.62 Metros quadrados 2 dormitorios Banheiro com box Valor do condominio 176 Valor IPTU 400 Apartamento quitado e escriturado Portaria com reconhecimento facial Mercadinho 24h Quadra Playground Salao de festa Valor 120 mil reais avista",
+    "fotos": [
+      "assets/images/imoveis/imovel-2439-1.webp",
+      "assets/images/imoveis/imovel-2439-2.webp",
+      "assets/images/imoveis/imovel-2439-3.webp",
+      "assets/images/imoveis/imovel-2439-4.webp",
+      "assets/images/imoveis/imovel-2439-5.webp",
+      "assets/images/imoveis/imovel-2439-6.webp",
+      "assets/images/imoveis/imovel-2439-7.webp",
+      "assets/images/imoveis/imovel-2439-8.webp",
+      "assets/images/imoveis/imovel-2439-9.webp",
+      "assets/images/imoveis/imovel-2439-10.webp",
+      "assets/images/imoveis/imovel-2439-11.webp",
+      "assets/images/imoveis/imovel-2439-12.webp",
+      "assets/images/imoveis/imovel-2439-13.webp",
+      "assets/images/imoveis/imovel-2439-14.webp",
+      "assets/images/imoveis/imovel-2439-15.webp"
+    ],
+    "videos": []
   }
 ]

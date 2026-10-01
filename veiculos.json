@@ -580,5 +580,20 @@
       "assets/images/veiculos/veiculo-9114-3.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-9652",
+    "titulo": "1218",
+    "categoria": "caminhão",
+    "ano": "1996",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "135.000,00",
+    "descricao": "caminhão 1218 ano 96 turbo direção baú, 135.000,00, aceira troca",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9652-1.webp",
+      "assets/images/veiculos/veiculo-9652-2.webp"
+    ],
+    "videos": []
   }
 ]
