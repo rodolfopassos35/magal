@@ -431,5 +431,22 @@
       "assets/images/imoveis/imovel-2439-15.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "imovel-7310",
+    "titulo": "Fazenda à venda",
+    "categoria": "Fazenda",
+    "area": "250 alqueires",
+    "localizacao": "Itupeva - SP",
+    "preco": "245.000,00",
+    "descricao": "Fazenda para alugar com 250 alqueires de pasto bom em Itupeva - SP. Possui casa para caseiro, cocheira, cercas revisadas e fácil acesso para transporte. Estrutura completa com tronco para vacinação e embarque. Pasto bem limpo e muito bem cuidado. Valor mensal: R$ 245.000,00.",
+    "fotos": [
+      "assets/images/imoveis/imovel-7310-1.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-7310-video-1.mp4",
+      "assets/images/imoveis/imovel-7310-video-2.mp4",
+      "assets/images/imoveis/imovel-7310-video-3.mp4"
+    ]
   }
 ]

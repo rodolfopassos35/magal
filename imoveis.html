@@ -268,14 +268,29 @@
         if (!item) return;
 
         const videoContainer = document.getElementById("modal-video-container");
-        const videoPlayer = document.getElementById("modal-video");
 
-        if (item.video) {
-          videoPlayer.src = item.video;
+        // Garante a verificação correta aceitando array (item.videos) ou string (item.video)
+        const listaVideos = item.videos || (item.video ? [item.video] : []);
+
+        if (listaVideos.length > 0) {
+          videoContainer.innerHTML = `
+    <h4 style="margin-bottom: 10px; font-size: 1rem; color: #333;">Vídeos do Imóvel:</h4>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      ${listaVideos
+        .map(
+          (src) => `
+        <div style="flex: 1 1 200px; max-width: 280px;">
+          <video controls width="100%" style="border-radius: 8px; max-height: 320px; background: #000; object-fit: contain;">
+            <source src="${src}" type="video/mp4" />
+            Seu navegador não suporta vídeos.
+          </video>
+        </div>
+      `,
+        )
+        .join("")}
+    </div>
+  `;
           videoContainer.style.display = "block";
-        } else {
-          videoPlayer.src = "";
-          videoContainer.style.display = "none";
         }
 
         document.getElementById("modal-titulo").textContent = item.titulo;
@@ -291,8 +306,8 @@
         thumbsContainer.innerHTML = item.fotos
           .map(
             (foto, index) => `
-<img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
-`,
+    <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
+  `,
           )
           .join("");
 
@@ -317,11 +332,14 @@
       function fecharModal() {
         modal.classList.remove("active");
 
-        const videoPlayer = document.getElementById("modal-video");
-        if (videoPlayer) {
-          videoPlayer.pause();
-          videoPlayer.currentTime = 0;
-        }
+        // Pausa todos os vídeos abertos dentro do modal
+        const videos = document.querySelectorAll(
+          "#modal-video-container video",
+        );
+        videos.forEach((video) => {
+          video.pause();
+          video.currentTime = 0;
+        });
       }
 
       btnFechar.addEventListener("click", fecharModal);
