@@ -9,6 +9,30 @@
       content="Confira nosso estoque de veículos, caminhões e utilitários com as melhores condições de pagamento."
     />
     <link rel="stylesheet" href="style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AutoDealer",
+        "name": "Grupo Magaus - Veículos e Caminhões",
+        "url": "https://grupomagaus.com/veiculos.html",
+        "description": "Estoque de veículos, caminhões e utilitários em Sumaré, Hortolândia e região com garantia de procedência.",
+        "telephone": "+5519974204995",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sumaré",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        },
+        "areaServed": [
+          "Sumaré",
+          "Hortolândia",
+          "Campinas",
+          "Americana",
+          "Paulínia"
+        ]
+      }
+    </script>
   </head>
   <body>
     <!-- CABEÇALHO -->
@@ -89,6 +113,45 @@
         </p>
       </div>
     </section>
+
+    <div
+      class="container"
+      style="margin-bottom: 25px; margin-top: 20px; position: relative"
+    >
+      <input
+        type="text"
+        id="campo-busca"
+        placeholder="Buscar por título, localização, categoria..."
+        style="
+          width: 100%;
+          padding: 12px 40px 12px 16px;
+          border-radius: 8px;
+          border: 1px solid #ccc;
+          font-size: 1rem;
+          box-sizing: border-box;
+        "
+      />
+      <button
+        id="btn-limpar-busca"
+        type="button"
+        style="
+          display: none;
+          position: absolute;
+          right: 12px;
+          top: 50%;
+          transform: translateY(-50%);
+          background: none;
+          border: none;
+          font-size: 18px;
+          color: #888;
+          cursor: pointer;
+          padding: 4px;
+        "
+        title="Limpar busca"
+      >
+        &#10005;
+      </button>
+    </div>
 
     <!-- CONTAINER ONDE OS CARDS SERÃO RENDERIZADOS -->
     <section class="section-padding">
@@ -407,6 +470,48 @@
       window.addEventListener("click", (e) => {
         if (e.target === modal) fecharModal();
       });
+
+      const campoBusca = document.getElementById("campo-busca");
+      const btnLimpar = document.getElementById("btn-limpar-busca");
+
+      if (campoBusca) {
+        // Evento ao digitar no campo
+        campoBusca.addEventListener("input", (e) => {
+          const termo = e.target.value.toLowerCase().trim();
+
+          // Exibe ou esconde o botão X conforme o texto digitado
+          if (btnLimpar) {
+            btnLimpar.style.display = termo.length > 0 ? "block" : "none";
+          }
+
+          filtrarCards(termo);
+        });
+
+        // Evento ao clicar no botão X de limpar
+        if (btnLimpar) {
+          btnLimpar.addEventListener("click", () => {
+            campoBusca.value = "";
+            btnLimpar.style.display = "none";
+            campoBusca.focus();
+            renderizarCards(listaVeiculos); // Ou listaImoveis no imoveis.html
+          });
+        }
+      }
+
+      function filtrarCards(termo) {
+        const resultados = listaVeiculos.filter((item) => {
+          // Ou listaImoveis no imoveis.html
+          return (
+            item.titulo.toLowerCase().includes(termo) ||
+            item.categoria.toLowerCase().includes(termo) ||
+            (item.localizacao &&
+              item.localizacao.toLowerCase().includes(termo)) ||
+            (item.descricao && item.descricao.toLowerCase().includes(termo))
+          );
+        });
+
+        renderizarCards(resultados);
+      }
     </script>
   </body>
 </html>

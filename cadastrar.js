@@ -44,49 +44,143 @@ try {
 }
 
 function limparTexto(texto) {
-  return texto
-    .replace(/\[\d{2}:\d{2}, \d{2}\/\d{2}\/\d{4}\]\s*[^:]+:\s*/g, "")
+  let t = texto;
+
+  // 1. Remove cabeçalhos/metadados do WhatsApp
+  t = t.replace(/\[\d{2}:\d{2}, \d{2}\/\d{2}\/\d{4}\]\s*[^:]+:\s*/g, "");
+
+  // 2. Corrige erros de digitação / termos comuns
+  t = t
+    .replace(/\bposso\s+artesiano\b/gi, "poço artesiano")
+    .replace(/\bmetos\b/gi, "metros")
+    .replace(/\bvalr\b/gi, "valor")
+    .replace(/\bcondominio\b/gi, "condomínio")
+    .replace(/\bchacara\b/gi, "chácara")
+    .replace(/\bsitio\b/gi, "sítio");
+
+  // 3. Corrige pontuação colada ou excessiva
+  t = t
+    .replace(/\s*,\s*/g, ", ")
+    .replace(/\s*\.\s*/g, ". ")
+    .replace(/\s*:\s*/g, ": ")
+    .replace(/,\s*,+/g, ",")
+    .replace(/\.\s*\.+/g, ".")
+    .replace(/,\s*\./g, ".")
     .replace(/\s+/g, " ")
     .trim();
-}
 
-function extrairPreco(texto) {
-  // Captura formatos como: Valor. 57.800 / Valor 57800 / 57.800,00
-  const matchComRotulo = texto.match(/valor\s*:?\s*\.?\s*([\d\.]+)/i);
-  if (matchComRotulo) {
-    let p = matchComRotulo[1].replace(/\.$/, ""); // remove ponto final se houver
-    if (!p.includes(",")) {
-      // Se tiver só milhar (ex: 57.800 ou 57800)
-      if (p.includes(".")) return `${p},00`;
-      if (p.length >= 4) return `${p.replace(/\B(?=(\d{3})+(?!\d))/g, ".")},00`;
-      return `${p}.000,00`;
-    }
-    return p;
+  // 4. Garante letra maiúscula no início
+  if (t.length > 0) {
+    t = t.charAt(0).toUpperCase() + t.slice(1);
   }
 
-  const matchMil = texto.match(/(\d{2,3})\s*mil/i);
-  if (matchMil) return `${matchMil[1]}.000,00`;
+  // 5. Garante ponto final
+  if (t.length > 0 && !/[.!?]$/.test(t)) {
+    t += ".";
+  }
 
-  return "";
+  return t;
 }
 
 function extrairKm(texto) {
-  // Captura: KL. 180 / KM 180 / 180.000 km / 180k
   const matchKm =
     texto.match(/(?:km|kl)\s*:?\s*\.?\s*(\d+([\.,]\d+)?)/i) ||
     texto.match(/(\d{1,3}(\.\d{3})*|\d+)\s*(km|mil km)/i);
 
   if (matchKm) {
     let val = matchKm[1];
-    // Se o valor for curto como "180", formata para "180.000 KM" ou "180 KM"
     return val.length <= 3 ? `${val}.000 KM` : `${val} KM`;
   }
   return "N/A";
 }
 
+function extrairPreco(texto) {
+  let valorFormatado = "";
+
+  // 1. Procura "por 20.000 mil", "por 20.000", "R$ 20.000" ou "20 mil"
+  const matchPor = texto.match(/por\s*r?\$?\s*([\d\.\,]+)\s*(mil)?/i);
+  if (matchPor) {
+    let p = matchPor[1].replace(/\./g, "").replace(",", ".");
+    let valor = parseFloat(p);
+    if (!isNaN(valor)) {
+      if (valor < 1000 && matchPor[2]) valor *= 1000;
+      valorFormatado = valor.toLocaleString("pt-BR", {
+        minimumFractionDigits: 2,
+      });
+    }
+  }
+
+  // 2. Procura formato "20 mil" ou "20.000"
+  if (!valorFormatado) {
+    const matchMil = texto.match(/(\d{2,3}(?:\.\d{3})?)\s*mil/i);
+    if (matchMil) {
+      let val = matchMil[1].replace(".", "");
+      valorFormatado = `${parseInt(val).toLocaleString("pt-BR")},00`;
+    }
+  }
+
+  // 3. Procura valor com R$
+  if (!valorFormatado) {
+    const matchBrl = texto.match(/r\$\s*([\d\.]+,\d{2}|[\d\.]+)/i);
+    if (matchBrl) {
+      let p = matchBrl[1];
+      valorFormatado = p.includes(",") ? p : `${p},00`;
+    }
+  }
+
+  // Se encontrou algum valor, garante o prefixo "R$ "
+  if (valorFormatado) {
+    return valorFormatado.startsWith("R$")
+      ? valorFormatado
+      : `R$ ${valorFormatado}`;
+  }
+
+  return "Sob Consulta"; // Se não houver preço no texto
+}
+
 function extrairArea(texto) {
-  const matchArea = texto.match(/(\d+(\.\d+)?)\s*(m²|m2|alqueires|hectares)/i);
-  return matchArea ? matchArea[0] : "";
+  const t = texto.toLowerCase();
+
+  if (t.includes("mil metros") || t.includes("1000m") || t.includes("1.000m")) {
+    return "1000 m²";
+  }
+
+  const matchArea = texto.match(
+    /\b(\d+(?:[\.,]\d+)?)\s*(m²|m2|metros quadrados|alqueires|hectares)\b/i,
+  );
+  return matchArea
+    ? `${matchArea[1]} ${matchArea[2].includes("metro") ? "m²" : matchArea[2]}`
+    : "";
+}
+
+function extrairLocalizacao(texto) {
+  const localizacaoPartes = [];
+
+  const matchBairro = texto.match(
+    /bairro\s+([a-záàâãéèêíóôõúç0-9\s]+?)(?=\,|\.|$|via|rua|av)/i,
+  );
+  if (matchBairro) localizacaoPartes.push(matchBairro[1].trim());
+
+  const matchVia = texto.match(
+    /(via|rodovia|rua|avenida)\s+([a-záàâãéèêíóôõúç0-9\s]+?(?:km\s*\d+)?)(?=\,|\.|$|bairro)/i,
+  );
+  if (matchVia) localizacaoPartes.push(matchVia[0].trim());
+
+  const matchAssoc = texto.match(
+    /(associação|associacao|condomínio|condominio)\s+([a-záàâãéèêíóôõúç0-9\s]+?)(?=\,|\.|$|bairro|via)/i,
+  );
+  if (matchAssoc) localizacaoPartes.push(matchAssoc[0].trim());
+
+  if (localizacaoPartes.length > 0) {
+    return localizacaoPartes.join(", ");
+  }
+
+  const matchEm = texto.match(
+    /\bem\s+([A-ZÁÀÂÃÉÈÊÍÓÔÕÚÇ][a-záàâãéèêíóôõúç]+(?:\s+[A-ZÁÀÂÃÉÈÊÍÓÔÕÚÇ][a-záàâãéèêíóôõúç]+)*)/,
+  );
+  if (matchEm) return matchEm[1].trim();
+
+  return "";
 }
 
 function identificarCategoria(texto, tipo) {
@@ -132,19 +226,48 @@ function identificarCategoria(texto, tipo) {
 
 function extrairTitulo(texto, categoria, tipo) {
   if (tipo === "veiculo") {
+    // Lista de palavras genéricas no início do texto para ignorar
+    const ignorar =
+      /^(carro|veiculo|veículo|vendo|vende-se|otimo|ótimo|lindo|excelente|procedência|procedencia)\b/i;
+
+    // Tenta capturar uma marca/modelo conhecida no texto (ex: Gol, Palio, Civc, Scania, etc)
+    const marcasModelos =
+      /(gol|palio|uno|celta|corsa|civic|corolla|fox|fiesta|ka|fit|hb20|s10|hilux|ranger|saveiro|strada|titan|fan|biz|scania|volvo|iveco|vw|chevrolet|fiat|ford|honda|toyota|hyundai|renault|peugeot)/i;
+    const matchModelo = texto.match(marcasModelos);
+
+    if (matchModelo) {
+      // Pega o modelo encontrado + a palavra seguinte (ex: "Gol 1.6", "Scania 440")
+      const regexSubsequente = new RegExp(
+        `\\b${matchModelo[1]}\\b\\s*\\w*`,
+        "i",
+      );
+      const encontrado = texto.match(regexSubsequente);
+      if (encontrado) {
+        return encontrado[0].replace(/[,.-]$/, "").trim();
+      }
+    }
+
     const palavras = texto.split(" ");
-    const modelo = palavras
+    const primeiras = palavras
       .slice(0, 3)
       .join(" ")
       .replace(/[,.-]$/, "");
-    return modelo || `${categoria} à venda`;
+
+    // Se o início for genérico, usa "Categoria à Venda"
+    if (ignorar.test(primeiras)) {
+      const catFormatada =
+        categoria.charAt(0).toUpperCase() + categoria.slice(1);
+      return `${catFormatada} à Venda`;
+    }
+
+    return primeiras || `${categoria} à Venda`;
   } else {
-    const matchCond = texto.match(
-      /condomínio\s+([a-záàâãéèêíóôõúç0-9\s]+?)(?=\.|\,|$)/i,
+    const matchAssoc = texto.match(
+      /(associação|associacao|condomínio|condominio)\s+([a-záàâãéèêíóôõúç0-9\s]+?)(?=\,|\.|$)/i,
     );
-    if (matchCond)
-      return `${categoria} ${matchCond[0]}`.replace(/\s+/g, " ").trim();
-    return `${categoria} à venda`;
+    if (matchAssoc)
+      return `${categoria} no ${matchAssoc[0]}`.replace(/\s+/g, " ").trim();
+    return `${categoria} à Venda`;
   }
 }
 
@@ -162,7 +285,7 @@ for (let i = 1; i <= qtdFotos; i++) {
   fotos.push(`assets/images/${pasta}/${idGerado}-${i}.webp`);
 }
 
-// Extração e Geração dos Vídeos
+// Vídeos
 const qtdVideos = arg6 ? parseInt(arg6.replace(/\D/g, "")) || 0 : 0;
 const videos = [];
 for (let i = 1; i <= qtdVideos; i++) {
@@ -206,7 +329,7 @@ if (tipo === "veiculo") {
     titulo: titulo,
     categoria: categoria,
     area: extrairArea(textoLimpo),
-    localizacao: "",
+    localizacao: extrairLocalizacao(textoLimpo),
     preco: preco,
     descricao: textoLimpo,
     fotos: fotos,

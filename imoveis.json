@@ -251,7 +251,7 @@
     "categoria": "Casa",
     "area": "",
     "localizacao": "Avenida Santo Irineu, Sumaré, SP",
-    "preco": "R$140.000",
+    "preco": "R$ 140.000",
     "descricao": "2 quartos 1 banheiro – Casa",
     "fotos": [
       "assets/images/imoveis/casa-avenida-santo-irineu1.webp",
@@ -268,7 +268,7 @@
     "categoria": "Casa",
     "area": "",
     "localizacao": "Jardim dos Ipês, Sumaré, SP",
-    "preco": "R$270.000",
+    "preco": "R$ 270.000",
     "descricao": "Casa a venda no jardim dos ipês  Sumaré sp  5 quarto sendo uma suíte garagem pra  2 carros 1  banheiro  mais três cômodos  1 banheiro e fogão a lenha em cima da lage  escriturada.  Valor 270. Só dinheiro ",
     "fotos": [
       "assets/images/imoveis/casa-jardim-ipes1.webp",
@@ -289,7 +289,7 @@
     "categoria": "Casa",
     "area": "360m",
     "localizacao": "Matão, Sumaré, SP",
-    "preco": "R$350.000",
+    "preco": "R$ 350.000",
     "descricao": "Vendo casa no bairro Matão terreno de 360m 3 dormitórios dois banheiros uma edícula no fundo escritura não aceita troca",
     "fotos": [
       "assets/images/imoveis/casa-bairro-matao2.webp",
@@ -311,7 +311,7 @@
     "categoria": "Casa",
     "area": "",
     "localizacao": "Campinas",
-    "preco": "R$295.000",
+    "preco": "R$ 295.000",
     "descricao": "Duas casas no mesmo terreno com 4 cômodos, uma tem garagem pra três carros, já a outra tem corredor pra moto, bairro parque cidade Campinas, rua 8, asfalto, luz, água, documento em dias, aceita troca por carro valor.",
     "fotos": [
       "assets/images/imoveis/casa-parque-cidade-campinas1.webp",
@@ -379,7 +379,7 @@
     "categoria": "Terreno",
     "area": "",
     "localizacao": "próximo Hortolândia",
-    "preco": "150.000,00",
+    "preco": "R$ 150.000,00",
     "descricao": "Terreno a venda próximo Amanda, Pega carro até 50 mil, terreno com 500 metros, contrato de compra e venda, reconhecido firma já tem vários pé de frutas~",
     "fotos": [
       "assets/images/imoveis/imovel-2930-1.webp",
@@ -398,7 +398,7 @@
     "categoria": "Imóvel",
     "area": "1795 metros",
     "localizacao": "",
-    "preco": "160.000,00",
+    "preco": "R$ 160.000,00",
     "descricao": "Estrada Paiol da vargia Bairro das formigas cidade Toledo 1795 metros. Valor 160.000 896 metros. 130.00 . Estrada com asfalto Luz Escritura registrado em cartório Proximo pereira. A 2. kM toledo. 5. KL próximo tem depósito de material mercado açougue farmácia posto gasolina Lanchonete Pesqueiro",
     "fotos": [
       "assets/images/imoveis/imovel-5579-1.webp",
@@ -411,7 +411,7 @@
     "categoria": "Apartamento",
     "area": "43.62 m²",
     "localizacao": "Matão, Sumaré, SP",
-    "preco": "120.000,00",
+    "preco": "R$ 120.000,00",
     "descricao": "Apartamento Residencial barra bonita 1 andar 43.62 Metros quadrados 2 dormitorios Banheiro com box Valor do condominio 176 Valor IPTU 400 Apartamento quitado e escriturado Portaria com reconhecimento facial Mercadinho 24h Quadra Playground Salao de festa Valor 120 mil reais avista",
     "fotos": [
       "assets/images/imoveis/imovel-2439-1.webp",
@@ -434,12 +434,12 @@
   },
   {
     "id": "imovel-7310",
-    "titulo": "Fazenda à venda",
+    "titulo": "Fazenda para alugar",
     "categoria": "Fazenda",
     "area": "250 alqueires",
     "localizacao": "Itupeva - SP",
-    "preco": "245.000,00",
-    "descricao": "Fazenda para alugar com 250 alqueires de pasto bom em Itupeva - SP. Possui casa para caseiro, cocheira, cercas revisadas e fácil acesso para transporte. Estrutura completa com tronco para vacinação e embarque. Pasto bem limpo e muito bem cuidado. Valor mensal: R$ 245.000,00.",
+    "preco": "R$ 45.000,00",
+    "descricao": "Fazenda para alugar com 250 alqueires de pasto bom em Itupeva - SP. Possui casa para caseiro, cocheira, cercas revisadas e fácil acesso para transporte. Estrutura completa com tronco para vacinação e embarque. Pasto bem limpo e muito bem cuidado. Valor mensal: R$ 45.000,00.",
     "fotos": [
       "assets/images/imoveis/imovel-7310-1.webp"
     ],
@@ -447,6 +447,64 @@
       "assets/images/imoveis/imovel-7310-video-1.mp4",
       "assets/images/imoveis/imovel-7310-video-2.mp4",
       "assets/images/imoveis/imovel-7310-video-3.mp4"
+    ]
+  },
+  {
+    "id": "imovel-5099",
+    "titulo": "Apartamento à venda",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "Piracicaba",
+    "preco": "R$ 110.000,00",
+    "descricao": "Apartamento no Vida Nova 4 (3º andar) em Piracicaba. Valor: R$ 110.000,00. Entrada: R$ 70.000,00 e o restante parcelado direto com o proprietário. Transferência do imóvel quitado após quitar o saldo. Aceita veículos como parte do pagamento.",
+    "fotos": [
+      "assets/images/imoveis/imovel-5099-1.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-5099-video-1.mp4"
+    ]
+  },
+  {
+    "id": "imovel-0263",
+    "titulo": "Chácara no associação vargem Bonita",
+    "categoria": "Chácara",
+    "area": "1000 m²",
+    "localizacao": "dos pires de cima, via Martins Lutero Km 7, associação vargem Bonita",
+    "preco": "R$ 375.000,00",
+    "descricao": "A chácara, mede mil metros quadrados, e possui, uma casa com duzentos metros quadrados de construção, possuindo cinco cômodos, dois banheiros, e uma garagem para três carros, tem também fossa séptica, água de poço artesiano, é dentro de uma associação, frutas energia wi-fi, 95 reais por mês, da associação vargem Bonita, bairro dos pires de cima, via Martins Lutero Km 7, 375 mil.",
+    "fotos": [
+      "assets/images/imoveis/imovel-0263-1.webp",
+      "assets/images/imoveis/imovel-0263-2.webp",
+      "assets/images/imoveis/imovel-0263-3.webp",
+      "assets/images/imoveis/imovel-0263-4.webp",
+      "assets/images/imoveis/imovel-0263-5.webp",
+      "assets/images/imoveis/imovel-0263-6.webp",
+      "assets/images/imoveis/imovel-0263-7.webp",
+      "assets/images/imoveis/imovel-0263-8.webp",
+      "assets/images/imoveis/imovel-0263-9.webp",
+      "assets/images/imoveis/imovel-0263-10.webp",
+      "assets/images/imoveis/imovel-0263-11.webp",
+      "assets/images/imoveis/imovel-0263-12.webp",
+      "assets/images/imoveis/imovel-0263-13.webp",
+      "assets/images/imoveis/imovel-0263-14.webp",
+      "assets/images/imoveis/imovel-0263-15.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "imovel-6888",
+    "titulo": "Apartamento no bairro matão",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "matão, proximo a caixa da água",
+    "preco": "R$ ",
+    "descricao": "Apartamento bairro matão.",
+    "fotos": [
+      "assets/images/imoveis/imovel-6888-1.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-6888-video-1.mp4",
+      "assets/images/imoveis/imovel-6888-video-2.mp4"
     ]
   }
 ]

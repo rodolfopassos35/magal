@@ -9,6 +9,30 @@
       content="Confira nossas opções de imóveis, terrenos e áreas comerciais."
     />
     <link rel="stylesheet" href="style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "Grupo Magaus - Imóveis e Terrenos",
+        "url": "https://grupomagaus.com/imoveis.html",
+        "description": "Oportunidades em imóveis, terrenos e áreas industriais e comerciais em Sumaré e Região Metropolitana de Campinas.",
+        "telephone": "+5519974204995",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sumaré",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        },
+        "areaServed": [
+          "Sumaré",
+          "Hortolândia",
+          "Campinas",
+          "Americana",
+          "Paulínia"
+        ]
+      }
+    </script>
   </head>
   <body>
     <!-- CABEÇALHO -->
@@ -87,6 +111,45 @@
       </div>
     </section>
 
+    <div
+      class="container"
+      style="margin-bottom: 25px; margin-top: 20px; position: relative"
+    >
+      <input
+        type="text"
+        id="campo-busca"
+        placeholder="Buscar por título, localização, categoria..."
+        style="
+          width: 100%;
+          padding: 12px 40px 12px 16px;
+          border-radius: 8px;
+          border: 1px solid #ccc;
+          font-size: 1rem;
+          box-sizing: border-box;
+        "
+      />
+      <button
+        id="btn-limpar-busca"
+        type="button"
+        style="
+          display: none;
+          position: absolute;
+          right: 12px;
+          top: 50%;
+          transform: translateY(-50%);
+          background: none;
+          border: none;
+          font-size: 18px;
+          color: #888;
+          cursor: pointer;
+          padding: 4px;
+        "
+        title="Limpar busca"
+      >
+        &#10005;
+      </button>
+    </div>
+
     <!-- CONTAINER ONDE OS CARDS SERÃO RENDERIZADOS -->
     <section class="section-padding">
       <div class="container">
@@ -96,38 +159,39 @@
       </div>
     </section>
 
-    <!-- MODAL COM GALERIA DE FOTOS -->
+    <!-- MODAL COM GALERIA DE MÍDIAS -->
     <div id="modal-imovel" class="modal-overlay">
       <div class="modal-content">
         <button class="modal-fechar" id="btn-fechar-modal">&times;</button>
 
         <div class="modal-body">
-          <!-- Galeria de Fotos -->
+          <!-- Galeria Mídia Principal (Foto ou Vídeo) -->
           <div class="modal-galeria">
             <img
               id="modal-foto-principal"
               src=""
               alt="Foto Principal do Imóvel"
+              style="display: block; width: 100%; border-radius: 8px"
             />
-            <div id="modal-thumbs" class="modal-thumbs">
-              <!-- Miniaturas inseridas via JS -->
-            </div>
-          </div>
-
-          <div
-            id="modal-video-container"
-            style="display: none; margin-top: 15px"
-          >
-            <h4 style="margin-bottom: 8px">Vídeo do Imóvel:</h4>
             <video
-              id="modal-video"
+              id="modal-video-principal"
               controls
-              width="100%"
-              style="border-radius: 8px; max-height: 250px; background: #000"
+              style="
+                display: none;
+                width: 100%;
+                border-radius: 8px;
+                max-height: 350px;
+                background: #000;
+              "
             >
-              <source src="" type="video/mp4" />
+              <source id="modal-video-src" src="" type="video/mp4" />
               Seu navegador não suporta vídeos.
             </video>
+
+            <!-- Miniaturas Unificadas (Fotos + Vídeos) -->
+            <div id="modal-thumbs" class="modal-thumbs">
+              <!-- Inseridas via JS -->
+            </div>
           </div>
 
           <!-- Informações do Imóvel -->
@@ -240,6 +304,45 @@
           renderizarCards(listaImoveis);
         });
 
+      // Busca e Filtros
+      const campoBusca = document.getElementById("campo-busca");
+      const btnLimpar = document.getElementById("btn-limpar-busca");
+
+      if (campoBusca) {
+        campoBusca.addEventListener("input", (e) => {
+          const termo = e.target.value.toLowerCase().trim();
+
+          if (btnLimpar) {
+            btnLimpar.style.display = termo.length > 0 ? "block" : "none";
+          }
+
+          filtrarCards(termo);
+        });
+
+        if (btnLimpar) {
+          btnLimpar.addEventListener("click", () => {
+            campoBusca.value = "";
+            btnLimpar.style.display = "none";
+            campoBusca.focus();
+            renderizarCards(listaImoveis);
+          });
+        }
+      }
+
+      function filtrarCards(termo) {
+        const resultados = listaImoveis.filter((item) => {
+          return (
+            item.titulo.toLowerCase().includes(termo) ||
+            item.categoria.toLowerCase().includes(termo) ||
+            (item.localizacao &&
+              item.localizacao.toLowerCase().includes(termo)) ||
+            (item.descricao && item.descricao.toLowerCase().includes(termo))
+          );
+        });
+
+        renderizarCards(resultados);
+      }
+
       function renderizarCards(imoveis) {
         container.innerHTML = imoveis
           .map(
@@ -267,31 +370,8 @@
         const item = listaImoveis.find((imovel) => imovel.id === id);
         if (!item) return;
 
-        const videoContainer = document.getElementById("modal-video-container");
-
-        // Garante a verificação correta aceitando array (item.videos) ou string (item.video)
-        const listaVideos = item.videos || (item.video ? [item.video] : []);
-
-        if (listaVideos.length > 0) {
-          videoContainer.innerHTML = `
-    <h4 style="margin-bottom: 10px; font-size: 1rem; color: #333;">Vídeos do Imóvel:</h4>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      ${listaVideos
-        .map(
-          (src) => `
-        <div style="flex: 1 1 200px; max-width: 280px;">
-          <video controls width="100%" style="border-radius: 8px; max-height: 320px; background: #000; object-fit: contain;">
-            <source src="${src}" type="video/mp4" />
-            Seu navegador não suporta vídeos.
-          </video>
-        </div>
-      `,
-        )
-        .join("")}
-    </div>
-  `;
-          videoContainer.style.display = "block";
-        }
+        const fotos = item.fotos || [];
+        const videos = item.videos || (item.video ? [item.video] : []);
 
         document.getElementById("modal-titulo").textContent = item.titulo;
         document.getElementById("modal-categoria").textContent = item.categoria;
@@ -299,18 +379,42 @@
         document.getElementById("modal-local").textContent = item.localizacao;
         document.getElementById("modal-desc").textContent = item.descricao;
 
-        const imgPrincipal = document.getElementById("modal-foto-principal");
-        imgPrincipal.src = item.fotos[0];
+        // Exibe o primeiro item disponível no topo
+        if (fotos.length > 0) {
+          exibirFoto(fotos[0]);
+        } else if (videos.length > 0) {
+          exibirVideo(videos[0]);
+        }
 
+        // Monta as miniaturas
         const thumbsContainer = document.getElementById("modal-thumbs");
-        thumbsContainer.innerHTML = item.fotos
-          .map(
-            (foto, index) => `
-    <img src="${foto}" class="${index === 0 ? "active" : ""}" onclick="trocarFoto('${foto}', this)" />
-  `,
-          )
-          .join("");
+        let thumbsHTML = "";
 
+        fotos.forEach((foto, index) => {
+          thumbsHTML += `
+            <img 
+              src="${foto}" 
+              class="thumb-item ${index === 0 ? "active" : ""}" 
+              onclick="exibirFoto('${foto}', this)" 
+              alt="Miniatura ${index + 1}"
+            />`;
+        });
+
+        videos.forEach((video, index) => {
+          const isActive = fotos.length === 0 && index === 0 ? "active" : "";
+          thumbsHTML += `
+            <button 
+              type="button"
+              class="thumb-item thumb-video ${isActive}" 
+              onclick="exibirVideo('${video}', this)"
+            >
+              ▶ Vídeo ${index + 1}
+            </button>`;
+        });
+
+        thumbsContainer.innerHTML = thumbsHTML;
+
+        // Link WhatsApp
         const msg = encodeURIComponent(
           `Olá! Gostaria de mais informações sobre o imóvel: ${item.titulo}.`,
         );
@@ -320,26 +424,49 @@
         modal.classList.add("active");
       }
 
-      function trocarFoto(src, thumb) {
-        document.getElementById("modal-foto-principal").src = src;
-        document
-          .querySelectorAll(".modal-thumbs img")
-          .forEach((i) => i.classList.remove("active"));
-        thumb.classList.add("active");
+      function exibirFoto(src, el) {
+        const imgEl = document.getElementById("modal-foto-principal");
+        const videoEl = document.getElementById("modal-video-principal");
+
+        if (videoEl) {
+          videoEl.pause();
+          videoEl.style.display = "none";
+        }
+
+        imgEl.src = src;
+        imgEl.style.display = "block";
+        atualizarThumbAtiva(el);
       }
 
-      // Função para fechar o modal e pausar a reprodução do vídeo
+      function exibirVideo(src, el) {
+        const imgEl = document.getElementById("modal-foto-principal");
+        const videoEl = document.getElementById("modal-video-principal");
+        const videoSrc = document.getElementById("modal-video-src");
+
+        imgEl.style.display = "none";
+        videoSrc.src = src;
+        videoEl.load();
+        videoEl.style.display = "block";
+        atualizarThumbAtiva(el);
+      }
+
+      function atualizarThumbAtiva(el) {
+        if (!el) return;
+        document
+          .querySelectorAll("#modal-thumbs .thumb-item")
+          .forEach((child) => child.classList.remove("active"));
+        el.classList.add("active");
+      }
+
+      // Função para fechar o modal e pausar vídeos
       function fecharModal() {
         modal.classList.remove("active");
 
-        // Pausa todos os vídeos abertos dentro do modal
-        const videos = document.querySelectorAll(
-          "#modal-video-container video",
-        );
-        videos.forEach((video) => {
-          video.pause();
-          video.currentTime = 0;
-        });
+        const videoEl = document.getElementById("modal-video-principal");
+        if (videoEl) {
+          videoEl.pause();
+          videoEl.currentTime = 0;
+        }
       }
 
       btnFechar.addEventListener("click", fecharModal);
