@@ -506,5 +506,56 @@
       "assets/images/imoveis/imovel-6888-video-1.mp4",
       "assets/images/imoveis/imovel-6888-video-2.mp4"
     ]
+  },
+  {
+    "id": "imovel-7927",
+    "titulo": "chácara à Venda",
+    "categoria": "chácara",
+    "area": "",
+    "localizacao": " Rio Claro SP",
+    "preco": "R$ 450,00",
+    "descricao": "Vende-se Chácara Localização: No Planalto, Serra Verde Washington Luiz Rio Claro SP 2Mil e 40mt Escriturado Valor: 450mil Avista ou entrada mas parcelas, aceitamos propostas. casa, piscina, sauna, pomar Avarandada com rancho gurnye incluindo churrasqueira.",
+    "fotos": [
+      "assets/images/imoveis/imovel-7927-1.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-7927-video-1.mp4"
+    ]
+  },
+  {
+    "id": "imovel-4322",
+    "titulo": "chácara em MG",
+    "categoria": "chácara",
+    "area": "22.800 metros",
+    "localizacao": "Minas Gerais, próximo a cidade de monte Sião",
+    "preco": "R$ 700.000,00",
+    "descricao": "22.800 metros por 700 mil reais com várias lagoas de Água com casas e poço de água chácara em local bem estruturadas em Minas gerais próximo a cidade de monte Sião.",
+    "fotos": [
+      "assets/images/imoveis/imovel-4322-1.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-4322-video-2.mp4",
+      "assets/images/imoveis/imovel-4322-video-3.mp4",
+      "assets/images/imoveis/imovel-4322-video-4.mp4",
+      "assets/images/imoveis/imovel-4322-video-5.mp4"
+    ]
+  },
+  {
+    "id": "imovel-7851",
+    "titulo": "Barracão à Venda",
+    "categoria": "Barracão",
+    "area": "300 m²",
+    "localizacao": "Hortolândia",
+    "preco": "R$ 620.000,00",
+    "descricao": "BARRACÃO 300m² (100m² cobertos) - ESQUINA - Hortolândia - R$ 620 MIL - 1 escritório, 2 banheiros, copa, acesso carreta/caminhão, documentado, aceita caminhonete/carro + dinheiro, prox. Pague Menos/Auto Zone, 3min Anhanguera.",
+    "fotos": [
+      "assets/images/imoveis/imovel-7851-4.webp",
+      "assets/images/imoveis/imovel-7851-1.webp",
+      "assets/images/imoveis/imovel-7851-2.webp",
+      "assets/images/imoveis/imovel-7851-3.webp",
+      "assets/images/imoveis/imovel-7851-5.webp",
+      "assets/images/imoveis/imovel-7851-6.webp"
+    ],
+    "videos": []
   }
 ]

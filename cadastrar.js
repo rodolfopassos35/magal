@@ -97,17 +97,12 @@ function extrairKm(texto) {
 function extrairPreco(texto) {
   let valorFormatado = "";
 
-  // 1. Procura "por 20.000 mil", "por 20.000", "R$ 20.000" ou "20 mil"
-  const matchPor = texto.match(/por\s*r?\$?\s*([\d\.\,]+)\s*(mil)?/i);
-  if (matchPor) {
-    let p = matchPor[1].replace(/\./g, "").replace(",", ".");
-    let valor = parseFloat(p);
-    if (!isNaN(valor)) {
-      if (valor < 1000 && matchPor[2]) valor *= 1000;
-      valorFormatado = valor.toLocaleString("pt-BR", {
-        minimumFractionDigits: 2,
-      });
-    }
+  // Procura padrão "620 MIL" ou "620mil" (com suporte a maiúsculas/minúsculas)
+  const matchMil = texto.match(/(\d{1,3}(?:\.\d{3})?)\s*mil/i);
+  if (matchMil) {
+    let val = matchMil[1].replace(".", "");
+    let numero = parseInt(val, 10) * 1000;
+    return `R$ ${numero.toLocaleString("pt-BR")},00`;
   }
 
   // 2. Procura formato "20 mil" ou "20.000"
@@ -139,48 +134,25 @@ function extrairPreco(texto) {
 }
 
 function extrairArea(texto) {
-  const t = texto.toLowerCase();
-
-  if (t.includes("mil metros") || t.includes("1000m") || t.includes("1.000m")) {
-    return "1000 m²";
-  }
-
+  // Trata '300m²' mesmo colado em parênteses ou pontuação
   const matchArea = texto.match(
-    /\b(\d+(?:[\.,]\d+)?)\s*(m²|m2|metros quadrados|alqueires|hectares)\b/i,
+    /(\d+(?:[\.,]\d+)?)\s*(m²|m2|metros\s*quadrados)/i,
   );
-  return matchArea
-    ? `${matchArea[1]} ${matchArea[2].includes("metro") ? "m²" : matchArea[2]}`
-    : "";
+  return matchArea ? `${matchArea[1]} m²` : "";
 }
 
 function extrairLocalizacao(texto) {
-  const localizacaoPartes = [];
-
-  const matchBairro = texto.match(
-    /bairro\s+([a-záàâãéèêíóôõúç0-9\s]+?)(?=\,|\.|$|via|rua|av)/i,
+  // Procura por cidades conhecidas ou termos entre hífens
+  const matchCidade = texto.match(
+    /-\s*([A-ZÁÀÂÃÉÈÊÍÓÔÕÚÇ][a-záàâãéèêíóôõúç]+)\s*-/,
   );
-  if (matchBairro) localizacaoPartes.push(matchBairro[1].trim());
+  if (matchCidade) return matchCidade[1].trim();
 
-  const matchVia = texto.match(
-    /(via|rodovia|rua|avenida)\s+([a-záàâãéèêíóôõúç0-9\s]+?(?:km\s*\d+)?)(?=\,|\.|$|bairro)/i,
+  // Se não encontrar, tenta capturar a última palavra que parece ser uma cidade
+  const matchUltima = texto.match(
+    /([A-ZÁÀÂÃÉÈÊÍÓÔÕÚÇ][a-záàâãéèêíóôõúç]+)\s*$/,
   );
-  if (matchVia) localizacaoPartes.push(matchVia[0].trim());
-
-  const matchAssoc = texto.match(
-    /(associação|associacao|condomínio|condominio)\s+([a-záàâãéèêíóôõúç0-9\s]+?)(?=\,|\.|$|bairro|via)/i,
-  );
-  if (matchAssoc) localizacaoPartes.push(matchAssoc[0].trim());
-
-  if (localizacaoPartes.length > 0) {
-    return localizacaoPartes.join(", ");
-  }
-
-  const matchEm = texto.match(
-    /\bem\s+([A-ZÁÀÂÃÉÈÊÍÓÔÕÚÇ][a-záàâãéèêíóôõúç]+(?:\s+[A-ZÁÀÂÃÉÈÊÍÓÔÕÚÇ][a-záàâãéèêíóôõúç]+)*)/,
-  );
-  if (matchEm) return matchEm[1].trim();
-
-  return "";
+  return matchUltima ? matchUltima[1].trim() : "";
 }
 
 function identificarCategoria(texto, tipo) {

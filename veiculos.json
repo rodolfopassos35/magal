@@ -613,5 +613,37 @@
       "assets/images/veiculos/veiculo-9663-video-2.mp4",
       "assets/images/veiculos/veiculo-9663-video-3.mp4"
     ]
+  },
+  {
+    "id": "veiculo-5230",
+    "titulo": "RENAULT MASTER",
+    "categoria": "Furgão",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "",
+    "preco": "130.000,00",
+    "descricao": "Vende-se VAN FURGÃO RENAULT MASTER REFRIGERADO VEÍCULO ISOTÉRMICO. Documentação em Dia Recibo em Branco 130$ Avista.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-5230-1.webp"
+    ],
+    "videos": [
+      "assets/images/veiculos/veiculo-5230-video-1.mp4"
+    ]
+  },
+  {
+    "id": "veiculo-5314",
+    "titulo": "Caminhão à Venda",
+    "categoria": "Caminhão",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "130.000,00",
+    "descricao": "Vende-se CAMINHÃO BAÚ REFRIGERADO ISOTÉRMICO. DOCUMENTAÇÃO EM DIA RECIBO EM BRANCO 130. 000. 00.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-5314-1.webp"
+    ],
+    "videos": [
+      "assets/images/veiculos/veiculo-5314-video-1.mp4"
+    ]
   }
 ]
