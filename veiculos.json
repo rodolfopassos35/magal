@@ -645,5 +645,49 @@
     "videos": [
       "assets/images/veiculos/veiculo-5314-video-1.mp4"
     ]
+  },
+  {
+    "id": "veiculo-5757",
+    "titulo": "CAMINHÃO A VENDA",
+    "categoria": "Caminhão",
+    "ano": "1985",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "R$ 130.000,00",
+    "descricao": "CAMINHÃO A VENDA Mercedes-Benz 1113 – Ano 1985 * Direção hidráulica * Freio a ar original de fábrica, dianteiro e traseiro * Diferencial 39 longo * Baú 9, 00 m de comprimento * Baú 2, 60 m de altura * Baú 2, 40 m de largura * Pneus 275 sem câmara * Motor misto 366 * Bomba com LDA * Tanque de combustível 300 litros valor 130mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-5757-1.webp",
+      "assets/images/veiculos/veiculo-5757-2.webp",
+      "assets/images/veiculos/veiculo-5757-3.webp",
+      "assets/images/veiculos/veiculo-5757-4.webp",
+      "assets/images/veiculos/veiculo-5757-5.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-4682",
+    "titulo": "Fox",
+    "categoria": "Carro",
+    "ano": "2016",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "51.000,00",
+    "descricao": "Fox. 1. 6. 2016, Completo, Fipe 53. 000, Motor, pneu, suspensão, tapeçaria, bom, documento em dias venda 51.000,00",
+    "fotos": [
+      "assets/images/veiculos/veiculo-4682-1.webp",
+      "assets/images/veiculos/veiculo-4682-2.webp",
+      "assets/images/veiculos/veiculo-4682-3.webp",
+      "assets/images/veiculos/veiculo-4682-4.webp",
+      "assets/images/veiculos/veiculo-4682-5.webp",
+      "assets/images/veiculos/veiculo-4682-6.webp",
+      "assets/images/veiculos/veiculo-4682-7.webp",
+      "assets/images/veiculos/veiculo-4682-8.webp",
+      "assets/images/veiculos/veiculo-4682-9.webp",
+      "assets/images/veiculos/veiculo-4682-10.webp",
+      "assets/images/veiculos/veiculo-4682-11.webp",
+      "assets/images/veiculos/veiculo-4682-12.webp",
+      "assets/images/veiculos/veiculo-4682-13.webp"
+    ],
+    "videos": []
   }
 ]
