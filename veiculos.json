@@ -689,5 +689,23 @@
       "assets/images/veiculos/veiculo-4682-13.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-4523",
+    "titulo": "Fiat Uno",
+    "categoria": "carro",
+    "ano": "1995",
+    "km": "N/A",
+    "combustivel": "",
+    "preco": "R$ 15.,00",
+    "descricao": "Fiat Uno 1995 em excelente estado: motor impecável, pneus novos, tapeçaria conservada, lataria sem detalhes, câmbio perfeito, pintura bem cuidada, suspensão revisada e documentação em dia — um carro de confiança pronto para rodar, disponível por R$ 15. 000.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-4523-1.webp",
+      "assets/images/veiculos/veiculo-4523-2.webp",
+      "assets/images/veiculos/veiculo-4523-3.webp",
+      "assets/images/veiculos/veiculo-4523-4.webp",
+      "assets/images/veiculos/veiculo-4523-5.webp"
+    ],
+    "videos": []
   }
 ]
