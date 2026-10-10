@@ -319,6 +319,12 @@
           filtrarCards(termo);
         });
 
+        campoBusca.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            campoBusca.blur(); // Tira o foco e fecha o teclado no mobile
+          }
+        });
+
         if (btnLimpar) {
           btnLimpar.addEventListener("click", () => {
             campoBusca.value = "";
