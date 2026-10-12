@@ -697,7 +697,7 @@
     "ano": "1995",
     "km": "N/A",
     "combustivel": "",
-    "preco": "R$ 15.000,00",
+    "preco": "15.000,00",
     "descricao": "Fiat Uno 1995 em excelente estado: motor impecável, pneus novos, tapeçaria conservada, lataria sem detalhes, câmbio perfeito, pintura bem cuidada, suspensão revisada e documentação em dia — um carro de confiança pronto para rodar, disponível por R$ 15. 000.",
     "fotos": [
       "assets/images/veiculos/veiculo-4523-1.webp",
@@ -729,7 +729,7 @@
     "ano": "1999",
     "km": "N/A",
     "combustivel": "Diesel",
-    "preco": "R$ 105.000,00 no chassi R$ 125.000,00 com baú",
+    "preco": "105.000,00 no chassi - R$ 125.000,00 com baú",
     "descricao": "Cargo 1999 Motor Cummins Valor: R$ 105. 000, 00 no chassi R$ 125. 000, 00 com baú.",
     "fotos": [
       "assets/images/veiculos/veiculo-2938-1.webp",
@@ -750,7 +750,7 @@
     "ano": "2003",
     "km": "N/A",
     "combustivel": "Diesel",
-    "preco": "R$ 128.000,00 no chassi R$ 148.000,00 com baú",
+    "preco": "128.000,00 no chassi - R$ 148.000,00 com baú",
     "descricao": "Cargo ano 2003, 128mil no chassi, 148mil no báu.",
     "fotos": [
       "assets/images/veiculos/veiculo-0145-1.webp",
@@ -771,7 +771,7 @@
     "ano": "2007",
     "km": "N/A",
     "combustivel": "Diesel",
-    "preco": "R$ 138.000,00",
+    "preco": "138.000,00",
     "descricao": "VW 8-120 2007. No chassis 138mil no chassi.",
     "fotos": [
       "assets/images/veiculos/veiculo-4707-1.webp",
@@ -792,7 +792,7 @@
     "ano": "1985",
     "km": "N/A",
     "combustivel": "Diesel",
-    "preco": "R$ 82.000,00",
+    "preco": "82.000,00",
     "descricao": "6-90 ano 1985, motor mwm, direção hidraulica, báu novo, 82mil.",
     "fotos": [
       "assets/images/veiculos/veiculo-0839-1.webp",
