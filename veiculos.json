@@ -85,7 +85,7 @@
   },
   {
     "id": "MB-1418-93",
-    "titulo": "MB 1418",
+    "titulo": "Mercedes-Bens 1418 ",
     "categoria": "Caminhão",
     "ano": "1993",
     "km": "",
@@ -697,7 +697,7 @@
     "ano": "1995",
     "km": "N/A",
     "combustivel": "",
-    "preco": "R$ 15.,00",
+    "preco": "R$ 15.000,00",
     "descricao": "Fiat Uno 1995 em excelente estado: motor impecável, pneus novos, tapeçaria conservada, lataria sem detalhes, câmbio perfeito, pintura bem cuidada, suspensão revisada e documentação em dia — um carro de confiança pronto para rodar, disponível por R$ 15. 000.",
     "fotos": [
       "assets/images/veiculos/veiculo-4523-1.webp",
@@ -705,6 +705,99 @@
       "assets/images/veiculos/veiculo-4523-3.webp",
       "assets/images/veiculos/veiculo-4523-4.webp",
       "assets/images/veiculos/veiculo-4523-5.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-3308",
+    "titulo": "Mercedes-Bens 2014",
+    "categoria": "Caminhão",
+    "ano": "N/A",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "Sob Consulta",
+    "descricao": "Mercedes-Bens 2014 caminhao pronto pra trabalhar mecânica tudo impecável documento operacional na casamba tudo ok troca por caminhão ¾.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-3308-1.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-2938",
+    "titulo": "Cargo",
+    "categoria": "Caminhão",
+    "ano": "1999",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "R$ 105.000,00 no chassi R$ 125.000,00 com baú",
+    "descricao": "Cargo 1999 Motor Cummins Valor: R$ 105. 000, 00 no chassi R$ 125. 000, 00 com baú.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2938-1.webp",
+      "assets/images/veiculos/veiculo-2938-2.webp",
+      "assets/images/veiculos/veiculo-2938-3.webp",
+      "assets/images/veiculos/veiculo-2938-4.webp",
+      "assets/images/veiculos/veiculo-2938-5.webp",
+      "assets/images/veiculos/veiculo-2938-6.webp",
+      "assets/images/veiculos/veiculo-2938-7.webp",
+      "assets/images/veiculos/veiculo-2938-8.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-0145",
+    "titulo": "Cargo",
+    "categoria": "Caminhão",
+    "ano": "2003",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "R$ 128.000,00 no chassi R$ 148.000,00 com baú",
+    "descricao": "Cargo ano 2003, 128mil no chassi, 148mil no báu.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-0145-1.webp",
+      "assets/images/veiculos/veiculo-0145-2.webp",
+      "assets/images/veiculos/veiculo-0145-3.webp",
+      "assets/images/veiculos/veiculo-0145-4.webp",
+      "assets/images/veiculos/veiculo-0145-5.webp",
+      "assets/images/veiculos/veiculo-0145-6.webp",
+      "assets/images/veiculos/veiculo-0145-7.webp",
+      "assets/images/veiculos/veiculo-0145-8.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-4707",
+    "titulo": "VW 8-120",
+    "categoria": "Caminhão",
+    "ano": "2007",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "R$ 138.000,00",
+    "descricao": "VW 8-120 2007. No chassis 138mil no chassi.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-4707-1.webp",
+      "assets/images/veiculos/veiculo-4707-2.webp",
+      "assets/images/veiculos/veiculo-4707-3.webp",
+      "assets/images/veiculos/veiculo-4707-4.webp",
+      "assets/images/veiculos/veiculo-4707-5.webp",
+      "assets/images/veiculos/veiculo-4707-6.webp",
+      "assets/images/veiculos/veiculo-4707-7.webp",
+      "assets/images/veiculos/veiculo-4707-8.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-0839",
+    "titulo": "6-90 ano 1985",
+    "categoria": "Caminhão",
+    "ano": "1985",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "R$ 82.000,00",
+    "descricao": "6-90 ano 1985, motor mwm, direção hidraulica, báu novo, 82mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-0839-1.webp",
+      "assets/images/veiculos/veiculo-0839-2.webp",
+      "assets/images/veiculos/veiculo-0839-3.webp"
     ],
     "videos": []
   }
