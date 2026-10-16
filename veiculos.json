@@ -800,5 +800,38 @@
       "assets/images/veiculos/veiculo-0839-3.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-5789",
+    "titulo": "GMC 16.220",
+    "categoria": "Caminhão",
+    "ano": "2001",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "120,000.00",
+    "descricao": "GMC 16. 220, motor cumis, Cambio itom 6 machas, diferencial rockoel 240, ano 2001, Pega carro caminhonete moto caminhão na troca.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-5789-1.webp",
+      "assets/images/veiculos/veiculo-5789-2.webp",
+      "assets/images/veiculos/veiculo-5789-3.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-5083",
+    "titulo": "Caminhão à Venda",
+    "categoria": "Caminhão",
+    "ano": "2000",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "R$ 120.000,00",
+    "descricao": "Vende-se F250 ano 2000. 6 cilindros valor 120mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-5083-1.webp"
+    ],
+    "videos": [
+      "assets/images/veiculos/veiculo-5083-video-1.mp4",
+      "assets/images/veiculos/veiculo-5083-video-2.mp4"
+    ]
   }
 ]
