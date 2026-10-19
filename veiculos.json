@@ -833,5 +833,57 @@
       "assets/images/veiculos/veiculo-5083-video-1.mp4",
       "assets/images/veiculos/veiculo-5083-video-2.mp4"
     ]
+  },
+  {
+    "id": "veiculo-6103",
+    "titulo": "F 250 xltl",
+    "categoria": "Caminhonete",
+    "ano": "2005",
+    "km": "N/A",
+    "combustivel": "",
+    "preco": "R$ 180.000,00",
+    "descricao": "F 250 xltl Ano 2005, 180 mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-6103-1.webp",
+      "assets/images/veiculos/veiculo-6103-2.webp",
+      "assets/images/veiculos/veiculo-6103-3.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-3879",
+    "titulo": "F 350",
+    "categoria": "Caminhão",
+    "ano": "2015",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "160.000,00",
+    "descricao": "F 350 Ano 2015 ",
+    "fotos": [
+      "assets/images/veiculos/veiculo-3879-1.webp",
+      "assets/images/veiculos/veiculo-3879-2.webp",
+      "assets/images/veiculos/veiculo-3879-3.webp",
+      "assets/images/veiculos/veiculo-3879-4.webp",
+      "assets/images/veiculos/veiculo-3879-5.webp",
+      "assets/images/veiculos/veiculo-3879-6.webp",
+      "assets/images/veiculos/veiculo-3879-7.webp",
+      "assets/images/veiculos/veiculo-3879-8.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-6325",
+    "titulo": "Titã 150",
+    "categoria": "Moto",
+    "ano": "2014/2015",
+    "km": "230.000 KM",
+    "combustivel": "",
+    "preco": "R$ 10.500,00",
+    "descricao": "Titã 150 ano 2014/2015, valor 10. 500 documento em dias recibo em branco 230 mil km, mais está motor novo.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-6325-1.webp",
+      "assets/images/veiculos/veiculo-6325-2.webp"
+    ],
+    "videos": []
   }
 ]

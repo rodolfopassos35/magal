@@ -557,5 +557,20 @@
       "assets/images/imoveis/imovel-7851-6.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "imovel-1093",
+    "titulo": "2 Terreno à Venda",
+    "categoria": "Terreno",
+    "area": "",
+    "localizacao": "",
+    "preco": "R$ 140.000,00",
+    "descricao": "Vendo 2 terreno loteamento próximo o vila Olímpia. Medindo. De. Frente. 6. X. Fundo. 90. Metros. Frente e. Fundo com as duas. Ruas. 140 mil vende ou troco.",
+    "fotos": [
+      "assets/images/imoveis/imovel-1093-1.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-1093-video-1.mp4"
+    ]
   }
 ]
