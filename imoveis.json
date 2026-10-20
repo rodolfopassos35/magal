@@ -497,14 +497,18 @@
     "categoria": "Apartamento",
     "area": "",
     "localizacao": "matão, proximo a caixa da água",
-    "preco": "R$ ",
+    "preco": "sob consulta",
     "descricao": "Apartamento bairro matão.",
     "fotos": [
-      "assets/images/imoveis/imovel-6888-1.webp"
+      "assets/images/imoveis/imovel-6888-1.webp",
+      "assets/images/imoveis/imovel-6888-2.webp",
+      "assets/images/imoveis/imovel-6888-3.webp",
+      "assets/images/imoveis/imovel-6888-4.webp"
     ],
     "videos": [
       "assets/images/imoveis/imovel-6888-video-1.mp4",
-      "assets/images/imoveis/imovel-6888-video-2.mp4"
+      "assets/images/imoveis/imovel-6888-video-2.mp4",
+      "assets/images/imoveis/imovel-6888-video-3.mp4"
     ]
   },
   {

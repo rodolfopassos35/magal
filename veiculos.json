@@ -819,12 +819,12 @@
   },
   {
     "id": "veiculo-5083",
-    "titulo": "Caminhão à Venda",
+    "titulo": "F250",
     "categoria": "Caminhão",
     "ano": "2000",
     "km": "N/A",
     "combustivel": "Diesel",
-    "preco": "R$ 120.000,00",
+    "preco": "120.000,00",
     "descricao": "Vende-se F250 ano 2000. 6 cilindros valor 120mil.",
     "fotos": [
       "assets/images/veiculos/veiculo-5083-1.webp"
@@ -841,7 +841,7 @@
     "ano": "2005",
     "km": "N/A",
     "combustivel": "",
-    "preco": "R$ 180.000,00",
+    "preco": "180.000,00",
     "descricao": "F 250 xltl Ano 2005, 180 mil.",
     "fotos": [
       "assets/images/veiculos/veiculo-6103-1.webp",
@@ -878,11 +878,25 @@
     "ano": "2014/2015",
     "km": "230.000 KM",
     "combustivel": "",
-    "preco": "R$ 10.500,00",
+    "preco": "10.500,00",
     "descricao": "Titã 150 ano 2014/2015, valor 10. 500 documento em dias recibo em branco 230 mil km, mais está motor novo.",
     "fotos": [
       "assets/images/veiculos/veiculo-6325-1.webp",
       "assets/images/veiculos/veiculo-6325-2.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-2509",
+    "titulo": "608 D",
+    "categoria": "Caminhão",
+    "ano": "1982",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "Sob Consulta",
+    "descricao": "Caminhão ano. 82 muito bom revisado documento motor freio suspensão peneu motor novo bomba tudo em dias vende ou troca também os dois a moto e o caminhão por apartamento casa ou carro.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2509-1.webp"
     ],
     "videos": []
   }
