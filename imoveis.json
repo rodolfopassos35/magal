@@ -567,7 +567,7 @@
     "titulo": "2 Terreno à Venda",
     "categoria": "Terreno",
     "area": "",
-    "localizacao": "",
+    "localizacao": "Vila Olimpia, Campinas - SP",
     "preco": "R$ 140.000,00",
     "descricao": "Vendo 2 terreno loteamento próximo o vila Olímpia. Medindo. De. Frente. 6. X. Fundo. 90. Metros. Frente e. Fundo com as duas. Ruas. 140 mil vende ou troco.",
     "fotos": [
@@ -576,5 +576,47 @@
     "videos": [
       "assets/images/imoveis/imovel-1093-video-1.mp4"
     ]
+  },
+  {
+    "id": "imovel-0351",
+    "titulo": "Apartamento a venda em Hortolândia",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "Hortolândia",
+    "preco": "170.000,00",
+    "descricao": "Apartamento a venda em Hortolândia. Quitado escriturado 170 no dinheiro pega carro na troca.",
+    "fotos": [
+      "assets/images/imoveis/imovel-0351-1.webp",
+      "assets/images/imoveis/imovel-0351-2.webp",
+      "assets/images/imoveis/imovel-0351-3.webp",
+      "assets/images/imoveis/imovel-0351-4.webp",
+      "assets/images/imoveis/imovel-0351-5.webp",
+      "assets/images/imoveis/imovel-0351-6.webp",
+      "assets/images/imoveis/imovel-0351-7.webp",
+      "assets/images/imoveis/imovel-0351-8.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "imovel-6036",
+    "titulo": "Chácara à Venda",
+    "categoria": "Chácara",
+    "area": "",
+    "localizacao": "Conchal",
+    "preco": "sob consulta",
+    "descricao": "Conchal. Vendo ou. Troco por carro do meu entereço local muito bom para pesca rio aí redor das chácaras, a 2km dp hiat club e do centro Rio Mogi Guaçu. Tamanho frente. 8. Fundo 80.",
+    "fotos": [
+      "assets/images/imoveis/imovel-6036-1.webp",
+      "assets/images/imoveis/imovel-6036-2.webp",
+      "assets/images/imoveis/imovel-6036-3.webp",
+      "assets/images/imoveis/imovel-6036-4.webp",
+      "assets/images/imoveis/imovel-6036-5.webp",
+      "assets/images/imoveis/imovel-6036-6.webp",
+      "assets/images/imoveis/imovel-6036-7.webp",
+      "assets/images/imoveis/imovel-6036-8.webp",
+      "assets/images/imoveis/imovel-6036-9.webp",
+      "assets/images/imoveis/imovel-6036-10.webp"
+    ],
+    "videos": []
   }
 ]

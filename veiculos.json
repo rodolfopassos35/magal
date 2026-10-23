@@ -899,5 +899,66 @@
       "assets/images/veiculos/veiculo-2509-1.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-9981",
+    "titulo": "vw na casamba",
+    "categoria": "Caminhão",
+    "ano": "1996",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "75.000,00",
+    "descricao": "Caminhão vw na casamba tudo em dias trabalhado motor peneu câmbio deferencial tudo funcionando em dias valor a venda no dinheiro 75 na troca muda. Ano. 96.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9981-1.webp",
+      "assets/images/veiculos/veiculo-9981-2.webp",
+      "assets/images/veiculos/veiculo-9981-3.webp",
+      "assets/images/veiculos/veiculo-9981-4.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-8150",
+    "titulo": "Volvo 380",
+    "categoria": "Caminhão",
+    "ano": "2000",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "110.000,00",
+    "descricao": "Volvo 380. Ano 2000 trucado mecânica e documentos em dias trabalhando. Valor. 110 pega carro menor valor.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-8150-1.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-7969",
+    "titulo": "F 1000",
+    "categoria": "Caminhão",
+    "ano": "1997",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "R$ 70.000,00",
+    "descricao": "Caminhoneta F 1000 muito boa tem uns reparos na pintura pneus motor câmbio deferêncial documento em dias ano. 97. Valor. 70 mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-7969-3.webp",
+      "assets/images/veiculos/veiculo-7969-2.webp",
+      "assets/images/veiculos/veiculo-7969-1.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-0150",
+    "titulo": "600",
+    "categoria": "Moto",
+    "ano": "2013",
+    "km": "N/A",
+    "combustivel": "",
+    "preco": "45.000,00",
+    "descricao": "Fort. 2013 top. 600. Vende ou. Troca. 45. Mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-0150-1.webp"
+    ],
+    "videos": []
   }
 ]
