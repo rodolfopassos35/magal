@@ -13,24 +13,50 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "RealEstateAgent",
-        "name": "Grupo Magaus - Imóveis e Terrenos",
-        "url": "https://www.grupomagaus.com/imoveis.html",
-        "description": "Oportunidades em imóveis, terrenos e áreas industriais e comerciais em Sumaré e Região Metropolitana de Campinas.",
+        "@type": "LocalBusiness",
+        "name": "Grupo Magaus",
+        "url": "https://www.grupomagaus.com/",
+        "logo": "https://www.grupomagaus.com/assets/images/icon-logo-512.webp",
+        "image": "https://www.grupomagaus.com/assets/images/icon-logo-512.webp",
+        "description": "Empresa especializada em veículos, imóveis e pneus de carga e passeio em Sumaré, Hortolândia, Campinas e região.",
         "telephone": "+5519974204995",
+        "priceRange": "$$",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "Chácara do Magal - Jardim Santa Julia (Nova Veneza)",
           "addressLocality": "Sumaré",
           "addressRegion": "SP",
+          "postalCode": "13175-680",
           "addressCountry": "BR"
         },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -22.8122,
+          "longitude": -47.2185
+        },
         "areaServed": [
-          "Sumaré",
-          "Hortolândia",
-          "Campinas",
-          "Americana",
-          "Paulínia"
-        ]
+          {
+            "@type": "City",
+            "name": "Sumaré"
+          },
+          {
+            "@type": "City",
+            "name": "Hortolândia"
+          },
+          {
+            "@type": "City",
+            "name": "Campinas"
+          },
+          {
+            "@type": "City",
+            "name": "Americana"
+          },
+          {
+            "@type": "City",
+            "name": "Paulínia"
+          }
+        ],
+        "hasMap": "https://maps.app.goo.gl/qmnEeqj6EWW9KLCNA"
       }
     </script>
   </head>
@@ -280,8 +306,8 @@
         <div class="col-footer">
           <h3>Grupo Magaus</h3>
           <p>
-            Sua melhor opção em veículos, imóveis e pneus com qualidade e
-            procedência.
+            Sua melhor opção em veículos, imóveis e pneus seminovos com
+            qualidade, procedência e ótimo preço.
           </p>
         </div>
 
@@ -296,8 +322,31 @@
 
         <div class="col-footer">
           <h4>Atendimento & Localização</h4>
-          <p>📍 Atendendo em Nossa Região</p>
-          <p>📞 Telefone / WhatsApp: (19) 97420-4995</p>
+          <p>
+            📍
+            <a
+              href="https://maps.app.goo.gl/qmnEeqj6EWW9KLCNA"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="color: inherit; text-decoration: underline"
+            >
+              Chácara do Magal - Jd. Santa Julia (Nova Veneza), Sumaré - SP,
+              13175-680
+            </a>
+          </p>
+          <p>
+            📍 Atendendo: Sumaré | Hortolândia | Campinas | Americana | Paulínia
+          </p>
+          <p>
+            📞 Telefone / WhatsApp:
+            <a
+              href="https://wa.me/5519974204995"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="color: inherit"
+              >(19) 97420-4995</a
+            >
+          </p>
           <p>⏰ Seg. a Sex. das 08h às 18h | Sáb. das 08h às 12h</p>
         </div>
       </div>
@@ -308,6 +357,16 @@
         </div>
       </div>
     </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button
+      id="btnTop"
+      class="btn-top"
+      aria-label="Voltar ao topo"
+      title="topo"
+    >
+      &#8593;
+    </button>
 
     <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
     <a
@@ -522,6 +581,30 @@
       btnFechar.addEventListener("click", fecharModal);
       window.addEventListener("click", (e) => {
         if (e.target === modal) fecharModal();
+      });
+
+      /* Botão Voltar ao Topo */
+      document.addEventListener("DOMContentLoaded", () => {
+        const btnTop = document.getElementById("btnTop");
+
+        if (btnTop) {
+          // Exibe o botão apenas quando rolar a página para baixo
+          window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+              btnTop.classList.add("visible");
+            } else {
+              btnTop.classList.remove("visible");
+            }
+          });
+
+          // Rola de forma suave até o topo ao clicar
+          btnTop.addEventListener("click", () => {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
+          });
+        }
       });
     </script>
   </body>

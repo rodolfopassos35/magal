@@ -692,6 +692,38 @@ img {
     line-height: 1.5;
 }
 
+/* Botão Voltar ao Topo */
+.btn-top {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 48px;
+    height: 48px;
+    background-color: #ff6b00;
+    /* Ajuste para a cor principal do Grupo Magaus */
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.2s ease;
+    z-index: 999;
+}
+
+.btn-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.btn-top:hover {
+    background-color: #e05d00;
+    transform: translateY(-3px);
+}
+
 @media (max-width: 650px) {
     .modal-body {
         grid-template-columns: 1fr;
