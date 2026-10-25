@@ -960,5 +960,41 @@
       "assets/images/veiculos/veiculo-0150-1.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-8625",
+    "titulo": "VW Amarok",
+    "categoria": "Caminhonete",
+    "ano": "2012",
+    "km": "N/A",
+    "combustivel": "N/A",
+    "preco": "85.000,00",
+    "descricao": "VW Amarok, 2012 4 cilindro disiel, Revisada, 85 Mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-8625-1.webp",
+      "assets/images/veiculos/veiculo-8625-2.webp",
+      "assets/images/veiculos/veiculo-8625-3.webp",
+      "assets/images/veiculos/veiculo-8625-4.webp",
+      "assets/images/veiculos/veiculo-8625-5.webp",
+      "assets/images/veiculos/veiculo-8625-6.webp",
+      "assets/images/veiculos/veiculo-8625-7.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9715",
+    "titulo": "Saveiro",
+    "categoria": "Carro",
+    "ano": "1992",
+    "km": "N/A",
+    "combustivel": "",
+    "preco": "27.000,00",
+    "descricao": "Vende se Saveiro ano 92 valor 27mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9715-1.webp",
+      "assets/images/veiculos/veiculo-9715-2.webp",
+      "assets/images/veiculos/veiculo-9715-3.webp"
+    ],
+    "video": "assets/images/veiculos/veiculo-9715-video.mp4"
   }
 ]

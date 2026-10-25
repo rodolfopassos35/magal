@@ -618,5 +618,37 @@
       "assets/images/imoveis/imovel-6036-10.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "imovel-1725",
+    "titulo": "Apartamento no Condomínio Vale das pérolas",
+    "categoria": "Apartamento",
+    "area": "56 m²",
+    "localizacao": "Jardim bella vista",
+    "preco": "R$ 110.000,00",
+    "descricao": "Apartamento em sumare, Condomínio Vale das pérolas Jardim bella vista, 110 mil mais parcela, fipe 380 mil, 56 metros quadrados Sol da manhã Andar 14.",
+    "fotos": [
+      "assets/images/imoveis/imovel-1725-1.webp",
+      "assets/images/imoveis/imovel-1725-2.webp",
+      "assets/images/imoveis/imovel-1725-3.webp",
+      "assets/images/imoveis/imovel-1725-4.webp",
+      "assets/images/imoveis/imovel-1725-5.webp",
+      "assets/images/imoveis/imovel-1725-6.webp",
+      "assets/images/imoveis/imovel-1725-7.webp",
+      "assets/images/imoveis/imovel-1725-8.webp",
+      "assets/images/imoveis/imovel-1725-9.webp",
+      "assets/images/imoveis/imovel-1725-10.webp",
+      "assets/images/imoveis/imovel-1725-11.webp",
+      "assets/images/imoveis/imovel-1725-12.webp",
+      "assets/images/imoveis/imovel-1725-13.webp",
+      "assets/images/imoveis/imovel-1725-14.webp",
+      "assets/images/imoveis/imovel-1725-15.webp",
+      "assets/images/imoveis/imovel-1725-16.webp",
+      "assets/images/imoveis/imovel-1725-17.webp",
+      "assets/images/imoveis/imovel-1725-18.webp",
+      "assets/images/imoveis/imovel-1725-19.webp",
+      "assets/images/imoveis/imovel-1725-20.webp"
+    ],
+    "videos": []
   }
 ]
