@@ -686,10 +686,47 @@ img {
     font-size: 0.9rem;
 }
 
-.modal-descricao p {
-    font-size: 0.88rem;
+.modal-descricao {
+    margin-top: 20px;
+    padding: 18px;
+    background-color: #f8fafc;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-borda);
+}
+
+.modal-descricao h4 {
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+}
+
+.modal-descricao-texto,
+.modal-descricao-lista {
     color: var(--cor-texto-mutado);
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.modal-descricao-lista {
+    display: grid;
+    gap: 9px;
+    list-style: none;
+}
+
+.modal-descricao-lista li {
+    position: relative;
+    padding-left: 18px;
+}
+
+.modal-descricao-lista li::before {
+    position: absolute;
+    top: 0.68em;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    background-color: var(--cor-primaria);
+    border-radius: 50%;
+    content: "";
 }
 
 /* Botão Voltar ao Topo */

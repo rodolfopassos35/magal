@@ -278,7 +278,7 @@
 
             <div class="modal-descricao">
               <h4>Detalhes do Imóvel:</h4>
-              <p id="modal-desc"></p>
+              <div id="modal-desc" class="modal-descricao-conteudo"></div>
             </div>
 
             <a
@@ -486,7 +486,7 @@
         document.getElementById("modal-categoria").textContent = item.categoria;
         document.getElementById("modal-area").textContent = item.area;
         document.getElementById("modal-local").textContent = item.localizacao;
-        document.getElementById("modal-desc").textContent = item.descricao;
+        renderizarDescricao(item.descricao);
 
         // Exibe o primeiro item disponível no topo
         if (fotos.length > 0) {
@@ -531,6 +531,35 @@
           `https://wa.me/5519974204995?text=${msg}`;
 
         modal.classList.add("active");
+      }
+
+      function renderizarDescricao(descricao) {
+        const containerDescricao = document.getElementById("modal-desc");
+        const partes = (descricao || "")
+          .split("|")
+          .map((parte) => parte.trim())
+          .filter(Boolean);
+
+        containerDescricao.replaceChildren();
+
+        if (partes.length > 1) {
+          const lista = document.createElement("ul");
+          lista.className = "modal-descricao-lista";
+
+          partes.forEach((parte) => {
+            const item = document.createElement("li");
+            item.textContent = parte;
+            lista.appendChild(item);
+          });
+
+          containerDescricao.appendChild(lista);
+          return;
+        }
+
+        const texto = document.createElement("p");
+        texto.className = "modal-descricao-texto";
+        texto.textContent = partes[0] || "";
+        containerDescricao.appendChild(texto);
       }
 
       function exibirFoto(src, el) {

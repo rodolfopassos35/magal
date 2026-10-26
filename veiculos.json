@@ -7,7 +7,7 @@
     "km": "",
     "combustivel": "Gasolina",
     "preco": "33.000,00",
-    "descricao": "Fusca, reformado. É 1974, motor 1500. Motor e mecânica toda refeita, piso trocado com isolamento, carpete e tapetes, pneus novos, roda de liga, tapeçaria nova.\nAno. 74 zero motor ok peneus Lata documento pode ter outro igual. Mais melhor não .  Pedida   35.000 mais sai por 33.000",
+    "descricao": "🚗 VW Fusca 1974 (1500) | 🔧 Motor e mecânica 100% refeitos | 🛠️ Piso trocado c/ isolamento, carpete e tapetes novos | 🛞 Pneus novos e rodas de liga | 🪡 Tapeçaria nova | 📜 Documentação ok | 💰 R$ 33.000 (pedida R$ 35.000)",
     "fotos": [
       "assets/images/veiculos/fusca-1974-1.webp",
       "assets/images/veiculos/fusca-1974-2.webp",
@@ -28,7 +28,7 @@
     "km": "169.000 km",
     "combustivel": "Diesel",
     "preco": "110.000,00",
-    "descricao": "Mercedes 2016, 169 mil km, motor 2.0 diesel, câmbio automático, direção hidráulica, ar condicionado, bancos de couro,rodas de liga leve, sistema de som premium. Veículo em excelente estado de conservação.",
+    "descricao": "🚗 Mercedes-Benz 2016 | ⛽ 2.0 Diesel | 🛣️ 169.000 km | ⚙️ Câmbio automático | ❄️ Ar-condicionado | 🪑 Bancos de couro | 🛞 Rodas de liga leve | 🎶 Som premium | 🚘 Direção hidráulica | ✨ Excelente estado de conservação",
     "fotos": [
       "assets/images/veiculos/mercedes-16-3.webp",
       "assets/images/veiculos/mercedes-16-1.webp",
@@ -43,7 +43,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "55.000,00",
-    "descricao": "Mitsubishi",
+    "descricao": "🚗 Mitsubishi Pajero 2005 | ⛽ Diesel | 🚘 Direção hidráulica | ✨ Excelente estado",
     "fotos": [
       "assets/images/veiculos/pajero-2005-1.webp",
       "assets/images/veiculos/pajero-2005-2.webp",
@@ -58,7 +58,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "",
-    "descricao": "Ranger  ano 2020  6 marchas 2.2  a diesel vendo ou troco documento ok sem passagem de leilão",
+    "descricao": "🛻 Ford Ranger 2020 | ⛽ 2.2 Diesel | ⚙️ Câmbio 6 marchas | 📜 Documentação ok | 🛡️ Sem passagem por leilão | 💰 Vendo ou troco",
     "fotos": [
       "assets/images/veiculos/ranger-20-1.webp",
       "assets/images/veiculos/ranger-20-2.webp",
@@ -75,7 +75,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "250.000,00",
-    "descricao": "Baú misto Seco e refrigerado",
+    "descricao": "VW 8.160 | 🚚 Baú misto Seco e refrigerado",
     "fotos": [
       "assets/images/veiculos/vw-8.160-1.webp",
       "assets/images/veiculos/vw-8.160-2.webp",
@@ -91,7 +91,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "115.000,00",
-    "descricao": "Chassis 10,50 MTS",
+    "descricao": "🚚 Caminhão Mercedes-Benz 1418 | 📏 Chassis de 10,50m",
     "fotos": [
       "assets/images/veiculos/mb-1418-93-1.webp",
       "assets/images/veiculos/mb-1418-93-2.webp",
@@ -107,7 +107,7 @@
     "km": "",
     "combustivel": "Gasolina",
     "preco": "18.000,00 + 20 parcelas de 1.680,00",
-    "descricao": "Fiat Mobi 2018, 18 mil de entrada e assumir o restante, falta 20 parcela de 1680",
+    "descricao": "🚗 Fiat Mobi 2018 | 💰 Ent. R$ 18.000 + Assumir saldo | 📄 20x de R$ 1.680",
     "video": "assets/images/veiculos/fiat-mobi-18.mp4",
     "fotos": [
       "assets/images/veiculos/fiat-mobi-18-1.webp"
@@ -121,7 +121,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "65.000,00",
-    "descricao": "1113 ano 83 direção hidráulica turbo suspensor no truk, calçado de pneus. Valor pra venda 65 mil, na troca 75 mil, pega carro de até 35.000,00",
+    "descricao": "🚚 Caminhão MB 1113 ano 1983 | 🚘 Direção hidráulica | 🔥 Turbo | 🛠️ Suspensor no truck | 🛞 Calçado de pneus | 💰 R$ 65.000 (venda) | 🔄 R$ 75.000 (troca) | 🚗 Aceita carro até R$ 35.000",
     "fotos": [
       "assets/images/veiculos/1113-83-1.webp",
       "assets/images/veiculos/1113-83-2.webp",
@@ -140,7 +140,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "168.000,00",
-    "descricao": "com baú saider de 5 metros preço 168 mil, sem o saider 142 mil ",
+    "descricao": "🚚 Caminhão 815 | 🚚 Baú de 5 metros | 💰 R$ 168.000 (com baú) | 🔄 R$ 142.000 (sem baú)",
     "videos": [
       "assets/images/veiculos/815-09-1.mp4",
       "assets/images/veiculos/815-09-2.mp4"
@@ -159,7 +159,7 @@
     "km": "206602 km",
     "combustivel": "Diesel",
     "preco": "118.000,00",
-    "descricao": "...",
+    "descricao": "🚚 Caminhão F-4000 2001 | ⛽ Diesel | 🛣️ 206.602 km | ⚙️ Câmbio manual | 💰 R$ 118.000",
     "fotos": [
       "assets/images/veiculos/f4000-1.webp",
       "assets/images/veiculos/f4000-2.webp",
@@ -176,7 +176,7 @@
     "km": "60.000 km",
     "combustivel": "Diesel",
     "preco": "30.000,00",
-    "descricao": "Motor 1113. Câmbio claik deferencial tink redução a ar trabalhando  valor. 30.000",
+    "descricao": "🚚 Chevrolet 1977 | 🔧 Motor MB 1113 | ⚙️ Câmbio Clark e diferencial Tinco | 💨 Redução a ar | 🛠️ Trabalhando | 💰 R$ 30.000",
     "fotos": [
       "assets/images/veiculos/chevrolet-77-2.webp",
       "assets/images/veiculos/chevrolet-77-1.webp"
@@ -190,7 +190,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "135.000,00",
-    "descricao": "F1000 ano 94 motor MWM.229 turbo câmbio 5.louca da f.250 ela e 6 lugares no documento ",
+    "descricao": "🚚 Caminhão F1000 ano 94 | 🔧 Motor MWM.229 turbo | ⚙️ Câmbio 5.louca da f.250 | 🪑 6 lugares | 📜 Documento ok",
     "fotos": [
       "assets/images/veiculos/f1000-1.webp",
       "assets/images/veiculos/f1000-2.webp"
@@ -204,7 +204,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "55.000,00",
-    "descricao": "Motor MwM ano. 86  mecânica tudo ok pneus bom documento ok câmbio deferêncial tudo certo valor 55.000.  6.90",
+    "descricao": "🚚 Caminhão VW 6.90 ano 1986 | ⚙️ Motor MWM | 🛠️ Mecânica, câmbio e diferencial ok | 🛞 Pneus bons | 📜 Documentação ok | 💰 R$ 55.000",
     "fotos": [
       "assets/images/veiculos/mwm-86-1.webp",
       "assets/images/veiculos/mwm-86-2.webp",
@@ -224,7 +224,7 @@
     "km": "69.000 km",
     "combustivel": "",
     "preco": "26.000,00",
-    "descricao": "Recibo em branco KL69 mil. Documento motor lata peneu impecável, tem uma passagem de leilão  e uma remarcação no chassis tudo dentro da lei. ",
+    "descricao": "🚙 Fiat Fiorino 2009/2010 | 🛣️ 69.000 km | 📜 Doc e recibo em branco | 🛠️ Motor, lata e pneus impecáveis | ⚠️ Consta leilão e remarcação de chassi (regularizado/dentro da lei)",
     "video": "assets/images/veiculos/WhatsApp Video 2026-09-11 at 12.52.42.mp4",
     "fotos": [
       "assets/images/veiculos/fiorino-09-1.webp",
@@ -250,8 +250,8 @@
     "ano": "1975",
     "km": "",
     "combustivel": "Diesel",
-    "preco": "35.000,00",
-    "descricao": "Motor Mercedes. Documento com uma transferência pendente. Não aceito trocas.",
+      "preco": "35.000,00",
+      "descricao": "🛻 Toyota Bandeirante 4x4 | 🔧 Motor Mercedes | 📜 Doc c/ 1 transferência pendente | 💰 Somente venda (não aceita troca)",
     "fotos": [
       "assets/images/veiculos/toyota-75.webp"
     ],
@@ -268,7 +268,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "40.000,00",
-    "descricao": "Vende PR desmonta motor 112 desmontado motor fechado 111 turbinado  câmbio deferêncial c Gabina  tudo em perfeito estado q se encontra valo   40.000 mil;",
+    "descricao": "🚚 Caminhão p/ rodar ou desmontar | 🔧 Motor 112 desmontado + Motor 111 fechado e turbinado | ⚙️ Câmbio e diferencial ok | 🚛 Gabina em perfeito estado | 💰 R$ 40.000",
     "fotos": [
       "assets/images/veiculos/pr-40-1.webp",
       "assets/images/veiculos/pr-40-2.webp",
@@ -284,7 +284,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "125.900,00",
-    "descricao": "Motor.366 turbo suspensor no truck calçado pega e trabalha carroceria de 8.30. ",
+    "descricao": "🚚 Caminhão 1214 ano 97 | 🔧 Motor 366 turbo | 🛠️ Suspensor no truck | 🛞 Calçado pega e trabalha | 🚛 Carroceria de 8.30 | 💰 R$ 125.900",
     "fotos": [
       "assets/images/veiculos/1214-97-1.webp",
       "assets/images/veiculos/1214-97-2.webp",
@@ -304,7 +304,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "150.000,00",
-    "descricao": "Pneus bons, motor em ótimo estado, câmbio diferencial, documento em ordem. Tudo em dias.",
+    "descricao": "🚚 Caminhão Mercedes 1620 | 🛞 Pneus bons | 🔧 Motor em ótimo estado | ⚙️ Câmbio e diferencial ok | 📜 Documento em ordem | 💰 R$ 150.000",
     "video": "assets/images/veiculos/mercedes-1620.mp4",
     "fotos": [
       "assets/images/veiculos/mercedes-1620.webp"
@@ -318,7 +318,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "45.000,00",
-    "descricao": "Mecânica da F 4.000, motor câmbio deferêncial, documento ok. 019 974204995. Valor.  45.000. aceita troca.",
+    "descricao": "🚚 Caminhão Fiat baú ano 82 | 🛠️ Mecânica da F 4.000 | 🔧 Motor, câmbio e diferencial ok | 📜 Documento ok | 💰 R$ 45.000 | 🔄 Aceita troca",
     "fotos": [
       "assets/images/veiculos/fiat-82-1.webp",
       "assets/images/veiculos/fiat-82-2.webp",
@@ -327,7 +327,7 @@
   },
   {
     "id": "RENAULT-2013",
-    "titulo": "2013 Renault Master",
+    "titulo": "🚐 Renault Master 2013 | 🚚 Caminhão de trabalho / baú | ⛽ Motor 2.5 | 🔧 Todo revisado e mecânica em dia | 🛞 Pneus bons | 💰 R$ 130.000 | 🛑 Somente venda",
     "categoria": "Caminhão",
     "ano": "2013",
     "km": "",
@@ -352,7 +352,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "50.000,00",
-    "descricao": "Muk garrafa  PR 2. a 3 toneladas  50 mil",
+    "descricao": "🚚 Caminhão LP 321 | 🛠️ Motor 2.0 | 🛞 Pneus bons | 📜 Documento ok | 💰 R$ 50.000",
     "video": "assets/images/veiculos/lp-321.mp4",
     "fotos": [
       "assets/images/veiculos/lp-321-1.webp"
@@ -366,7 +366,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "75.000,00",
-    "descricao": "f600\nMotor 352 mercedes turbinado\nFreio a ar\nDireção hidráulica \nEmbreagem hidráulica\nCacamba ja cadastrada no caminhão dentro das normas\nAno 75. Documento ok peneus bom frei ar 10 parados eixo dianteiro e deferencial do Mercedes revisado frei estacionar  valor  75.000",
+    "descricao": "🚚 Ford F-600 1975 | 🔧 Motor Mercedes OM-352 turbinado | 🚘 Direção hidráulica | ⚙️ Embreagem hidráulica, eixo dianteiro e diferencial MB revisados | 🛠️ Freios a ar (c/ estacionário / 10 furos) | 🛞 Pneus bons | 🚛 Caçamba cadastrada e dentro das normas | 📜 Documentação ok | 💰 R$ 75.000",
     "fotos": [
       "assets/images/veiculos/veiculo-2907-1.webp",
       "assets/images/veiculos/veiculo-2907-2.webp",
@@ -386,7 +386,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "65.000",
-    "descricao": "F1000 ano 80 trabalhando  65.000",
+    "descricao": "🚚 F1000 ano 80 | 🚚 Trabalhando | 💰 R$ 65.000",
     "fotos": [
       "assets/images/veiculos/veiculo-6039-1.webp",
       "assets/images/veiculos/veiculo-6039-2.webp",
@@ -403,7 +403,7 @@
     "km": "",
     "combustivel": "Diesel",
     "preco": "90.000,00",
-    "descricao": "Carreta ano 94 e cavalo ano 85 tudo empevavel revisado caminhão bom valor do conjunto. 90 mil, na troca muda",
+    "descricao": "🚚 Carreta ano 94 e cavalo ano 85 | 🛠️ Tudo empevavel revisado | 🚚 Caminhão bom valor do conjunto | 💰 R$ 90.000 | 🔄 Na troca muda",
     "fotos": [
       "assets/images/veiculos/veiculo-7084-1.webp",
       "assets/images/veiculos/veiculo-7084-2.webp",
@@ -423,7 +423,7 @@
     "km": "",
     "combustivel": "",
     "preco": "",
-    "descricao": "Palio Weekend 1.6 – Ano 1997 Documentação em dia Pneus em bom estado Motor e câmbio funcionando perfeitamente Nunca passou por leilão",
+    "descricao": "🚗 Fiat Palio Weekend 1.6 1997 | 🔧 Motor e câmbio funcionando perfeitamente | 🛞 Pneus em bom estado | 📜 Documentação em dia | 🛡️ Sem passagem por leilão",
     "fotos": [
       "assets/images/veiculos/veiculo-7949-1.webp"
     ]
@@ -436,7 +436,7 @@
     "km": "",
     "combustivel": "Flex",
     "preco": "21.680,00",
-    "descricao": "Modelo: FIAT Uno Mille WAY ECONOMY Ano/Modelo: 2009/2010 Cor: Branco Placa: MGU2H55 Local de registro: São Bonifácio, SC Licenciamento válido até: 31 de julho Data de referência: setembro de 2026 Valores de mercado (Tabela Fipe) Versão 2 portas (2010 Flex): R$ 21.680,00 Versão 4 portas (2010 Flex): R$ 26.673,00",
+    "descricao": "FIAT Uno Mille Way Economy 2009/2010 | ⚪ Cor Branco | 🆔 Placa MGU2H55 (São Bonifácio/SC) | 📅 Licenciamento até 31/07 | 📊 Fipe (Set/2026): 2P R$ 21.680 / 4P R$ 26.673",
     "fotos": [
       "assets/images/veiculos/veiculo-2629-4.webp",
       "assets/images/veiculos/veiculo-2629-1.webp",
@@ -452,7 +452,7 @@
     "km": "",
     "combustivel": "diesel",
     "preco": "140.000,00",
-    "descricao": "Iveco 7017 carroceria, ano 2014, valor 140.000",
+    "descricao": "🚚 Iveco Daily 70c17 2014 | 🚛 Carroceria | 💰 R$ 140.000",
     "fotos": [
       "assets/images/veiculos/veiculo-6476-1.webp",
       "assets/images/veiculos/veiculo-6476-2.webp",
@@ -472,7 +472,7 @@
     "km": "",
     "combustivel": "Flex",
     "preco": "28.000,00",
-    "descricao": "Ano 2012 modelo maxx. 1.4 flex tabela Fipe 30.700 faz 28.000 no dinheiro toda revisada documento ok carro com procedeça",
+    "descricao": "🚗 Meriva 2012 | 🔧 1.4 Flex | 📊 Tabela Fipe: R$ 30.700 | 💰 Valor: R$ 28.000 | 🛠️ Toda revisada | 📜 Documento ok | 🛡️ Carro com procedência",
     "fotos": [
       "assets/images/veiculos/veiculo-8283-2.webp",
       "assets/images/veiculos/veiculo-8283-1.webp",
@@ -504,7 +504,7 @@
     "km": "180.000 KM",
     "combustivel": "Flex",
     "preco": "57.800,00",
-    "descricao": "Toyota Corolla seg. 2010 em perfeito estado de conservação bom de tudo documentado ok tudo revisado procedência KL. 180. Valor. 57.800",
+    "descricao": "🚗 Toyota Corolla SEG 2010 | 🛣️ 180.000 km | 🔧 Todo revisado | ✨ Perfeito estado de conservação (bom de tudo e procedência) | 📜 Documentação ok | 💰 R$ 57.800",
     "fotos": [
       "assets/images/veiculos/veiculo-1967-1.webp"
     ],
@@ -520,7 +520,7 @@
     "km": "N/A",
     "combustivel": "Flex",
     "preco": "",
-    "descricao": "Volvo 2010 zera motor peneu câmbio documento corro com procedeça laudo caltelar aprovado vende ou troca em outro de menor valor ou maior valor troca também por um caminhão trez quarto com uma volta pequena valor pedida. 55. Mil",
+    "descricao": "🚗 Volvo 2010 | 🛡️ Impecável (zera de motor, pneus, câmbio e procedência) | 📋 Laudo cautelar aprovado | 📜 Documentação ok | 🔄 Aceita troca p/ carro de menor/maior valor ou caminhão 3/4 (c/ pequena volta) | 💰 R$ 55.000",
     "fotos": [
       "assets/images/veiculos/veiculo-2219-1.webp",
       "assets/images/veiculos/veiculo-2219-2.webp",
@@ -536,7 +536,7 @@
     "km": "N/A",
     "combustivel": "Flex",
     "preco": "59.000,00",
-    "descricao": "BMW 2013. 2014 vendo ou troco por carro. menor valor carro tudo em dia motor, suspensão freio, câmbio, tapeçaria, documento, ar gelando e freio ABS valor no dinheiro 59.000 se for troca outro preço",
+    "descricao": "🚗 BMW 2013/2014 | 🚗 Vendo ou troco por carro | 📉 Menor valor | 🚘 Tudo em dia: motor, suspensão, freio, câmbio, tapeçaria, documento, ar gelando e freio ABS | 💰 Valor no dinheiro: R$ 59.000 | 🔄 Se for troca, outro preço",
     "fotos": [
       "assets/images/veiculos/veiculo-7058-2.webp",
       "assets/images/veiculos/veiculo-7058-1.webp",
@@ -553,7 +553,7 @@
     "km": "460 km",
     "combustivel": "Flex",
     "preco": "150.000,00",
-    "descricao": "Esplinter bau, ano 2014, valor 150.000,00, mecanica boa, motor com notas de peça novas",
+    "descricao": "🚐 Mercedes-Benz Sprinter Baú 2014 | 🔧 Mecânica boa (motor c/ notas de peças novas) | 💰 R$ 150.000",
     "fotos": [
       "assets/images/veiculos/veiculo-0625-1.webp",
       "assets/images/veiculos/veiculo-0625-2.webp",
@@ -573,7 +573,7 @@
     "km": "N/A",
     "combustivel": "Flex",
     "preco": "95.000,00",
-    "descricao": "Ducato ano 2014, valor 95.000,00",
+    "descricao": "🚚  Ducato 2014 | 💰 R$ 95.000",
     "fotos": [
       "assets/images/veiculos/veiculo-9114-1.webp",
       "assets/images/veiculos/veiculo-9114-2.webp",
@@ -589,7 +589,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "135.000,00",
-    "descricao": "caminhão 1218 ano 96 turbo direção baú, 135.000,00, aceira troca",
+    "descricao": "🚚 Caminhão 1218 Ano 96 Turbo Direção Baú | 💰 R$ 135.000 | 🔄 Aceita Troca",
     "fotos": [
       "assets/images/veiculos/veiculo-9652-1.webp",
       "assets/images/veiculos/veiculo-9652-2.webp"
@@ -604,7 +604,7 @@
     "km": "N/A",
     "combustivel": "Flex",
     "preco": "20.000,00",
-    "descricao": "Carro de procedência 3 dono já por alguns anos bom de motor tem alguns reparos pequenos PR fazer mais o carro pode fazer laudo cautelar tabela Fipe. 23. 500 por 20.000,00, mil ar gelando vidro trava 4 porta tapeçaria boas.",
+    "descricao": "🚗 Renault Logan 2014 | 🛡️ Carro de procedência (3 donos) | 🔧 Bom de motor | 🛠️ Alguns reparos pequenos | 📊 Laudo cautelar tabela Fipe: R$ 23.500 | 💰 Valor: R$ 20.000 | 🧯 Ar gelando | 🚪 Vidro trava 4 portas | 🛏️ Tapeçaria boa",
     "fotos": [
       "assets/images/veiculos/veiculo-9663-1.webp"
     ],
@@ -622,7 +622,7 @@
     "km": "N/A",
     "combustivel": "",
     "preco": "130.000,00",
-    "descricao": "Vende-se VAN FURGÃO RENAULT MASTER REFRIGERADO VEÍCULO ISOTÉRMICO. Documentação em Dia Recibo em Branco 130$ Avista.",
+    "descricao": "🚐 Renault Master Furgão 2013 | ❄️ Isolamento isotérmico e refrigeração | 📜 Documentação em dia | 📄 Recibo em branco | 💰 R$ 130.000 (à vista)",
     "fotos": [
       "assets/images/veiculos/veiculo-5230-1.webp"
     ],
@@ -638,7 +638,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "130.000,00",
-    "descricao": "Vende-se CAMINHÃO BAÚ REFRIGERADO ISOTÉRMICO. DOCUMENTAÇÃO EM DIA RECIBO EM BRANCO 130. 000. 00.",
+    "descricao": "🚚 Caminhão Baú Refrigerado Isotérmico | 📜 Documentação em Dia | 📄 Recibo em Branco | 💰 R$ 130.000 (à vista)",
     "fotos": [
       "assets/images/veiculos/veiculo-5314-1.webp"
     ],
@@ -654,7 +654,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "R$ 130.000,00",
-    "descricao": "CAMINHÃO A VENDA Mercedes-Benz 1113 – Ano 1985 * Direção hidráulica * Freio a ar original de fábrica, dianteiro e traseiro * Diferencial 39 longo * Baú 9, 00 m de comprimento * Baú 2, 60 m de altura * Baú 2, 40 m de largura * Pneus 275 sem câmara * Motor misto 366 * Bomba com LDA * Tanque de combustível 300 litros valor 130mil.",
+    "descricao": "🚚 MB 1113 1985 | 🔧 Motor 366 (misto) c/ bomba LDA | 🚘 Direção hidráulica | 🛠️ Freio a ar original dianteiro/traseiro | ⚙️ Diferencial 39 longo | ⛽ Tanque 300L | 🛞 Pneus 275 sem câmara | 📦 Baú 9,00m x 2,60m x 2,40m | 💰 R$ 130.000",
     "fotos": [
       "assets/images/veiculos/veiculo-5757-1.webp",
       "assets/images/veiculos/veiculo-5757-2.webp",
@@ -672,7 +672,7 @@
     "km": "N/A",
     "combustivel": "Flex",
     "preco": "51.000,00",
-    "descricao": "Fox. 1. 6. 2016, Completo, Fipe 53. 000, Motor, pneu, suspensão, tapeçaria, bom, documento em dias venda 51.000,00",
+    "descricao": "🚗 Fox 1.6 2016 | 🛠️ Completo | 📊 Fipe: R$ 53.000 | 🔧 Motor, pneu, suspensão, tapeçaria em bom estado | 📜 Documento em dia | 💰 Venda: R$ 51.000",
     "fotos": [
       "assets/images/veiculos/veiculo-4682-1.webp",
       "assets/images/veiculos/veiculo-4682-2.webp",
@@ -698,7 +698,7 @@
     "km": "N/A",
     "combustivel": "",
     "preco": "15.000,00",
-    "descricao": "Fiat Uno 1995 em excelente estado: motor impecável, pneus novos, tapeçaria conservada, lataria sem detalhes, câmbio perfeito, pintura bem cuidada, suspensão revisada e documentação em dia — um carro de confiança pronto para rodar, disponível por R$ 15. 000.",
+    "descricao": "🚗 Fiat Uno 1995 | 🔧 Motor e câmbio impecáveis | 🛞 Pneus novos | 🚗 Lataria, pintura e tapeçaria conservadas | 🛠️ Suspensão revisada | 📜 Documentação em dia | 💰 R$ 15.000",
     "fotos": [
       "assets/images/veiculos/veiculo-4523-1.webp",
       "assets/images/veiculos/veiculo-4523-2.webp",
@@ -716,7 +716,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "Sob Consulta",
-    "descricao": "Mercedes-Bens 2014 caminhao pronto pra trabalhar mecânica tudo impecável documento operacional na casamba tudo ok troca por caminhão ¾.",
+    "descricao": "🚚 Mercedes-Benz 2014 | 🛠️ Caminhão pronto para trabalhar | 🔧 Mecânica impecável | 📜 Documento operacional na casamba | ✅ Tudo ok | 🔄 Troca por caminhão ¾.",
     "fotos": [
       "assets/images/veiculos/veiculo-3308-1.webp"
     ],
@@ -730,7 +730,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "105.000,00 no chassi - R$ 125.000,00 com baú",
-    "descricao": "Cargo 1999 Motor Cummins Valor: R$ 105. 000, 00 no chassi R$ 125. 000, 00 com baú.",
+    "descricao": "🚚 Ford Cargo 1999 | ⚙️ Motor Cummins | 💰 R$ 105.000 (no chassi) | 📦 R$ 125.000 (com baú)",
     "fotos": [
       "assets/images/veiculos/veiculo-2938-1.webp",
       "assets/images/veiculos/veiculo-2938-2.webp",
@@ -751,7 +751,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "128.000,00 no chassi - R$ 148.000,00 com baú",
-    "descricao": "Cargo ano 2003, 128mil no chassi, 148mil no báu.",
+    "descricao": "🚚 Ford Cargo 2003 | 💰 R$ 128.000 (no chassi) | 📦 R$ 148.000 (com baú)",
     "fotos": [
       "assets/images/veiculos/veiculo-0145-1.webp",
       "assets/images/veiculos/veiculo-0145-2.webp",
@@ -772,7 +772,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "138.000,00",
-    "descricao": "VW 8-120 2007. No chassis 138mil no chassi.",
+    "descricao": "🚚 VW 8.120 2007 | 🚛 No chassi | 💰 R$ 138.000",
     "fotos": [
       "assets/images/veiculos/veiculo-4707-1.webp",
       "assets/images/veiculos/veiculo-4707-2.webp",
@@ -793,7 +793,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "82.000,00",
-    "descricao": "6-90 ano 1985, motor mwm, direção hidraulica, báu novo, 82mil.",
+    "descricao": "🚚 VW 6.90 1985 | 🔧 Motor MWM | 🚘 Direção hidráulica | 📦 Baú novo | 💰 R$ 82.000,00",
     "fotos": [
       "assets/images/veiculos/veiculo-0839-1.webp",
       "assets/images/veiculos/veiculo-0839-2.webp",
@@ -808,8 +808,8 @@
     "ano": "2001",
     "km": "N/A",
     "combustivel": "Diesel",
-    "preco": "120,000.00",
-    "descricao": "GMC 16. 220, motor cumis, Cambio itom 6 machas, diferencial rockoel 240, ano 2001, Pega carro caminhonete moto caminhão na troca.",
+    "preco": "120.000,00",
+    "descricao": "🚚 GMC 16.220 2001 | 🔧 Motor Cummins | 🔄 Câmbio Itom 6 marchas | ⚙️ Diferencial Rockoel 240 | 💰 R$ 120.000",
     "fotos": [
       "assets/images/veiculos/veiculo-5789-1.webp",
       "assets/images/veiculos/veiculo-5789-2.webp",
@@ -825,7 +825,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "120.000,00",
-    "descricao": "Vende-se F250 ano 2000. 6 cilindros valor 120mil.",
+    "descricao": "🚚 F250 2000 | 🚙 6 cilindros | 💰 R$ 120.000",
     "fotos": [
       "assets/images/veiculos/veiculo-5083-1.webp"
     ],
@@ -842,7 +842,7 @@
     "km": "N/A",
     "combustivel": "",
     "preco": "180.000,00",
-    "descricao": "F 250 xltl Ano 2005, 180 mil.",
+    "descricao": "🚗 F 250 xltl 2005 | 🚙 6 cilindros | 💰 R$ 180.000",
     "fotos": [
       "assets/images/veiculos/veiculo-6103-1.webp",
       "assets/images/veiculos/veiculo-6103-2.webp",
@@ -858,7 +858,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "160.000,00",
-    "descricao": "F 350 Ano 2015 ",
+    "descricao": "🚚 F 350 2015 | 🔧 Motor impecável | 🚛 Km: N/A | 💰 R$ 160.000",
     "fotos": [
       "assets/images/veiculos/veiculo-3879-1.webp",
       "assets/images/veiculos/veiculo-3879-2.webp",
@@ -879,7 +879,7 @@
     "km": "230.000 KM",
     "combustivel": "",
     "preco": "10.500,00",
-    "descricao": "Titã 150 ano 2014/2015, valor 10. 500 documento em dias recibo em branco 230 mil km, mais está motor novo.",
+    "descricao": "🏍️ Titã 150 2014/2015 | 💰 R$ 10.500 | 📜 Documento em dias |_RECEITA Em branco | 🚗 230.000 KM | ⚙️ Motor novo",
     "fotos": [
       "assets/images/veiculos/veiculo-6325-1.webp",
       "assets/images/veiculos/veiculo-6325-2.webp"
@@ -894,7 +894,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "Sob Consulta",
-    "descricao": "Caminhão ano. 82 muito bom revisado documento motor freio suspensão peneu motor novo bomba tudo em dias vende ou troca também os dois a moto e o caminhão por apartamento casa ou carro.",
+    "descricao": "🚚 Caminhão 1982 | 🔧 Totalmente revisado (motor novo, bomba, freio e suspensão ok) | 🛞 Pneus bons | 📜 Documentação em dia | 🔄 Vende ou troca (caminhão + moto) por casa, apartamento ou carro🚚 Caminhão 1982 | 🔧 Motor novo e bomba em dia | 🛠️ Freios, suspensão e mecânica toda revisada | 🛞 Pneus bons | 📜 Documentação ok | 🔄 Vende ou troca (caminhão + moto) por casa, apartamento ou carro",
     "fotos": [
       "assets/images/veiculos/veiculo-2509-1.webp"
     ],
@@ -908,7 +908,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "75.000,00",
-    "descricao": "Caminhão vw na casamba tudo em dias trabalhado motor peneu câmbio deferencial tudo funcionando em dias valor a venda no dinheiro 75 na troca muda. Ano. 96.",
+    "descricao": "🚚 VW Caçamba 1996 | 🚛 Trabalhando | 🔧 Motor, câmbio e diferencial tudo funcionando e em dia | 🛞 Pneus bons | 📜 Documentação em dia | 💰 R$ 75.000 (à vista) | 🔄 Valor na troca a combinar",
     "fotos": [
       "assets/images/veiculos/veiculo-9981-1.webp",
       "assets/images/veiculos/veiculo-9981-2.webp",
@@ -925,7 +925,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "110.000,00",
-    "descricao": "Volvo 380. Ano 2000 trucado mecânica e documentos em dias trabalhando. Valor. 110 pega carro menor valor.",
+    "descricao": "🚚 Volvo FH 380 2000 | 🚛 Trucado (6x2) | 🛠️ Trabalhando (mecânica e documentos em dia) | 💰 R$ 110.000 | 🔄 Aceita carro de menor valor na troca",
     "fotos": [
       "assets/images/veiculos/veiculo-8150-1.webp"
     ],
@@ -939,7 +939,7 @@
     "km": "N/A",
     "combustivel": "Diesel",
     "preco": "R$ 70.000,00",
-    "descricao": "Caminhoneta F 1000 muito boa tem uns reparos na pintura pneus motor câmbio deferêncial documento em dias ano. 97. Valor. 70 mil.",
+    "descricao": "🚚 Caminhoneta F 1000 1997 | 🚛 Muito boa | 🔧 Reparos na pintura, pneus, motor, câmbio e diferencial | 📜 Documentação em dia | 💰 R$ 70.000",
     "fotos": [
       "assets/images/veiculos/veiculo-7969-3.webp",
       "assets/images/veiculos/veiculo-7969-2.webp",
@@ -955,7 +955,7 @@
     "km": "N/A",
     "combustivel": "",
     "preco": "45.000,00",
-    "descricao": "Fort. 2013 top. 600. Vende ou. Troca. 45. Mil.",
+    "descricao": "🏍️ Honda CB 600F Hornet | 💰 R$ 45.000 | 🔄 Vende ou aceita troca",
     "fotos": [
       "assets/images/veiculos/veiculo-0150-1.webp"
     ],
@@ -969,7 +969,7 @@
     "km": "N/A",
     "combustivel": "N/A",
     "preco": "85.000,00",
-    "descricao": "VW Amarok, 2012 4 cilindro disiel, Revisada, 85 Mil.",
+    "descricao": "🛻 VW Amarok 2012 | ⛽ 2.0 4 Cilindros Diesel | 🔧 Revisada | 💰 R$ 85.000",
     "fotos": [
       "assets/images/veiculos/veiculo-8625-1.webp",
       "assets/images/veiculos/veiculo-8625-2.webp",
@@ -989,12 +989,44 @@
     "km": "N/A",
     "combustivel": "",
     "preco": "27.000,00",
-    "descricao": "Vende se Saveiro ano 92 valor 27mil.",
+    "descricao": "🚗 Saveiro ano 92 | 💰 Valor 27mil",
     "fotos": [
       "assets/images/veiculos/veiculo-9715-1.webp",
       "assets/images/veiculos/veiculo-9715-2.webp",
       "assets/images/veiculos/veiculo-9715-3.webp"
     ],
     "video": "assets/images/veiculos/veiculo-9715-video.mp4"
+  },
+  {
+    "id": "veiculo-6550",
+    "titulo": "Bobcat ",
+    "categoria": "Trator",
+    "ano": "1982",
+    "km": "N/A",
+    "combustivel": "",
+    "preco": "85.000,00",
+    "descricao": "🚜 Bobcat ano 82 (própria p/ limpeza de terreno) | 💰 R$ 85.000",
+    "fotos": [
+      "assets/images/veiculos/veiculo-6550-1.webp",
+      "assets/images/veiculos/veiculo-6550-2.webp"
+    ],
+    "video": "assets/images/veiculos/veiculo-6550-video-1.mp4"
+  },
+  {
+    "id": "veiculo-4146",
+    "titulo": " baú sider 8,20 metros",
+    "categoria": "Báu",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "",
+    "preco": "30.000,00",
+    "descricao": "🚚 Baú tipo sider de 8,20m x 2,70m | 🛡️ Chapeado | 💰 R$ Aceita proposta",
+    "fotos": [
+      "assets/images/veiculos/veiculo-4146-1.webp",
+      "assets/images/veiculos/veiculo-4146-2.webp",
+      "assets/images/veiculos/veiculo-4146-3.webp",
+      "assets/images/veiculos/veiculo-4146-4.webp"
+    ],
+    "videos": []
   }
 ]
