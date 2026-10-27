@@ -455,6 +455,9 @@
         const v = listaVeiculos.find((item) => item.id === id);
         if (!v) return;
 
+        //Adiciona um estado ao histórico para que o "Voltar" do telemóvel feche o modal
+        history.pushState({ modalAberto: true }, "", "#detalhes");
+
         const fotos = v.fotos || [];
         const videos = v.videos || (v.video ? [v.video] : []);
 
@@ -539,16 +542,34 @@
         el.classList.add("active");
       }
 
-      // Função para fechar o modal e pausar o áudio/vídeo
       function fecharModal() {
-        modal.classList.remove("active");
+        if (modal.classList.contains("active")) {
+          modal.classList.remove("active");
 
-        const videoEl = document.getElementById("modal-video-principal");
-        if (videoEl) {
-          videoEl.pause();
-          videoEl.currentTime = 0;
+          const videoEl = document.getElementById("modal-video-principal");
+          if (videoEl) {
+            videoEl.pause();
+            videoEl.currentTime = 0;
+          }
+
+          // Se o hash de detalhe estiver na URL, removemos do histórico de forma limpa
+          if (window.location.hash === "#detalhes") {
+            history.back();
+          }
         }
       }
+
+      // Intercepta o botão "Voltar" do navegador ou do Android
+      window.addEventListener("popstate", () => {
+        if (modal.classList.contains("active")) {
+          modal.classList.remove("active");
+          const videoEl = document.getElementById("modal-video-principal");
+          if (videoEl) {
+            videoEl.pause();
+            videoEl.currentTime = 0;
+          }
+        }
+      });
 
       btnFechar.addEventListener("click", fecharModal);
       window.addEventListener("click", (e) => {
