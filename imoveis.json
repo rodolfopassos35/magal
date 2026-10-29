@@ -290,7 +290,7 @@
     "area": "360m",
     "localizacao": "Matão, Sumaré, SP",
     "preco": "R$ 350.000",
-    "descricao":  "🏡 Casa à venda no Bairro Matão | 📐 Terreno com 360 m² | 🛏️ 3 dormitórios | 🚿 2 banheiros | 🏠 Edícula nos fundos | 📄 Imóvel com escritura | ✅ Excelente espaço para moradia e lazer | 🚫 Não aceita troca",
+    "descricao": "🏡 Casa à venda no Bairro Matão | 📐 Terreno com 360 m² | 🛏️ 3 dormitórios | 🚿 2 banheiros | 🏠 Edícula nos fundos | 📄 Imóvel com escritura | ✅ Excelente espaço para moradia e lazer | 🚫 Não aceita troca",
     "fotos": [
       "assets/images/imoveis/casa-bairro-matao2.webp",
       "assets/images/imoveis/casa-bairro-matao1.webp",
@@ -332,7 +332,7 @@
     "area": "",
     "localizacao": "Jardim Eunice, Sumaré, SP",
     "preco": "R$ 150.000,00",
-    "descricao":"🏡 Casa à venda no Jardim Eunice, Sumaré/SP | 📐 Terreno com 125 m² | 🏠 Casa com 4 cômodos e 1 banheiro | 🚧 Quarto, banheiro e cozinha em fase de construção | ✅ Laje com estrutura preparada para sobrado | 🚗 Imóvel murado | 🛣️ Rua asfaltada | 🔧 Estrutura em excelente estado | 📍 Ótima localização para moradia ou investimento",
+    "descricao": "🏡 Casa à venda no Jardim Eunice, Sumaré/SP | 📐 Terreno com 125 m² | 🏠 Casa com 4 cômodos e 1 banheiro | 🚧 Quarto, banheiro e cozinha em fase de construção | ✅ Laje com estrutura preparada para sobrado | 🚗 Imóvel murado | 🛣️ Rua asfaltada | 🔧 Estrutura em excelente estado | 📍 Ótima localização para moradia ou investimento",
     "fotos": [
       "assets/images/imoveis/casa-jardim-eunice1.webp",
       "assets/images/imoveis/casa-jardim-eunice2.webp",
@@ -366,7 +366,7 @@
     "area": "166 alqueires",
     "localizacao": "Pereira Barreto, SP",
     "preco": "R$ 205.000,00",
-    "descricao":"🌾 Chácara à venda em Pereira Barreto | 📐 166 alqueires | 🌳 Ideal para agricultura, pecuária, lazer ou investimento | 📍 Excelente localização | 💰 Valor: R$ 205.000,00 | ✅ Ótima oportunidade de negócio",
+    "descricao": "🌾 Chácara à venda em Pereira Barreto | 📐 166 alqueires | 🌳 Ideal para agricultura, pecuária, lazer ou investimento | 📍 Excelente localização | 💰 Valor: R$ 205.000,00 | ✅ Ótima oportunidade de negócio",
     "video": "assets/images/imoveis/chacara-pereira-barreto.mp4",
     "fotos": [
       "assets/images/imoveis/chacara-pereira-barreto.webp",
@@ -584,7 +584,7 @@
     "area": "",
     "localizacao": "Hortolândia",
     "preco": "170.000,00",
-    "descricao":  "🏢 Apartamento à venda em Hortolândia | ✅ Quitado e escriturado | 💰 R$ 170 mil à vista | 🔄 Aceita carro na troca | 📞 Excelente oportunidade para morar ou investir",
+    "descricao": "🏢 Apartamento à venda em Hortolândia | ✅ Quitado e escriturado | 💰 R$ 170 mil à vista | 🔄 Aceita carro na troca | 📞 Excelente oportunidade para morar ou investir",
     "fotos": [
       "assets/images/imoveis/imovel-0351-1.webp",
       "assets/images/imoveis/imovel-0351-2.webp",
@@ -669,5 +669,33 @@
       "assets/images/imoveis/imovel-5146-7.webp"
     ],
     "video": "assets/images/imoveis/imovel-5146-video-1.mp4"
+  },
+  {
+    "id": "imovel-4640",
+    "titulo": "Apartamento no Cirio - Campinas/SP",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "Cirio - Campinas/SP",
+    "preco": "R$ 100.000,00",
+    "descricao": "🏢 Apartamento no Cirio - Campinas/SP | 📜 Já quitado | ✨ Lugar excelente p/ morar e descansar | 💰 R$ 100. 000 (no dinheiro) | 🔄 R$ 130. 000 (na troca por carro ou moto).",
+    "fotos": [
+      "assets/images/imoveis/imovel-4640-1.webp",
+      "assets/images/imoveis/imovel-4640-2.webp",
+      "assets/images/imoveis/imovel-4640-3.webp",
+      "assets/images/imoveis/imovel-4640-4.webp",
+      "assets/images/imoveis/imovel-4640-5.webp",
+      "assets/images/imoveis/imovel-4640-6.webp",
+      "assets/images/imoveis/imovel-4640-7.webp",
+      "assets/images/imoveis/imovel-4640-8.webp",
+      "assets/images/imoveis/imovel-4640-9.webp",
+      "assets/images/imoveis/imovel-4640-10.webp",
+      "assets/images/imoveis/imovel-4640-11.webp",
+      "assets/images/imoveis/imovel-4640-12.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-4640-video-1.mp4",
+      "assets/images/imoveis/imovel-4640-video-2.mp4",
+      "assets/images/imoveis/imovel-4640-video-3.mp4"
+    ]
   }
 ]

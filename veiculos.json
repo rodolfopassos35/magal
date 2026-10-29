@@ -250,8 +250,8 @@
     "ano": "1975",
     "km": "",
     "combustivel": "Diesel",
-      "preco": "35.000,00",
-      "descricao": "🛻 Toyota Bandeirante 4x4 | 🔧 Motor Mercedes | 📜 Doc c/ 1 transferência pendente | 💰 Somente venda (não aceita troca)",
+    "preco": "35.000,00",
+    "descricao": "🛻 Toyota Bandeirante 4x4 | 🔧 Motor Mercedes | 📜 Doc c/ 1 transferência pendente | 💰 Somente venda (não aceita troca)",
     "fotos": [
       "assets/images/veiculos/toyota-75.webp"
     ],
@@ -1026,6 +1026,81 @@
       "assets/images/veiculos/veiculo-4146-2.webp",
       "assets/images/veiculos/veiculo-4146-3.webp",
       "assets/images/veiculos/veiculo-4146-4.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-0704",
+    "titulo": "🚚 MB 3344",
+    "categoria": "Caminhão",
+    "ano": "2009",
+    "km": "80.000 km",
+    "combustivel": "Diesel",
+    "preco": "290.000,00",
+    "descricao": "🚚 MB 3344 2009 | 🛠️ Trabalhando (motor feito, c/ 80. 000 km) | 💰 R$ 290. 000 (no dinheiro) | 🔄 Valor na troca a combinar.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-0704-1.webp",
+      "assets/images/veiculos/veiculo-0704-2.webp",
+      "assets/images/veiculos/veiculo-0704-3.webp",
+      "assets/images/veiculos/veiculo-0704-4.webp",
+      "assets/images/veiculos/veiculo-0704-5.webp",
+      "assets/images/veiculos/veiculo-0704-6.webp",
+      "assets/images/veiculos/veiculo-0704-7.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9555",
+    "titulo": "🚗 Volkswagen Fusca",
+    "categoria": "Carro",
+    "ano": "2009",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "45.000,00",
+    "descricao": "🚗 Volkswagen Fusca 2. 0 2009 (Manual) | ⚠️ Com detalhes a fazer (tabela R$ 52. 000) | 💰 R$ 45. 000 (à vista).",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9555-1.webp",
+      "assets/images/veiculos/veiculo-9555-2.webp",
+      "assets/images/veiculos/veiculo-9555-3.webp",
+      "assets/images/veiculos/veiculo-9555-4.webp",
+      "assets/images/veiculos/veiculo-9555-5.webp",
+      "assets/images/veiculos/veiculo-9555-6.webp",
+      "assets/images/veiculos/veiculo-9555-7.webp",
+      "assets/images/veiculos/veiculo-9555-8.webp",
+      "assets/images/veiculos/veiculo-9555-9.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9877",
+    "titulo": "Vende se borracharia móvel",
+    "categoria": "carretinha",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "N/A",
+    "preco": "22.500,00",
+    "descricao": "🚚 Borracharia Móvel (Carreta Documentada) | 🔧 2 Motores estacionários + Acessórios inclusos | 💰 R$ 22.500 (para ir embora)",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9877-1.webp",
+      "assets/images/veiculos/veiculo-9877-2.webp",
+      "assets/images/veiculos/veiculo-9877-3.webp",
+      "assets/images/veiculos/veiculo-9877-4.webp",
+      "assets/images/veiculos/veiculo-9877-5.webp",
+      "assets/images/veiculos/veiculo-9877-6.webp",
+      "assets/images/veiculos/veiculo-9877-7.webp",
+      "assets/images/veiculos/veiculo-9877-8.webp",
+      "assets/images/veiculos/veiculo-9877-9.webp",
+      "assets/images/veiculos/veiculo-9877-10.webp",
+      "assets/images/veiculos/veiculo-9877-11.webp",
+      "assets/images/veiculos/veiculo-9877-12.webp",
+      "assets/images/veiculos/veiculo-9877-13.webp",
+      "assets/images/veiculos/veiculo-9877-14.webp",
+      "assets/images/veiculos/veiculo-9877-15.webp",
+      "assets/images/veiculos/veiculo-9877-16.webp",
+      "assets/images/veiculos/veiculo-9877-17.webp",
+      "assets/images/veiculos/veiculo-9877-18.webp",
+      "assets/images/veiculos/veiculo-9877-19.webp",
+      "assets/images/veiculos/veiculo-9877-20.webp"
     ],
     "videos": []
   }
