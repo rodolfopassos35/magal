@@ -1031,7 +1031,7 @@
   },
   {
     "id": "veiculo-0704",
-    "titulo": "🚚 MB 3344",
+    "titulo": "MB 3344",
     "categoria": "Caminhão",
     "ano": "2009",
     "km": "80.000 km",
@@ -1051,7 +1051,7 @@
   },
   {
     "id": "veiculo-9555",
-    "titulo": "🚗 Volkswagen Fusca",
+    "titulo": "Volkswagen Fusca",
     "categoria": "Carro",
     "ano": "2009",
     "km": "N/A",
@@ -1101,6 +1101,44 @@
       "assets/images/veiculos/veiculo-9877-18.webp",
       "assets/images/veiculos/veiculo-9877-19.webp",
       "assets/images/veiculos/veiculo-9877-20.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-7650",
+    "titulo": "F250 XLTl",
+    "categoria": "caminhonete",
+    "ano": "2000",
+    "km": "256.000 KM",
+    "combustivel": "N/A",
+    "preco": "177.500,00",
+    "descricao": "🛻 Ford F-250 XLT 2000 | 🥈 Segundo dono | 📈 256.000 km | ✨ Procedência total / estado extra | 💰 R$ 177.500 | 🚫 Somente venda (sem trocas)",
+    "fotos": [
+      "assets/images/veiculos/veiculo-7650-9.webp",
+      "assets/images/veiculos/veiculo-7650-1.webp",
+      "assets/images/veiculos/veiculo-7650-2.webp",
+      "assets/images/veiculos/veiculo-7650-3.webp",
+      "assets/images/veiculos/veiculo-7650-4.webp",
+      "assets/images/veiculos/veiculo-7650-5.webp",
+      "assets/images/veiculos/veiculo-7650-6.webp",
+      "assets/images/veiculos/veiculo-7650-7.webp",
+      "assets/images/veiculos/veiculo-7650-8.webp",
+      "assets/images/veiculos/veiculo-7650-10.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-6402",
+    "titulo": "VW Saveiro",
+    "categoria": "pick-up",
+    "ano": "2012",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "56.000,00",
+    "descricao": "🛻 VW Saveiro Cross 2012 | 💰 R$ 56. 000 (venda) | 🔄 Troca por caminhonete acima de 2012.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-6402-1.webp",
+      "assets/images/veiculos/veiculo-6402-2.webp"
     ],
     "videos": []
   }
