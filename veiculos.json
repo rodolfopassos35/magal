@@ -1129,7 +1129,21 @@
   },
   {
     "id": "veiculo-6402",
-    "titulo": "VW Saveiro",
+    "titulo": "VW Saveiro Cross",
+    "categoria": "pick-up",
+    "ano": "2012",
+    "km": "59.000 km",
+    "combustivel": "N/A",
+    "preco": "57.000,00",
+    "descricao": "🛻 VW Saveiro Cross 2012 | 💰 R$ 57. 000 (venda) | 📜 documento ok, recibo em branco ",
+    "fotos": [
+      "assets/images/veiculos/veiculo-6402-1.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-7596",
+    "titulo": "VW Saveiro Cross",
     "categoria": "pick-up",
     "ano": "2012",
     "km": "N/A",
@@ -1137,8 +1151,62 @@
     "preco": "56.000,00",
     "descricao": "🛻 VW Saveiro Cross 2012 | 💰 R$ 56. 000 (venda) | 🔄 Troca por caminhonete acima de 2012.",
     "fotos": [
-      "assets/images/veiculos/veiculo-6402-1.webp",
       "assets/images/veiculos/veiculo-6402-2.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9403",
+    "titulo": "Mercedes 1513",
+    "categoria": "caminhão",
+    "ano": "1971",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "89.000,00",
+    "descricao": "🚚 MB 1513 1971 | 📜 Mecânica operacional no documento | 🪵 Acompanha guardas e carroceria | 💰 R$ 89.000 | 💬 Aberto a propostas / conversa | 🚫 Não aceita troca",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9403-7.webp",
+      "assets/images/veiculos/veiculo-9403-1.webp",
+      "assets/images/veiculos/veiculo-9403-2.webp",
+      "assets/images/veiculos/veiculo-9403-3.webp",
+      "assets/images/veiculos/veiculo-9403-4.webp",
+      "assets/images/veiculos/veiculo-9403-5.webp",
+      "assets/images/veiculos/veiculo-9403-6.webp",
+      "assets/images/veiculos/veiculo-9403-8.webp",
+      "assets/images/veiculos/veiculo-9403-9.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-3435",
+    "titulo": "Ford/VW",
+    "categoria": "carroceria",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "21.000,00",
+    "descricao": "🚛 Carroceria para VW e Ford | 📏 8,10 m (comprimento) x 2,60 m (largura) | 💰 R$ 21.000",
+    "fotos": [
+      "assets/images/veiculos/veiculo-3435-1.webp",
+      "assets/images/veiculos/veiculo-3435-2.webp",
+      "assets/images/veiculos/veiculo-3435-3.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-8776",
+    "titulo": "Motor MB",
+    "categoria": "motor",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "27.000,00",
+    "descricao": "⚙️ Motor MB OM-366 (com bomba e caixa seca) | 📜 Com Nota Fiscal | 💰 R$ 27. 000 | 🔄 Aceita trocas.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-8776-1.webp",
+      "assets/images/veiculos/veiculo-8776-2.webp",
+      "assets/images/veiculos/veiculo-8776-3.webp",
+      "assets/images/veiculos/veiculo-8776-4.webp"
     ],
     "videos": []
   }
