@@ -1209,5 +1209,55 @@
       "assets/images/veiculos/veiculo-8776-4.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-3888",
+    "titulo": "VW Amarok",
+    "categoria": "Caminhonete",
+    "ano": "2017",
+    "km": "N/A",
+    "combustivel": "N/A",
+    "preco": "Negociável",
+    "descricao": "🛻 VW Amarok 4x4 | 💳 Assumir 37x de R$ 3. 000 | 🔄 Troca por carro no valor de 60mil.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-3888-1.webp",
+      "assets/images/veiculos/veiculo-3888-2.webp",
+      "assets/images/veiculos/veiculo-3888-3.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-2723",
+    "titulo": "mercedes Bens 1519",
+    "categoria": "Caminhão",
+    "ano": "1977",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "70.000,00",
+    "descricao": "🚚 MB 1519 Truck (6x2) 1977 | ⚙️ Motor OM-355/5 + Câmbio 6 marchas seco reduzido | 📜 Recibo em branco | 💰 R$ 70.000 | 🔄 Aceita carro na troca",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2723-4.webp",
+      "assets/images/veiculos/veiculo-2723-1.webp",
+      "assets/images/veiculos/veiculo-2723-2.webp",
+      "assets/images/veiculos/veiculo-2723-3.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-0485",
+    "titulo": "Mercedes 1114",
+    "categoria": "Caminhão",
+    "ano": "1987",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "90.000,00",
+    "descricao": "🚚 MB 1114 1987 | ⚙️ Turbinado + Direção Hidráulica + Freio a Ar + Suspensor 10 | 🛠️ Motor, câmbio, diferencial, bomba e bicos todos revisados/em dia | 💰 R$ 90.000",
+    "fotos": [
+      "assets/images/veiculos/veiculo-0485-1.webp",
+      "assets/images/veiculos/veiculo-0485-2.webp"
+    ],
+    "videos": [
+      "assets/images/veiculos/veiculo-0485-video-1.mp4"
+    ]
   }
 ]
