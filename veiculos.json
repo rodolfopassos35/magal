@@ -818,23 +818,6 @@
     "videos": []
   },
   {
-    "id": "veiculo-5083",
-    "titulo": "F250",
-    "categoria": "Caminhão",
-    "ano": "2000",
-    "km": "N/A",
-    "combustivel": "Diesel",
-    "preco": "120.000,00",
-    "descricao": "🚚 F250 2000 | 🚙 6 cilindros | 💰 R$ 120.000",
-    "fotos": [
-      "assets/images/veiculos/veiculo-5083-1.webp"
-    ],
-    "videos": [
-      "assets/images/veiculos/veiculo-5083-video-1.mp4",
-      "assets/images/veiculos/veiculo-5083-video-2.mp4"
-    ]
-  },
-  {
     "id": "veiculo-6103",
     "titulo": "F 250 xltl",
     "categoria": "Caminhonete",
@@ -1111,8 +1094,8 @@
     "ano": "2000",
     "km": "256.000 KM",
     "combustivel": "N/A",
-    "preco": "177.500,00",
-    "descricao": "🛻 Ford F-250 XLT 2000 | 🥈 Segundo dono | 📈 256.000 km | ✨ Procedência total / estado extra | 💰 R$ 177.500 | 🚫 Somente venda (sem trocas)",
+    "preco": "150.000,00",
+    "descricao": "🛻 Ford F-250 XLT 2000 | 🥈 Segundo dono | 📈 256.000 km | ✨ Procedência total / estado extra | 💰 R$ 150.000 | 🚫 Somente venda (sem trocas)",
     "fotos": [
       "assets/images/veiculos/veiculo-7650-9.webp",
       "assets/images/veiculos/veiculo-7650-1.webp",
@@ -1258,5 +1241,77 @@
     "videos": [
       "assets/images/veiculos/veiculo-0485-video-1.mp4"
     ]
+  },
+  {
+    "id": "veiculo-2047",
+    "titulo": "🚛 Caminhão Caçamba",
+    "categoria": "Caminhão",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "50.000 (no dinheiro) | R$ 60.000 (na troca)",
+    "descricao": "🚛 Caminhão Caçamba | ⚙️ Motor Perkins 6 Cilindros + Câmbio Clark + Diferencial Tinkão (10 furos) | 🛑 Freio a ar | 🛠️ Motor bom | 📜 Documentação OK | 💰 R$ 50. 000 (no dinheiro) | 🔄 R$ 60. 000 (na troca).",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2047-1.webp",
+      "assets/images/veiculos/veiculo-2047-2.webp",
+      "assets/images/veiculos/veiculo-2047-3.webp",
+      "assets/images/veiculos/veiculo-2047-4.webp",
+      "assets/images/veiculos/veiculo-2047-5.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-5068",
+    "titulo": "S10 LTZ",
+    "categoria": "Caminhonete",
+    "ano": "2022",
+    "km": "133.000 KM",
+    "combustivel": "Diesel",
+    "preco": "140.000,00",
+    "descricao": "🛻 Chevrolet S10 LTZ 2.8 Turbo Diesel (Automática) | 🗓️ Ano 2022/2023 | 📈 133.000 km | 💰 R$ 140.000.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-5068-1.webp",
+      "assets/images/veiculos/veiculo-5068-2.webp",
+      "assets/images/veiculos/veiculo-5068-3.webp",
+      "assets/images/veiculos/veiculo-5068-4.webp",
+      "assets/images/veiculos/veiculo-5068-5.webp",
+      "assets/images/veiculos/veiculo-5068-6.webp",
+      "assets/images/veiculos/veiculo-5068-7.webp",
+      "assets/images/veiculos/veiculo-5068-8.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-2292",
+    "titulo": "Veloster",
+    "categoria": "Carro",
+    "ano": "2012",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "32.650,00",
+    "descricao": "🚗 Hyundai Veloster 2012 | 💰 R$ 29.000 + R$ 2.650 de documento (Total R$ 31.650 quitado) ou R$ 24.000 no Pix + R$ 5.000 | 📜 Vai documentado",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2292-1.webp",
+      "assets/images/veiculos/veiculo-2292-2.webp",
+      "assets/images/veiculos/veiculo-2292-3.webp",
+      "assets/images/veiculos/veiculo-2292-4.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-1007",
+    "titulo": "Mercedes-Bens",
+    "categoria": "Caminhão",
+    "ano": "2009",
+    "km": "80.000 km",
+    "combustivel": "Diesel",
+    "preco": "280.000,00",
+    "descricao": "🚚 MB 3344 2009 | 🛠️ Trabalhando (motor feito, c/ 80.000 km) | 💰 R$ 280.000 (no dinheiro) | 🔄 Valor na troca a combinar",
+    "fotos": [
+      "assets/images/veiculos/veiculo-1007-1.webp",
+      "assets/images/veiculos/veiculo-1007-2.webp",
+      "assets/images/veiculos/veiculo-1007-3.webp"
+    ],
+    "videos": []
   }
 ]

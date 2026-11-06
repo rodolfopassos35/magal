@@ -697,5 +697,28 @@
       "assets/images/imoveis/imovel-4640-video-2.mp4",
       "assets/images/imoveis/imovel-4640-video-3.mp4"
     ]
+  },
+  {
+    "id": "imovel-7068",
+    "titulo": "Propriedade Rural",
+    "categoria": "Rural",
+    "area": "8 Alqueires",
+    "localizacao": "Sapopemba - PR",
+    "preco": "R$ 1.480.000,00",
+    "descricao": "🏡 Propriedade Rural em Sapopemba - PR | 📏 8 Alqueires | 💧 Abundante em água | 🏠 Sede com casas boas + casa para caseiro | ✨ Excelente estrutura | 💰 R$ 1.480.000,00.",
+    "fotos": [
+      "assets/images/imoveis/imovel-7068-1.webp",
+      "assets/images/imoveis/imovel-7068-2.webp",
+      "assets/images/imoveis/imovel-7068-3.webp",
+      "assets/images/imoveis/imovel-7068-4.webp",
+      "assets/images/imoveis/imovel-7068-5.webp",
+      "assets/images/imoveis/imovel-7068-6.webp",
+      "assets/images/imoveis/imovel-7068-7.webp",
+      "assets/images/imoveis/imovel-7068-8.webp",
+      "assets/images/imoveis/imovel-7068-9.webp",
+      "assets/images/imoveis/imovel-7068-10.webp",
+      "assets/images/imoveis/imovel-7068-11.webp"
+    ],
+    "videos": []
   }
 ]
