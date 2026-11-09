@@ -1313,5 +1313,41 @@
       "assets/images/veiculos/veiculo-1007-3.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-7760",
+    "titulo": "VW Constellation 24.250",
+    "categoria": "Caminhão",
+    "ano": "2007",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "280.000,00",
+    "descricao": "🚚 VW Constellation 24.250 (Bitruck 8x2) 2007/2008 | 📈 280. 000 km | 💰 R$ 280. 000 | 🔄 Aceita trocas.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-7760-1.webp",
+      "assets/images/veiculos/veiculo-7760-2.webp",
+      "assets/images/veiculos/veiculo-7760-3.webp",
+      "assets/images/veiculos/veiculo-7760-4.webp",
+      "assets/images/veiculos/veiculo-7760-5.webp",
+      "assets/images/veiculos/veiculo-7760-6.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9167",
+    "titulo": "Yamaha MT",
+    "categoria": "Moto",
+    "ano": "2018",
+    "km": "N/A",
+    "combustivel": "N/A",
+    "preco": "45.000 (à vista)",
+    "descricao": "🏍️ Yamaha MT | 🗓️ Ano 2018 | 📈 16. 000 km | 💰 R$ 45.000 (à vista).",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9167-1.webp",
+      "assets/images/veiculos/veiculo-9167-2.webp",
+      "assets/images/veiculos/veiculo-9167-3.webp",
+      "assets/images/veiculos/veiculo-9167-4.webp"
+    ],
+    "videos": []
   }
 ]

@@ -720,5 +720,53 @@
       "assets/images/imoveis/imovel-7068-11.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "imovel-5773",
+    "titulo": "Casa bairro matão",
+    "categoria": "Casa",
+    "area": "",
+    "localizacao": "Matão - Sumaré/SP",
+    "preco": "R$145.000,00",
+    "descricao": "🏡 Casa no Matão (Sumaré/SP) | 🚪 5 cômodos + Garagem | 🛣️ Asfalto, luz, água e rede de esgoto | 📜 Documento: Contrato de posse da prefeitura com firma reconhecida | 💰 R$ 145.000 (R$ 100. 000 à vista + restante parcelado ou aceita carro de menor valor na troca).",
+    "fotos": [
+      "assets/images/imoveis/imovel-5773-1.webp",
+      "assets/images/imoveis/imovel-5773-2.webp",
+      "assets/images/imoveis/imovel-5773-3.webp",
+      "assets/images/imoveis/imovel-5773-4.webp",
+      "assets/images/imoveis/imovel-5773-5.webp",
+      "assets/images/imoveis/imovel-5773-6.webp",
+      "assets/images/imoveis/imovel-5773-7.webp",
+      "assets/images/imoveis/imovel-5773-8.webp",
+      "assets/images/imoveis/imovel-5773-9.webp",
+      "assets/images/imoveis/imovel-5773-10.webp",
+      "assets/images/imoveis/imovel-5773-11.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-5773-video-1.mp4",
+      "assets/images/imoveis/imovel-5773-video-2.mp4"
+    ]
+  },
+  {
+    "id": "imovel-7800",
+    "titulo": "Apartamento no Condomínio Portugal",
+    "categoria": "Apartamento",
+    "area": "",
+    "localizacao": "Hortolândia",
+    "preco": "R$ 80.000,00 + Dívida de condomínio ",
+    "descricao": "🏢 Apartamento no Condomínio Portugal (Jd. Novo Ângulo - Hortolândia/SP) | 📍 3º Andar (Vista para a rua e para a Prefeitura) | 🛏️ 2 quartos, sala, cozinha e lavanderia | 🚗 1 vaga de garagem coberta | 🔒 Portaria 24h + Reconhecimento facial + Porta digital com tag no bloco | 💰 R$ 80.000 (Quitado pela Caixa) + Dívida de condomínio de aprox. R$ 50.000 (parcelável com entrada).",
+    "fotos": [
+      "assets/images/imoveis/imovel-7800-1.webp",
+      "assets/images/imoveis/imovel-7800-2.webp",
+      "assets/images/imoveis/imovel-7800-3.webp",
+      "assets/images/imoveis/imovel-7800-4.webp",
+      "assets/images/imoveis/imovel-7800-5.webp",
+      "assets/images/imoveis/imovel-7800-6.webp",
+      "assets/images/imoveis/imovel-7800-7.webp",
+      "assets/images/imoveis/imovel-7800-8.webp",
+      "assets/images/imoveis/imovel-7800-9.webp",
+      "assets/images/imoveis/imovel-7800-10.webp"
+    ],
+    "videos": []
   }
 ]
