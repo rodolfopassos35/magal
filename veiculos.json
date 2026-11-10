@@ -1349,5 +1349,43 @@
       "assets/images/veiculos/veiculo-9167-4.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-3634",
+    "titulo": "Iveco ",
+    "categoria": "Van",
+    "ano": "2011",
+    "km": "N/A",
+    "combustivel": "N/A",
+    "preco": "130.000,00",
+    "descricao": "🚐 Iveco baú 2011 | 🛠️ Motor, câmbio, diferencial, tapeçaria (estofamento), elétrica e pneus todos revisados | 📜 Documentação em dia | 🌍 Pronto para trabalhar no transporte nacional | 💰 R$ 130. 000.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-3634-1.webp",
+      "assets/images/veiculos/veiculo-3634-2.webp",
+      "assets/images/veiculos/veiculo-3634-3.webp",
+      "assets/images/veiculos/veiculo-3634-4.webp",
+      "assets/images/veiculos/veiculo-3634-5.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9386",
+    "titulo": "VW Gol G4",
+    "categoria": "Carro",
+    "ano": "2007",
+    "km": "N/A",
+    "combustivel": "N/A",
+    "preco": "18.000,00",
+    "descricao": "🚗 VW Gol G4 2007 (Básico) | 🛞 Aro 17 + Molas esportivas | 📜 Documentação OK + Recibo em branco | 💰 R$ 18.000,00.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9386-1.webp",
+      "assets/images/veiculos/veiculo-9386-2.webp",
+      "assets/images/veiculos/veiculo-9386-3.webp",
+      "assets/images/veiculos/veiculo-9386-4.webp",
+      "assets/images/veiculos/veiculo-9386-5.webp",
+      "assets/images/veiculos/veiculo-9386-6.webp",
+      "assets/images/veiculos/veiculo-9386-7.webp"
+    ],
+    "videos": []
   }
 ]

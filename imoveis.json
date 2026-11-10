@@ -768,5 +768,28 @@
       "assets/images/imoveis/imovel-7800-10.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "imovel-6810",
+    "titulo": "Imóvel à Venda",
+    "categoria": "Imóvel",
+    "area": "275 m²",
+    "localizacao": "",
+    "preco": "R$ 400.000,00",
+    "descricao": "🏡 Imóvel à Venda / Troca (Casa Principal + Edícula Alugada) | 📐 275 m² (12m de frente) | 🛏️ Casa Principal: 3 quartos, sala, cozinha e 1 banheiro | 🏠 Casa nos Fundos: 2 quartos pequenos, sala e cozinha integradas, 1 banheiro (atualmente alugada) | 📑 Documentação: Apenas contrato/documento (Sem Habite-se) | 🏷️ IPTU: R$ 97, 00/mês | 💰 R$ 400. 000 | 🔄 Aceita troca por chácara ou casa.",
+    "fotos": [
+      "assets/images/imoveis/imovel-6810-1.webp",
+      "assets/images/imoveis/imovel-6810-2.webp",
+      "assets/images/imoveis/imovel-6810-3.webp",
+      "assets/images/imoveis/imovel-6810-4.webp",
+      "assets/images/imoveis/imovel-6810-5.webp",
+      "assets/images/imoveis/imovel-6810-6.webp",
+      "assets/images/imoveis/imovel-6810-7.webp",
+      "assets/images/imoveis/imovel-6810-8.webp",
+      "assets/images/imoveis/imovel-6810-9.webp",
+      "assets/images/imoveis/imovel-6810-10.webp",
+      "assets/images/imoveis/imovel-6810-11.webp"
+    ],
+    "videos": []
   }
 ]
