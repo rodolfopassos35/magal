@@ -1387,5 +1387,109 @@
       "assets/images/veiculos/veiculo-9386-7.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-3873",
+    "titulo": "🚗 Eco Sport",
+    "categoria": "Carro",
+    "ano": "N/A",
+    "km": "N/A",
+    "combustivel": "N/A",
+    "preco": "23.000,00",
+    "descricao": "🚗 Eco Sport | 🛠️ Motor, câmbio, suspensão, freios, elétrica, tapeçaria (estofamento) e pneus todos em dia/revisados | 📜 Documentação OK | ✨ Excelente estado (sem defeitos) | 💰 R$ 23. 0007.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-3873-2.webp",
+      "assets/images/veiculos/veiculo-3873-1.webp",
+      "assets/images/veiculos/veiculo-3873-3.webp",
+      "assets/images/veiculos/veiculo-3873-4.webp",
+      "assets/images/veiculos/veiculo-3873-5.webp",
+      "assets/images/veiculos/veiculo-3873-6.webp",
+      "assets/images/veiculos/veiculo-3873-7.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-3816",
+    "titulo": "Volvo 270",
+    "categoria": "Caminhão",
+    "ano": "2012",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "210.000,00",
+    "descricao": "🚚 Volvo VM 270 Truck (6x2) 2012 | ⚙️ Câmbio manual + Mecânica revisada (motor, câmbio, diferencial, freios e tapeçaria) | 📦 Baú de 8. 5m de comprimento x 2. 70m de altura | 🎨 Pintura impecável (apenas pequenos detalhes estéticos) + Pneus bons | 📜 Documentação em ordem | 📍 Região de Paulínia/SP | 💰 R$ 210. 000 | 💵 R$ 190. 000 (à vista).",
+    "fotos": [
+      "assets/images/veiculos/veiculo-3816-1.webp",
+      "assets/images/veiculos/veiculo-3816-2.webp",
+      "assets/images/veiculos/veiculo-3816-3.webp",
+      "assets/images/veiculos/veiculo-3816-4.webp",
+      "assets/images/veiculos/veiculo-3816-5.webp",
+      "assets/images/veiculos/veiculo-3816-6.webp",
+      "assets/images/veiculos/veiculo-3816-7.webp",
+      "assets/images/veiculos/veiculo-3816-8.webp",
+      "assets/images/veiculos/veiculo-3816-9.webp"
+    ],
+    "video": [
+      "assets/images/veiculos/veiculo-3816-video.mp4"
+    ]
+  },
+  {
+    "id": "veiculo-8612",
+    "titulo": "Ford F100",
+    "categoria": "Caminhonete",
+    "ano": "1975",
+    "km": "N/A",
+    "combustivel": "N/A",
+    "preco": "65.000",
+    "descricao": "🛻 Ford F-100 | ⚙️ Motor MWM 229 Turbinada + Direção Hidráulica | 🪟 Vidros Elétricos | 🔄 Vende ou troca por toco.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-8612-1.webp",
+      "assets/images/veiculos/veiculo-8612-2.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9326",
+    "titulo": "Ford Cargo",
+    "categoria": "Caminhão",
+    "ano": "2007",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "Sob Consulta",
+    "descricao": "🚚 Ford Cargo Toco (4x2) 2007 | 🛞 Bom de pneus | 🛠️ Pequenos detalhes normais de uso (nada grave) | 📜 Documentação em dia (no nome do proprietário) | 🔄 Vende oua Sul).",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9326-1.webp",
+      "assets/images/veiculos/veiculo-9326-2.webp",
+      "assets/images/veiculos/veiculo-9326-3.webp",
+      "assets/images/veiculos/veiculo-9326-4.webp",
+      "assets/images/veiculos/veiculo-9326-5.webp",
+      "assets/images/veiculos/veiculo-9326-6.webp",
+      "assets/images/veiculos/veiculo-9326-7.webp",
+      "assets/images/veiculos/veiculo-9326-8.webp",
+      "assets/images/veiculos/veiculo-9326-9.webp",
+      "assets/images/veiculos/veiculo-9326-10.webp",
+      "assets/images/veiculos/veiculo-9326-11.webp",
+      "assets/images/veiculos/veiculo-9326-12.webp",
+      "assets/images/veiculos/veiculo-9326-13.webp",
+      "assets/images/veiculos/veiculo-9326-14.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-4643",
+    "titulo": "🚚 Dodge D400",
+    "categoria": "Caminhonete",
+    "ano": "1978",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "70.000,00",
+    "descricao": "🚚 Dodge D400 1978 (Raridade) | ✨ Perfeito estado de conservação | 🛠️ Mecânica toda revisada (motor, câmbio e diferencial) | 💰 R$ 70. 0001.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-4643.webp"
+    ],
+    "videos": [
+      "assets/images/veiculos/veiculo-4643-1.mp4",
+      "assets/images/veiculos/veiculo-4643-2.mp4",
+      "assets/images/veiculos/veiculo-4643-3.mp4"
+    ]
   }
 ]
