@@ -791,5 +791,41 @@
       "assets/images/imoveis/imovel-6810-11.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "imovel-5721",
+    "titulo": "Casa à venda no Jd. Boa Esperança",
+    "categoria": "Casa",
+    "area": "125 m²",
+    "localizacao": "Hortolândia/SP",
+    "preco": "R$ 180.000,00",
+    "descricao": "🏡 Casa no Jd. Boa Esperança (Hortolândia/SP - Divisa com Denadai e Bom Retiro, Sumaré) | 📐 Terreno de 125 m² (8m de frente) | 🛏️ 3 dormitórios, 2 banheiros, sala, cozinha e lavanderia | 🧱 Toda na laje e piso frio | 🚗 Garagem coberta para 1 carro e 1 moto | 📍 Excelente localização: ônibus (Campinas/Hortolândia) na esquina, próx. a mercados, padaria, farmácia, escola, creche e UBS | 📜 Documentação em andamento pela prefeitura.",
+    "fotos": [
+      "assets/images/imoveis/imovel-5721-1.webp",
+      "assets/images/imoveis/imovel-5721-2.webp",
+      "assets/images/imoveis/imovel-5721-3.webp",
+      "assets/images/imoveis/imovel-5721-4.webp",
+      "assets/images/imoveis/imovel-5721-5.webp",
+      "assets/images/imoveis/imovel-5721-6.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "imovel-5466",
+    "titulo": "casa à Venda em Rubinéia/SP",
+    "categoria": "casa",
+    "area": "1000 m²",
+    "localizacao": "Rubinéia/SP",
+    "preco": "R$ 350.000,00",
+    "descricao": "🏡 Casa de Lazer em Rubinéia/SP (Divisa SP / MS) | 📐 Terreno de 1. 000 m² (350 m² de área construída) | 🛏️ 4 quartos (sendo 1 suíte), sala, cozinha e área com garagem | 🏊 Piscina + Local excelente para pesca esportiva (estrutura ideal para descanso e férias em família) | 💰 R$ 350.000,00 | 🔄 Aceita troca por carro ou caminhonete.",
+    "fotos": [
+      "assets/images/imoveis/imovel-5466-1.webp",
+      "assets/images/imoveis/imovel-5466-2.webp",
+      "assets/images/imoveis/imovel-5466-3.webp",
+      "assets/images/imoveis/imovel-5466-4.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imovel-5466-video-1.mp4"
+    ]
   }
 ]

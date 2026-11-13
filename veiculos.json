@@ -1491,5 +1491,21 @@
       "assets/images/veiculos/veiculo-4643-2.mp4",
       "assets/images/veiculos/veiculo-4643-3.mp4"
     ]
+  },
+  {
+    "id": "veiculo-3295",
+    "titulo": "Trator",
+    "categoria": "Trator",
+    "ano": "2014",
+    "km": "N/A",
+    "combustivel": "Flex",
+    "preco": "180.000,00",
+    "descricao": "2014. 180. CV. Gabinado 180 mil pego uma caminhoneta no negócio.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-3295-1.webp",
+      "assets/images/veiculos/veiculo-3295-2.webp",
+      "assets/images/veiculos/veiculo-3295-3.webp"
+    ],
+    "videos": []
   }
 ]
