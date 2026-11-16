@@ -827,5 +827,21 @@
     "videos": [
       "assets/images/imoveis/imovel-5466-video-1.mp4"
     ]
+  },
+  {
+    "id": "imoveil-2762",
+    "titulo": "Madeireira à Venda",
+    "categoria": "Madeireira",
+    "area": "",
+    "localizacao": "Santa Bárbara d'Oeste/SP",
+    "preco": "Sob Consulta",
+    "descricao": "🪵 Madeireira à Venda | 📍 Rua da Agricultura, 952 - Loteamento Industrial, Santa Bárbara d'Oeste/SP (CEP: 13454-000) | 💰 Valor a combinar.",
+    "fotos": [
+      "assets/images/imoveis/imoveil-2762-1.webp"
+    ],
+    "videos": [
+      "assets/images/imoveis/imoveil-2762-video-2.mp4",
+      "assets/images/imoveis/imoveil-2762-video-1.mp4"
+    ]
   }
 ]

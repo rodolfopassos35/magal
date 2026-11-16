@@ -1507,5 +1507,58 @@
       "assets/images/veiculos/veiculo-3295-3.webp"
     ],
     "videos": []
+  },
+  {
+    "id": "veiculo-4083",
+    "titulo": "Trator Massey",
+    "categoria": "Trator",
+    "ano": "1990",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "75.000,00",
+    "descricao": "🚜 Trator Massey Ferguson 1990 | 💰 R$ 75. 000.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-4083-1.webp",
+      "assets/images/veiculos/veiculo-4083-2.webp",
+      "assets/images/veiculos/veiculo-4083-3.webp",
+      "assets/images/veiculos/veiculo-4083-4.webp",
+      "assets/images/veiculos/veiculo-4083-5.webp",
+      "assets/images/veiculos/veiculo-4083-6.webp",
+      "assets/images/veiculos/veiculo-4083-7.webp",
+      "assets/images/veiculos/veiculo-4083-8.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-2839",
+    "titulo": "Mecânica Mercedes-Benz",
+    "categoria": "Caminhão",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "55.000,00",
+    "descricao": "🚚 Caminhão à Venda (Mecânica Mercedes-Benz) | ⚙️ Motor Turbo + Direção hidráulica + Freio a ar + Rodas 10 furos | 💰 R$ 55. 000.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-2839-1.webp",
+      "assets/images/veiculos/veiculo-2839-2.webp",
+      "assets/images/veiculos/veiculo-2839-3.webp",
+      "assets/images/veiculos/veiculo-2839-4.webp"
+    ],
+    "videos": []
+  },
+  {
+    "id": "veiculo-9127",
+    "titulo": "Caminhão Mercedes-Benz",
+    "categoria": "Caminhão",
+    "ano": "",
+    "km": "N/A",
+    "combustivel": "Diesel",
+    "preco": "42.000,00",
+    "descricao": "🚚 Caminhão à Venda (Mecânica Mercedes-Benz) | 💰 R$ 42. 000.",
+    "fotos": [
+      "assets/images/veiculos/veiculo-9127-1.webp",
+      "assets/images/veiculos/veiculo-9127-2.webp"
+    ],
+    "videos": []
   }
 ]
