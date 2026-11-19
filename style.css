@@ -761,6 +761,39 @@ img {
     transform: translateY(-3px);
 }
 
+/* Card com item Vendido */
+.card-produto {
+    position: relative;
+    overflow: hidden;
+}
+
+.badge-vendido {
+    position: absolute;
+    top: 16px;
+    right: -32px;
+    background-color: #d32f2f;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.78rem;
+    letter-spacing: 1px;
+    padding: 6px 38px;
+    transform: rotate(35deg);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+    z-index: 5;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+.card-produto.item-vendido img {
+    filter: grayscale(65%) brightness(0.85);
+}
+
+.btn-vendido {
+    background-color: #6c757d !important;
+    cursor: not-allowed !important;
+    opacity: 0.85;
+}
+
 @media (max-width: 650px) {
     .modal-body {
         grid-template-columns: 1fr;

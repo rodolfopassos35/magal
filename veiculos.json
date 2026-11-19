@@ -28,6 +28,7 @@
     "km": "169.000 km",
     "combustivel": "Diesel",
     "preco": "110.000,00",
+    "vendido": true,
     "descricao": "🚗 Mercedes-Benz 2016 | ⛽ 2.0 Diesel | 🛣️ 169.000 km | ⚙️ Câmbio automático | ❄️ Ar-condicionado | 🪑 Bancos de couro | 🛞 Rodas de liga leve | 🎶 Som premium | 🚘 Direção hidráulica | ✨ Excelente estado de conservação",
     "fotos": [
       "assets/images/veiculos/mercedes-16-3.webp",
@@ -112,25 +113,6 @@
     "fotos": [
       "assets/images/veiculos/fiat-mobi-18-1.webp"
     ]
-  },
-  {
-    "id": "1113-83",
-    "titulo": "Caminhão 1113 ano 1983",
-    "categoria": "Caminhão",
-    "ano": "1983",
-    "km": "",
-    "combustivel": "Diesel",
-    "preco": "65.000,00",
-    "descricao": "🚚 Caminhão MB 1113 ano 1983 | 🚘 Direção hidráulica | 🔥 Turbo | 🛠️ Suspensor no truck | 🛞 Calçado de pneus | 💰 R$ 65.000 (venda) | 🔄 R$ 75.000 (troca) | 🚗 Aceita carro até R$ 35.000",
-    "fotos": [
-      "assets/images/veiculos/1113-83-1.webp",
-      "assets/images/veiculos/1113-83-2.webp",
-      "assets/images/veiculos/1113-83-3.webp",
-      "assets/images/veiculos/1113-83-4.webp",
-      "assets/images/veiculos/1113-83-5.webp",
-      "assets/images/veiculos/1113-83-6.webp"
-    ],
-    "video": "assets/images/veiculos/1113-83.mp4"
   },
   {
     "id": "815-09",
@@ -258,22 +240,6 @@
     "videos": [
       "assets/images/veiculos/toyota-75-1.mp4",
       "assets/images/veiculos/toyota-75-2.mp4"
-    ]
-  },
-  {
-    "id": "PR-40",
-    "titulo": "PR 40",
-    "categoria": "Caminhão",
-    "ano": "2020",
-    "km": "",
-    "combustivel": "Diesel",
-    "preco": "40.000,00",
-    "descricao": "🚚 Caminhão p/ rodar ou desmontar | 🔧 Motor 112 desmontado + Motor 111 fechado e turbinado | ⚙️ Câmbio e diferencial ok | 🚛 Gabina em perfeito estado | 💰 R$ 40.000",
-    "fotos": [
-      "assets/images/veiculos/pr-40-1.webp",
-      "assets/images/veiculos/pr-40-2.webp",
-      "assets/images/veiculos/pr-40-3.webp",
-      "assets/images/veiculos/pr-40-4.webp"
     ]
   },
   {
@@ -442,26 +408,6 @@
       "assets/images/veiculos/veiculo-2629-1.webp",
       "assets/images/veiculos/veiculo-2629-2.webp",
       "assets/images/veiculos/veiculo-2629-3.webp"
-    ]
-  },
-  {
-    "id": "veiculo-6476",
-    "titulo": "Iveco 7017",
-    "categoria": "caminhão",
-    "ano": "2014",
-    "km": "",
-    "combustivel": "diesel",
-    "preco": "140.000,00",
-    "descricao": "🚚 Iveco Daily 70c17 2014 | 🚛 Carroceria | 💰 R$ 140.000",
-    "fotos": [
-      "assets/images/veiculos/veiculo-6476-1.webp",
-      "assets/images/veiculos/veiculo-6476-2.webp",
-      "assets/images/veiculos/veiculo-6476-3.webp",
-      "assets/images/veiculos/veiculo-6476-4.webp",
-      "assets/images/veiculos/veiculo-6476-5.webp",
-      "assets/images/veiculos/veiculo-6476-6.webp",
-      "assets/images/veiculos/veiculo-6476-7.webp",
-      "assets/images/veiculos/veiculo-6476-8.webp"
     ]
   },
   {
@@ -855,21 +801,6 @@
     "videos": []
   },
   {
-    "id": "veiculo-6325",
-    "titulo": "Titã 150",
-    "categoria": "Moto",
-    "ano": "2014/2015",
-    "km": "230.000 KM",
-    "combustivel": "",
-    "preco": "10.500,00",
-    "descricao": "🏍️ Titã 150 2014/2015 | 💰 R$ 10.500 | 📜 Documento em dias |_RECEITA Em branco | 🚗 230.000 KM | ⚙️ Motor novo",
-    "fotos": [
-      "assets/images/veiculos/veiculo-6325-1.webp",
-      "assets/images/veiculos/veiculo-6325-2.webp"
-    ],
-    "videos": []
-  },
-  {
     "id": "veiculo-2509",
     "titulo": "608 D",
     "categoria": "Caminhão",
@@ -952,6 +883,7 @@
     "km": "N/A",
     "combustivel": "N/A",
     "preco": "85.000,00",
+    "vendido": true,
     "descricao": "🛻 VW Amarok 2012 | ⛽ 2.0 4 Cilindros Diesel | 🔧 Revisada | 💰 R$ 85.000",
     "fotos": [
       "assets/images/veiculos/veiculo-8625-1.webp",
@@ -1095,6 +1027,7 @@
     "km": "256.000 KM",
     "combustivel": "N/A",
     "preco": "150.000,00",
+    "vendido": true,
     "descricao": "🛻 Ford F-250 XLT 2000 | 🥈 Segundo dono | 📈 256.000 km | ✨ Procedência total / estado extra | 💰 R$ 150.000 | 🚫 Somente venda (sem trocas)",
     "fotos": [
       "assets/images/veiculos/veiculo-7650-9.webp",
@@ -1117,6 +1050,7 @@
     "km": "59.000 km",
     "combustivel": "N/A",
     "preco": "57.000,00",
+    "vendido": true,
     "descricao": "🛻 VW Saveiro Cross 2012 | 💰 R$ 57. 000 (venda) | 📜 documento ok, recibo em branco ",
     "fotos": [
       "assets/images/veiculos/veiculo-6402-1.webp"
@@ -1172,23 +1106,6 @@
       "assets/images/veiculos/veiculo-3435-1.webp",
       "assets/images/veiculos/veiculo-3435-2.webp",
       "assets/images/veiculos/veiculo-3435-3.webp"
-    ],
-    "videos": []
-  },
-  {
-    "id": "veiculo-8776",
-    "titulo": "Motor MB",
-    "categoria": "motor",
-    "ano": "",
-    "km": "N/A",
-    "combustivel": "Flex",
-    "preco": "27.000,00",
-    "descricao": "⚙️ Motor MB OM-366 (com bomba e caixa seca) | 📜 Com Nota Fiscal | 💰 R$ 27. 000 | 🔄 Aceita trocas.",
-    "fotos": [
-      "assets/images/veiculos/veiculo-8776-1.webp",
-      "assets/images/veiculos/veiculo-8776-2.webp",
-      "assets/images/veiculos/veiculo-8776-3.webp",
-      "assets/images/veiculos/veiculo-8776-4.webp"
     ],
     "videos": []
   },
@@ -1278,23 +1195,6 @@
       "assets/images/veiculos/veiculo-5068-6.webp",
       "assets/images/veiculos/veiculo-5068-7.webp",
       "assets/images/veiculos/veiculo-5068-8.webp"
-    ],
-    "videos": []
-  },
-  {
-    "id": "veiculo-2292",
-    "titulo": "Veloster",
-    "categoria": "Carro",
-    "ano": "2012",
-    "km": "N/A",
-    "combustivel": "Flex",
-    "preco": "32.650,00",
-    "descricao": "🚗 Hyundai Veloster 2012 | 💰 R$ 29.000 + R$ 2.650 de documento (Total R$ 31.650 quitado) ou R$ 24.000 no Pix + R$ 5.000 | 📜 Vai documentado",
-    "fotos": [
-      "assets/images/veiculos/veiculo-2292-1.webp",
-      "assets/images/veiculos/veiculo-2292-2.webp",
-      "assets/images/veiculos/veiculo-2292-3.webp",
-      "assets/images/veiculos/veiculo-2292-4.webp"
     ],
     "videos": []
   },

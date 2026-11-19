@@ -431,22 +431,29 @@
                 ? v.fotos[0]
                 : "assets/images/thumb-video-placeholder.png";
 
+            const isVendido = v.vendido === true;
+
             return `
-    <div class="card-produto">
-      <img src="${capa}" alt="${v.titulo}" loading="lazy" />
-      <div class="card-prod-body">
-        <span class="categoria-tag">${v.categoria}</span>
-        <h3>${v.titulo}</h3>
-        <p class="specs">Ano ${v.ano} • ${v.km || "N/A"}</p>
-        <div class="preco-container">
-          <span class="preco">R$ ${v.preco}</span>
+        <div class="card-produto ${isVendido ? "item-vendido" : ""}">
+          ${isVendido ? '<span class="badge-vendido">Vendido</span>' : ""}
+          <img src="${capa}" alt="${v.titulo}" loading="lazy" />
+          <div class="card-prod-body">
+            <span class="categoria-tag">${v.categoria}</span>
+            <h3>${v.titulo}</h3>
+            <p class="specs">Ano ${v.ano} • ${v.km || "N/A"}</p>
+            <div class="preco-container">
+              <span class="preco">${isVendido ? "VENDIDO" : `R$ ${v.preco}`}</span>
+            </div>
+            <button 
+              onclick="abrirModal('${v.id}')" 
+              class="btn-primary ${isVendido ? "btn-vendido" : ""}" 
+              style="width:100%; border:none; cursor:pointer;"
+            >
+              ${isVendido ? "Ver Detalhes (Vendido)" : v.fotos && v.fotos.length > 0 ? "Ver Mais Fotos" : "Ver Vídeos"}
+            </button>
+          </div>
         </div>
-        <button onclick="abrirModal('${v.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
-          ${v.fotos && v.fotos.length > 0 ? "Ver Mais Fotos" : "Ver Vídeos"}
-        </button>
-      </div>
-    </div>
-  `;
+      `;
           })
           .join("");
       }
@@ -455,7 +462,7 @@
         const v = listaVeiculos.find((item) => item.id === id);
         if (!v) return;
 
-        //Adiciona um estado ao histórico para que o "Voltar" do telemóvel feche o modal
+        // Adiciona um estado ao histórico para que o "Voltar" do telemóvel feche o modal
         history.pushState({ modalAberto: true }, "", "#detalhes");
 
         const fotos = v.fotos || [];
@@ -487,20 +494,33 @@
         videos.forEach((video, index) => {
           const isActive = fotos.length === 0 && index === 0 ? "active" : "";
           thumbsHTML += `
-  <div class="thumb-video ${isActive}" onclick="exibirVideo('${video}', this)" style="cursor:pointer; width:60px; height:60px; background:#1E2229; color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:11px; font-weight:bold;">
-    ▶ Vídeo ${index + 1}
-  </div>
-`;
+            <div class="thumb-video ${isActive}" onclick="exibirVideo('${video}', this)" style="cursor:pointer; width:60px; height:60px; background:#1E2229; color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:11px; font-weight:bold;">
+              ▶ Vídeo ${index + 1}
+            </div>
+          `;
         });
 
         thumbsContainer.innerHTML = thumbsHTML;
 
-        // Link WhatsApp
-        const msg = encodeURIComponent(
-          `Olá! Gostaria de mais informações sobre o ${v.titulo} (${v.ano}).`,
-        );
-        document.getElementById("modal-btn-whats").href =
-          `https://wa.me/5519974204995?text=${msg}`;
+        // Link WhatsApp (com tratamento para item vendido)
+        const btnWhats = document.getElementById("modal-btn-whats");
+
+        if (v.vendido === true) {
+          btnWhats.textContent =
+            "Item Vendido — Consultar Similares no WhatsApp";
+          btnWhats.style.backgroundColor = "#555";
+          const msgVendido = encodeURIComponent(
+            `Olá! Vi que o ${v.titulo} (${v.ano}) já foi vendido. Vocês têm algum modelo parecido disponível?`,
+          );
+          btnWhats.href = `https://wa.me/5519974204995?text=${msgVendido}`;
+        } else {
+          btnWhats.textContent = "Tenho Interesse no WhatsApp";
+          btnWhats.style.backgroundColor = "var(--cor-whatsapp)";
+          const msg = encodeURIComponent(
+            `Olá! Gostaria de mais informações sobre o ${v.titulo} (${v.ano}).`,
+          );
+          btnWhats.href = `https://wa.me/5519974204995?text=${msg}`;
+        }
 
         modal.classList.add("active");
       }

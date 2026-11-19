@@ -454,24 +454,37 @@
 
       function renderizarCards(imoveis) {
         container.innerHTML = imoveis
-          .map(
-            (i) => `
-  <div class="card-produto">
-    <img src="${i.fotos[0]}" alt="${i.titulo}" loading="lazy" />
-    <div class="card-prod-body">
-      <span class="categoria-tag">${i.categoria}</span>
-      <h3>${i.titulo}</h3>
-      <p class="specs">${i.area} • ${i.localizacao}</p>
-      <div class="preco-container">
-        <span class="preco">${i.preco}</span>
-      </div>
-      <button onclick="abrirModal('${i.id}')" class="btn-primary" style="width:100%; border:none; cursor:pointer;">
-        Ver Mais Fotos
-      </button>
-    </div>
-  </div>
-`,
-          )
+          .map((i) => {
+            const videos = i.videos || (i.video ? [i.video] : []);
+            const capa =
+              i.fotos && i.fotos.length > 0
+                ? i.fotos[0]
+                : "assets/images/thumb-video-placeholder.png";
+
+            const isVendido = i.vendido === true;
+
+            return `
+        <div class="card-produto ${isVendido ? "item-vendido" : ""}">
+          ${isVendido ? '<span class="badge-vendido">Vendido</span>' : ""}
+          <img src="${capa}" alt="${i.titulo}" loading="lazy" />
+          <div class="card-prod-body">
+            <span class="categoria-tag">${i.categoria}</span>
+            <h3>${i.titulo}</h3>
+            <p class="specs">${i.area} • ${i.localizacao}</p>
+            <div class="preco-container">
+              <span class="preco">${isVendido ? "VENDIDO" : i.preco}</span>
+            </div>
+            <button 
+              onclick="abrirModal('${i.id}')" 
+              class="btn-primary ${isVendido ? "btn-vendido" : ""}" 
+              style="width:100%; border:none; cursor:pointer;"
+            >
+              ${isVendido ? "Ver Detalhes (Vendido)" : i.fotos && i.fotos.length > 0 ? "Ver Mais Fotos" : videos.length > 0 ? "Ver Vídeos" : "Ver Detalhes"}
+            </button>
+          </div>
+        </div>
+      `;
+          })
           .join("");
       }
 
@@ -526,14 +539,25 @@
 
         thumbsContainer.innerHTML = thumbsHTML;
 
-        // Link WhatsApp
-        const msg = encodeURIComponent(
-          `Olá! Gostaria de mais informações sobre o imóvel: ${item.titulo}.`,
-        );
-        document.getElementById("modal-btn-whats").href =
-          `https://wa.me/5519974204995?text=${msg}`;
+        // Link WhatsApp (com tratamento para item vendido)
+        const btnWhats = document.getElementById("modal-btn-whats");
 
-        modal.classList.add("active");
+        if (item.vendido === true) {
+          btnWhats.textContent =
+            "Imóvel Vendido — Consultar Similares no WhatsApp";
+          btnWhats.style.backgroundColor = "#555";
+          const msgVendido = encodeURIComponent(
+            `Olá! Vi que o imóvel "${item.titulo}" já foi vendido. Vocês têm alguma opção parecida disponível?`,
+          );
+          btnWhats.href = `https://wa.me/5519974204995?text=${msgVendido}`;
+        } else {
+          btnWhats.textContent = "Tenho Interesse no WhatsApp";
+          btnWhats.style.backgroundColor = "var(--cor-whatsapp)";
+          const msg = encodeURIComponent(
+            `Olá! Gostaria de mais informações sobre o imóvel: ${item.titulo}.`,
+          );
+          btnWhats.href = `https://wa.me/5519974204995?text=${msg}`;
+        }
       }
 
       function renderizarDescricao(descricao) {
